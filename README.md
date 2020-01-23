@@ -1,4 +1,4 @@
-# Node.js ComIT
+# Node.js Regina
 
 ## Content
 
