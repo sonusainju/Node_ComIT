@@ -2,33 +2,33 @@
 
 ## Content
 
-* [Introduction to Development](intro.md)
+* [Introduction to Development](docs/01-intro.md)
   * `Let's get some of tools.`
-* [Internet](internet.md)
+* [Internet](docs/02-internet.md)
   * `You've surfed the Internet but how does it work?`
-* [Our First Site](first-site.md)
+* [Our First Site](docs/03-first-site.md)
   * `A tutorial to say hello to the world`
-* [Git & Github](git.md)
+* [Git & Github](docs/04-git.md)
   * `git: Multiplayer Notepad`
-* [HTML](html.md)
+* [HTML](docs/05-html.md)
   * `Structuring the web`
-* [CSS](css.md)
+* [CSS](docs/06-css.md)
   * `.thumbs { vertical-align: top; }`
-* [Bootstrap](bootstrap.md)
+* [Bootstrap](docs/07-bootstrap.md)
   * `Giving complex CSS the boot`
-* [JavaScript](javascript.md)
+* [JavaScript](docs/08-javascript.md)
   * `Promise you will enjoy this`
-* [Browser API](browserapi.md)
+* [Browser API](docs/09-browserapi.md)
   * `Protect and serve`
-* [Node.js](nodejs.md)
+* [Node.js](docs/10-nodejs.md)
   * `Oh Node You Didn't`
-* [Building a Node.js site with Express](buildingsite.md)
+* [Building a Node.js site with Express](docs/11-buildingsite.md)
   * `Express yourself`
-* [MongoDB & Mongoose](mongodb.md)
+* [MongoDB & Mongoose](docs/12-mongodb.md)
   * `This franchise has NoSQL`
-* [Deploy](deploy.md)
+* [Deploy](docs/13-deploy.md)
   * `Sharing to world wide wide`
-* [Debugging & Troubleshooting](debug.md)
-  * `throw everything.out()`
-* [Production Best Practices](practices.md)
+* [Debugging & Troubleshooting](docs/14-debug.md)
+  * `throw everything.out(docs/)`
+* [Production Best Practices](docs/15-practices.md)
   * `Let's produce the best apps`
