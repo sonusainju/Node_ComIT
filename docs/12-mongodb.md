@@ -1,6 +1,6 @@
 # MongoDB & Mongoose
 
-[<- Go Back](buildingsite.md)
+[<- Go Back](11-buildingsite.md)
 
 ## What's a database?
 * A **database** is an organized collection of data
@@ -285,7 +285,7 @@
   ```
 
 #### Practice
-[Exercise 1](./exercises/mongo/ex_1.md)
+[Exercise 1](../exercises/mongo/ex_1.md)
 
 ### Read a collection
 * Use `find` to show the collection documents
@@ -342,7 +342,7 @@
   ```
 
 #### Practice
-[Exercise 2](./exercises/mongo/ex_2.md)
+[Exercise 2](../exercises/mongo/ex_2.md)
 
 ## Cursor
 * It looks like `find` returns documents
@@ -402,7 +402,7 @@
   ```
 
 #### Practice
-[Exercise 3](./exercises/mongo/ex_3.md)
+[Exercise 3](../exercises/mongo/ex_3.md)
 
 ## Collection drop
 * To delete a collection we use the collection `drop` method
@@ -501,9 +501,9 @@
   ```
 
 #### Practice
-[Exercise 4](./exercises/mongo/ex_4.md)
+[Exercise 4](../exercises/mongo/ex_4.md)
 
-[Exercise 5](./exercises/mongo/ex_5.md)
+[Exercise 5](../exercises/mongo/ex_5.md)
 
 ### Pretty results
 * Sometimes our documents are too big and it's difficult to read
@@ -558,7 +558,7 @@
   }
   ```
 #### Practice
-[Exercise 6](./exercises/mongo/ex_6.md)
+[Exercise 6](../exercises/mongo/ex_6.md)
 
 * We can also search documents for more than one criteria
 
@@ -577,7 +577,7 @@
 * MongoDB is not able to retrieve any documents as we don't have any document with name WOLVERINE and image captanamerica.jpg
 
 #### Practice
-[Exercise 7](./exercises/mongo/ex_7.md)
+[Exercise 7](../exercises/mongo/ex_7.md)
 
 ## Update a document
 * To update a document we use the collection method `updateOne`
@@ -649,7 +649,7 @@
 * Excelent now we can use `_id` in our queries
 
 #### Practice
-[Exercise 8](./exercises/mongo/ex_8.md)
+[Exercise 8](../exercises/mongo/ex_8.md)
 
 ## Delete a document
 * To delete a document we use `deleteOne`
@@ -676,7 +676,7 @@
 * As we passed an empty array we delete all the collections documents
 
 #### Practice
-[Exercise 9](./exercises/mongo/ex_9.md)
+[Exercise 9](../exercises/mongo/ex_9.md)
 
 ## Node.js integration
 * To use MongoDB from Node.js we need to use the MongoDB official driver
@@ -854,9 +854,9 @@
   ```
 
 #### Practice
-[Exercise 10](./exercises/mongo/ex_10.md)
+[Exercise 10](../exercises/mongo/ex_10.md)
 
-[Exercise 11](./exercises/mongo/ex_11.md)
+[Exercise 11](../exercises/mongo/ex_11.md)
 
 ## Other Databases
 
@@ -1017,9 +1017,9 @@
   ```
 
 #### Practice
-[Exercise 12](./exercises/mongo/ex_12.md)
+[Exercise 12](../exercises/mongo/ex_12.md)
 
-[Exercise 13](./exercises/mongo/ex_13.md)
+[Exercise 13](../exercises/mongo/ex_13.md)
 
 ## Assets
 * [Node.js MongoDB API (to use node and mongod)](http://mongodb.github.io/node-mongodb-native/3.0/api/)
@@ -1028,4 +1028,4 @@
 
 
 ## Let's Checkout Deploying
-* [<- Building a site using Node.js and Express](buildingsite.md) - [Deploying a Node.js Application ->](mongodb.md)
+* [<- Building a site using Node.js and Express](11-buildingsite.md) - [Deploying a Node.js Application ->](13-deploy.md)

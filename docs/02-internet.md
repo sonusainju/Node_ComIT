@@ -1,6 +1,6 @@
 # Internet
 
-[<- Go Back](intro.md)
+[<- Go Back](01-intro.md)
 
 ## What is the Internet?
 
@@ -66,4 +66,4 @@ Earlier we used the term "packets" to describe the format in which the data is s
 * [MDN How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
 
 ## Let's create our first site
-* [<- Introduction to Development](intro.md) - [Our First Site ->](first-site.md) 
+* [<- Introduction to Development](01-intro.md) - [Our First Site ->](03-first-site.md) 

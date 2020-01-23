@@ -1,6 +1,6 @@
 # CSS - Cascade Style Sheet
 
-[<- Go Back](html.md)
+[<- Go Back](05-html.md)
 
 ## Intro to CSS
 
@@ -2438,5 +2438,5 @@ div {
 #### Practice
 * Now you're ready to style your personal site and show it to the rest of the world!
 
-## Let's Checkout Javascript
-* [<- Git](git.md) - [JavaScript ->](javascript.md)
+## Let's Checkout Bootstrap
+* [<- Git](05-html.md) - [Bootstrap ->](07-bootstrap.md)

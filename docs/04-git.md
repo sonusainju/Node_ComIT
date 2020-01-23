@@ -1,6 +1,6 @@
 # Git & Github
 
-[<- Go Back](first-site.md)
+[<- Go Back](03-first-site.md)
 
 
 ## Git
@@ -688,4 +688,4 @@
 * [Resources to learn Git](https://try.github.io/)
 
 ## Let's Checkout HTML
-* [<- Our First Site](first-site.md) - [HTML ->](html.md)
+* [<- Our First Site](03-first-site.md) - [HTML ->](05-html.md)

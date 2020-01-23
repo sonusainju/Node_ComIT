@@ -1,6 +1,6 @@
 # Production Best Practices
 
-[<- Go Back](debug.md)
+[<- Go Back](14-debug.md)
 
 ## Performance and Reliability
 
@@ -87,4 +87,4 @@
 * [OWASP Top 10 2017](https://www.cloudflare.com/learning/security/threats/owasp-top-10/) (Cloudflare docs)
 
 ## Let's Checkout Debugging
-* [<- Debugging & Troubleshooting](debug.md)
+* [<- Debugging & Troubleshooting](14-debug.md)

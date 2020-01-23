@@ -1,6 +1,6 @@
 # Browser API
 
-[<- Go Back](README.md)
+[<- Go Back](08-javascript.md)
 
 # http-server
 * **http-server** is a simple, zero-configuration command-line http server
@@ -111,7 +111,7 @@
   ```
 
 #### Practice
-[Exercise 1](./exercises/browser/ex_1.md)
+[Exercise 1](../exercises/browser/ex_1.md)
 
 ### External file using script tag
 * Using a **script tag** we can link our HTML file with a JavaScript one
@@ -167,7 +167,7 @@
   * [async vs defer - Video](https://www.youtube.com/watch?v=cCrfL84DkEk)
 
 #### Practice
-[Exercise 2](./exercises/browser/ex_2.md)
+[Exercise 2](../exercises/browser/ex_2.md)
 
 ## User interaction
 * Browsers have a **window** object that represents a window containing a DOM document
@@ -201,7 +201,7 @@
 * [MDN alert doc](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
 
 #### Practice
-[Exercise 3](./exercises/browser/ex_3.md)
+[Exercise 3](../exercises/browser/ex_3.md)
 
 ### Prompt
 * The **Window.prompt()** displays a dialog with an optional message prompting the user to input some text
@@ -219,9 +219,9 @@
 * [MDN prompt doc](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
 
 #### Practice
-[Exercise 4](./exercises/browser/ex_4.md)
+[Exercise 4](../exercises/browser/ex_4.md)
 
-[Exercise 5](./exercises/browser/ex_5.md)
+[Exercise 5](../exercises/browser/ex_5.md)
 
 ### Confirm
 * The **Window.confirm()** method displays a modal dialog with an optional message and two buttons, OK and Cancel
@@ -239,11 +239,11 @@
 * [MDN confirm doc](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
 
 #### Practice
-[Exercise 6](./exercises/browser/ex_6.md)
+[Exercise 6](../exercises/browser/ex_6.md)
 
-[Exercise 7](./exercises/browser/ex_7.md)
+[Exercise 7](../exercises/browser/ex_7.md)
 
-[Exercise 8](./exercises/browser/ex_8.md)
+[Exercise 8](../exercises/browser/ex_8.md)
 
 * [MDN script tag doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
@@ -325,7 +325,7 @@
 * [MDN Location doc](https://developer.mozilla.org/en-US/docs/Web/API/Location)
 
 #### Practice
-[Exercise 9](./exercises/browser/ex_9.md)
+[Exercise 9](../exercises/browser/ex_9.md)
 
 ## Timers
 * In JavaScript we have `setTimeout` & `setInterval` functions that allow us to execute code based on time
@@ -395,9 +395,9 @@
 * [MDN setTimeout doc](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
 #### Practice
-[Exercise 10](./exercises/browser/ex_10.md)
+[Exercise 10](../exercises/browser/ex_10.md)
 
-[Exercise 11](./exercises/browser/ex_11.md)
+[Exercise 11](../exercises/browser/ex_11.md)
 
 ### setInterval / clearInterval
 * The **setInterval()** method `repeatedly` calls a function or executes a code snippet, with a fixed time delay between each call
@@ -443,9 +443,9 @@
 * [MDN setInterval doc](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
 #### Practice
-[Exercise 12](./exercises/browser/ex_12.md)
+[Exercise 12](../exercises/browser/ex_12.md)
 
-[Exercise 13](./exercises/browser/ex_13.md)
+[Exercise 13](../exercises/browser/ex_13.md)
 
 ## Working with elements
 
@@ -495,7 +495,7 @@
   ```
 
 #### Practice
-[Exercise 14](./exercises/browser/ex_14.md)
+[Exercise 14](../exercises/browser/ex_14.md)
 
 * Now we know that the window object has a `onload` property that accepts a function as value that will be executed once the document is loaded
 * Every time we assign a function to an event property is called event handler, in this case we're handling the window load event
@@ -618,7 +618,7 @@
 * [MDN querySelectorAll doc](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
 #### Practice
-[Exercise 15](./exercises/browser/ex_15.md)
+[Exercise 15](../exercises/browser/ex_15.md)
 
 ### Element Attributes
 * Element.attributes property returns a live collection of all attribute nodes registered to the specified node
@@ -704,7 +704,7 @@
   ```
 
 #### Practice
-[Exercise 16](./exercises/browser/ex_16.md)
+[Exercise 16](../exercises/browser/ex_16.md)
 
 ### Class List
 * The **classList** is a read-only property which returns a live DOMTokenList collection of the class attributes of the element
@@ -760,7 +760,7 @@
 * [MDN classList doc](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 
 #### Practice
-[Exercise 17](./exercises/browser/ex_17.md)
+[Exercise 17](../exercises/browser/ex_17.md)
 
 ### Has Attributes?
 * We can test if an element has an attribute with the `hasAttribute` method
@@ -785,7 +785,7 @@
 * [MDN hasAttribute doc](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 
 #### Practice
-[Exercise 18](./exercises/browser/ex_18.md)
+[Exercise 18](../exercises/browser/ex_18.md)
 
 ### Has Attributes?
 * The **hasAttributes** method returns a Boolean value, indicating if the current element has any attributes or not
@@ -866,7 +866,7 @@
 * [MDN removeAttribute doc](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
 
 #### Practice
-[Exercise 19](./exercises/browser/ex_19.md)
+[Exercise 19](../exercises/browser/ex_19.md)
 
 ### Elements relationship
 * The **parentElement** read-only property returns the DOM node's parent Element, or null if the node either has no parent, or its parent isn't a DOM Element
@@ -944,7 +944,7 @@
 * [MDN HTMLCollection doc ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection)
 
 #### Practice
-[Exercise 20](./exercises/browser/ex_20.md)
+[Exercise 20](../exercises/browser/ex_20.md)
 
 * Elements can have **sibling** 
 * These elements are at the same element level
@@ -982,7 +982,7 @@
 * [MDN nextElementSibling doc](https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling)
 
 #### Practice
-[Exercise 21](./exercises/browser/ex_21.md)
+[Exercise 21](../exercises/browser/ex_21.md)
 
 ### Change element content
 * **innerText** is a property that represents the "rendered" text content of a node and its descendants
@@ -1032,7 +1032,7 @@
 * They have some differences between them in some special cases and you can read about them on the [MDN textContent doc](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 
 #### Practice
-[Exercise 22](./exercises/browser/ex_22.md)
+[Exercise 22](../exercises/browser/ex_22.md)
 
 * The **innerHTML** property gets or sets the HTML or XML markup contained within the element
 * This property accepts a DOMString containing the HTML serialization of the element's descendants
@@ -1073,7 +1073,7 @@
 * [MDN innerHTML doc](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
 
 #### Practice
-[Exercise 23](./exercises/browser/ex_23.md)
+[Exercise 23](../exercises/browser/ex_23.md)
 
 ### Using CSS properties
 * The **style** property is used to get as well as set the inline style of an element
@@ -1103,7 +1103,7 @@
 * Using the style property and CSS property names written in JavaScript form we can style our components using JS
 
 #### Practice
-[Exercise 24](./exercises/browser/ex_24.md)
+[Exercise 24](../exercises/browser/ex_24.md)
 
 ### Element CRUD
 * CRUD means:
@@ -1184,13 +1184,13 @@
 * [MDN appendChild doc](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
 #### Practice
-[Exercise 25](./exercises/browser/ex_25.md)
+[Exercise 25](../exercises/browser/ex_25.md)
 
-[Exercise 26](./exercises/browser/ex_26.md)
+[Exercise 26](../exercises/browser/ex_26.md)
 
-[Exercise 27](./exercises/browser/ex_27.md)
+[Exercise 27](../exercises/browser/ex_27.md)
 
-[Exercise 28](./exercises/browser/ex_28.md)
+[Exercise 28](../exercises/browser/ex_28.md)
 
 #### Remove elements
 * The **removeChild** method removes a child node from the DOM
@@ -1240,11 +1240,11 @@
 * [MDN removeChild doc](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
 
 #### Practice
-[Exercise 29](./exercises/browser/ex_29.md)
+[Exercise 29](../exercises/browser/ex_29.md)
 
-[Exercise 30](./exercises/browser/ex_30.md)
+[Exercise 30](../exercises/browser/ex_30.md)
 
-[Exercise 31](./exercises/browser/ex_31.md)
+[Exercise 31](../exercises/browser/ex_31.md)
 
 #### Events
 * DOM Events are sent to notify code of interesting things that have taken place
@@ -1294,7 +1294,7 @@
 * [MDN onclick doc](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick)
 
 #### Practice
-[Exercise 32](./exercises/browser/ex_32.md)
+[Exercise 32](../exercises/browser/ex_32.md)
 
 ### Add Event Listener
 * We can also add event handlers using **addEventListener**
@@ -1344,7 +1344,7 @@
 * You can check more events on the [MDN addEventListener doc](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 #### Practice
-[Exercise 33](./exercises/browser/ex_33.md)
+[Exercise 33](../exercises/browser/ex_33.md)
 
 ### Remove Event Listener
 * To remove an event listener we use the **removeEventListener** method
@@ -1372,7 +1372,7 @@
 * [MDN removeEventListener doc](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)
 
 #### Practice
-[Exercise 34](./exercises/browser/ex_34.md)
+[Exercise 34](../exercises/browser/ex_34.md)
 
 * As we learn events have different properties that we can use and some of them are:
   * **Event.target:** A reference to the target to which the event was originally dispatched
@@ -1413,9 +1413,9 @@
   ```
 
 #### Practice
-[Exercise 35](./exercises/browser/ex_35.md)
+[Exercise 35](../exercises/browser/ex_35.md)
 
-[Exercise 36](./exercises/browser/ex_36.md)
+[Exercise 36](../exercises/browser/ex_36.md)
 
 * With JavaScript we can handle keyboard events too like `keypress, keydown y keyup`
 * The event object that we get as parameter has a `charCode` property with a numeric value that represents the pressed key
@@ -1435,9 +1435,9 @@
   ```
 
 #### Practice
-[Exercise 37](./exercises/browser/ex_37.md)
+[Exercise 37](../exercises/browser/ex_37.md)
 
-[Exercise 38](./exercises/browser/ex_38.md)
+[Exercise 38](../exercises/browser/ex_38.md)
 
 #### List of Events you can use:
 * The browser API allow us to use many events handlers to create interactive UI's:
@@ -1452,14 +1452,14 @@
   * onfocus / onblur
 
 #### Practice
-[Exercise 39](./exercises/browser/ex_39.md)
+[Exercise 39](../exercises/browser/ex_39.md)
 
-[Exercise 40](./exercises/browser/ex_40.md)
+[Exercise 40](../exercises/browser/ex_40.md)
 
 ## Extra practice
-[Exercise 41](./exercises/browser/ex_41.md)
+[Exercise 41](../exercises/browser/ex_41.md)
 
-[Exercise 42](./exercises/browser/ex_42.md)
+[Exercise 42](../exercises/browser/ex_42.md)
 
 #### Forms
 * HTML Forms helps us retrieve user data
@@ -1515,7 +1515,7 @@
   ```
 
 #### Practice
-[Exercise 43](./exercises/browser/ex_43.md)
+[Exercise 43](../exercises/browser/ex_43.md)
 
 * The form elements have a `value` property that returns the element value
 * We can use this property on many form elements like:
@@ -1544,7 +1544,7 @@
   ```
 
 #### Practice
-[Exercise 44](./exercises/browser/ex_44.md)
+[Exercise 44](../exercises/browser/ex_44.md)
 
 * Forms emit a submit event
 * We can handle the form submit event using event handlers
@@ -1587,7 +1587,7 @@
   ```
 
 #### Practice
-[Exercise 45](./exercises/browser/ex_45.md)
+[Exercise 45](../exercises/browser/ex_45.md)
 
 * Select elements have a `selectedIndex` property that returns a number value for the selected option index
 * Also, this element has a `options` property that returns the options elements collection
@@ -1620,7 +1620,7 @@
   ```
 
 #### Practice
-[Exercise 46](./exercises/browser/ex_46.md)
+[Exercise 46](../exercises/browser/ex_46.md)
 
 * `checkbox` elements also have a `value` property
 * Also, they have a `checked` property that returns a boolean value in case the checkbox is checked or not (true or false)
@@ -1670,7 +1670,7 @@
   ```
 
 #### Practice
-[Exercise 47](./exercises/browser/ex_47.md)
+[Exercise 47](../exercises/browser/ex_47.md)
 
 * Form element can handle events using `onfocus, onblur, onchange & oninput` properties
 * Also, you can use this events as event handler using `addEventListener`
@@ -1739,7 +1739,7 @@
   ```
 
 #### Practice
-[Exercise 48](./exercises/browser/ex_48.md)
+[Exercise 48](../exercises/browser/ex_48.md)
 
 * To validate if an input is empty we can combine the `length` and `value` properties
 
@@ -1774,7 +1774,7 @@
   ```
 
 #### Practice
-[Exercise 49](./exercises/browser/ex_49.md)
+[Exercise 49](../exercises/browser/ex_49.md)
 
 # Regex
 * JavaScript can use Regex as values too
@@ -1838,7 +1838,7 @@
 * Also, you can look for common regex on the following [site(regexlib)](http://www.regexlib.com)
 
 #### Practice
-[Exercise 50](./exercises/browser/ex_50.md)
+[Exercise 50](../exercises/browser/ex_50.md)
 
 ## JSON
 * JSON means **JavaScript Object Notation** and it's a lightweight data-interchange format
@@ -1912,7 +1912,7 @@
 * [Youtube - JSON Crash Course](https://www.youtube.com/watch?v=wI1CWzNtE-M)
 
 #### Practice
-[Exercise 51](./exercises/browser/ex_51.md)
+[Exercise 51](../exercises/browser/ex_51.md)
 
 ## AJAX
 * **AJAX** stands for `Asynchronous JavaScript And XML`
@@ -2090,7 +2090,7 @@
 * Now we can use everything that we learned on [this fetch example](https://github.com/nisnardi/fetch-demo)
 
 #### Practice
-[Exercise 52](./exercises/browser/ex_52.md)
+[Exercise 52](../exercises/browser/ex_52.md)
 
 ## Congrats!!!
 * Browser will fight to parse and interpret you JavaScript code
@@ -2111,4 +2111,4 @@
 * [Superhero.js](http://superherojs.com)
 
 ## Let's Checkout Node.js
-* [<- JavaScript](javascript.md) - [Node.js ->](nodejs.md)
+* [<- JavaScript](08-javascript.md) - [Node.js ->](10-nodejs.md)

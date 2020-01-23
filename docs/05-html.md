@@ -1,6 +1,6 @@
 # HTML
 
-[<- Go Back](git.md)
+[<- Go Back](04-git.md)
 
 ## What is HTML?
 
@@ -1657,4 +1657,4 @@ OR
 ![Super Hero HTML5](../resources/images/html/html_superhero.jpg)
 
 ## Let's Checkout CSS
-* [<- Git](git.md) - [CSS ->](css.md)
+* [<- Git](04-git.md) - [CSS ->](06-css.md)

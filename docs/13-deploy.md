@@ -1,6 +1,6 @@
 # Deploying a Node.js Application
 
-[<- Go Back](mongodb.md)
+[<- Go Back](12-mongodb.md)
 
 ## Deploying to Heroku
 
@@ -167,4 +167,4 @@
 * [MDN Deploying to production](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
 
 ## Let's Checkout Deploying
-* [<- MongoDB & Mongoose](mongodb.md) - [Debugging & Troubleshooting ->](debug.md)
+* [<- MongoDB & Mongoose](12-mongodb.md) - [Debugging & Troubleshooting ->](14-debug.md)
