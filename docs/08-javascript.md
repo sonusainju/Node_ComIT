@@ -3619,7 +3619,7 @@ constantVariable = otherValue;
   var name = "nico";
   ```
 
-  ![Hoisting](resources/images/js/hoisting.png)
+  ![Hoisting](../resources/images/js/hoisting.png)
 
 * Also, we can do this with functions
 
@@ -3982,7 +3982,7 @@ constantVariable = otherValue;
 * At the end we add 10 and 20 using JavaScript scope
 * BOOOOOMMMMM..... Mind Blowing!!!
 
-![mind](resources/images/js/mind.gif)
+![mind](../resources/images/js/mind.gif)
 
 ## Assets / Resources
 
@@ -3998,11 +3998,11 @@ constantVariable = otherValue;
 
 ## WELCOME TO JAVASCRIPT!!!
 
-![joke](resources/images/js/joke1.jpg)
+![joke](../resources/images/js/joke1.jpg)
 
-![joke](resources/images/js/joke2.jpg)
+![joke](../resources/images/js/joke2.jpg)
 
-![joke](resources/images/js/joke3.jpg)
+![joke](../resources/images/js/joke3.jpg)
 
 ## Let's Checkout Browser API
 * [<- CSS](css.md) - [Browser API ->](browserapi.md)

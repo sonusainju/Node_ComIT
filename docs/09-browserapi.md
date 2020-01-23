@@ -14,28 +14,28 @@
 
 * We create an HTML file like always
 
-  ![image](resources/images/browser/1.png)
+  ![image](../resources/images/browser/1.png)
 
 * Usually you just double click the file
 
-  ![image](resources/images/browser/2.png)
+  ![image](../resources/images/browser/2.png)
 
 * And open it on a browser
 
-  ![image](resources/images/browser/3.png)
+  ![image](../resources/images/browser/3.png)
 
 * Now we are going to use the Visual Studio Code terminal
 * Go to the main bar and select View > Open View
 
-  ![image](resources/images/browser/4.png)
+  ![image](../resources/images/browser/4.png)
 
 * You will see a couple of options
 
-  ![image](resources/images/browser/5.png)
+  ![image](../resources/images/browser/5.png)
 
 * Select the Terminal
 
-  ![image](resources/images/browser/6.png)
+  ![image](../resources/images/browser/6.png)
 
 * You will see the terminal view inside VSC
 * If you opened the folder VSC already knows that we're using this path
@@ -50,13 +50,13 @@
 * By default this server will run on port `8080`
 * The port might change if you already have that port listening with other app
 
-  ![image](resources/images/browser/7.png)
+  ![image](../resources/images/browser/7.png)
 
 * Now open the browser again
 * Navigate to `http://localhost:8080`
 * At this moment you must see your index.html document
 
-  ![image](resources/images/browser/8.png)
+  ![image](../resources/images/browser/8.png)
 
 * Using http-server we have a local server running and we are able to simulate a real site
 * From now on use http-server or similar to create your sites

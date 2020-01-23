@@ -141,7 +141,7 @@
   ```
 
 #### Practice
-[Exercise 1](exercises/css/ex_1.md)
+[Exercise 1](../exercises/css/ex_1.md)
 
 ## CSS Styles
 
@@ -177,7 +177,7 @@
 * Because it is the last property read, it's a good option when you need to override styles
 
 #### Practice
-[Exercise 2](exercises/css/ex_2.md)
+[Exercise 2](../exercises/css/ex_2.md)
 
 ### Site styles
 * The **link** element links a HTML document with a CSS one
@@ -287,7 +287,7 @@
   ```
 
 #### Practice
-[Exercise 3](exercises/css/ex_3.md)
+[Exercise 3](../exercises/css/ex_3.md)
 
 ## CSS Selectors
 * To use CSS on our site we need more ways to select elements and apply styles
@@ -431,7 +431,7 @@
   ```
 
 #### Practice
-[Exercise 4](exercises/css/ex_4.md)
+[Exercise 4](../exercises/css/ex_4.md)
 
 ## Pseudo-classes selector
 * The pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s)
@@ -569,7 +569,7 @@ p + div {
   ```
 
 #### Practice
-[Exercise 5](exercises/css/ex_5.md)
+[Exercise 5](../exercises/css/ex_5.md)
 
 ## Font
 * To make our site look better we can select the font that we want to use
@@ -962,7 +962,7 @@ div {
   ```
 
 #### Practice
-[Exercise 6](exercises/css/ex_6.md)
+[Exercise 6](../exercises/css/ex_6.md)
 
 ### Vertical Align
 * The **vertical-align** property specifies the vertical alignment of an inline or table-cell box
@@ -980,7 +980,7 @@ div {
   ```
 
 #### Practice
-[Exercise 7](exercises/css/ex_7.md)
+[Exercise 7](../exercises/css/ex_7.md)
 
 ## Box Model
 
@@ -1199,7 +1199,7 @@ div {
   ```
 
 #### Practice
-[Exercise 8](exercises/css/ex_8.md)
+[Exercise 8](../exercises/css/ex_8.md)
 
 ### Padding
 * The padding property defines the innermost portion of the box model, creating space around an element's content, inside of any defined margins and/or borders
@@ -1368,7 +1368,7 @@ div {
   ```
 
 #### Practice
-[Exercise 9](exercises/css/ex_9.md)
+[Exercise 9](../exercises/css/ex_9.md)
 
 ### Background color
 * The **background-color** property sets the background color of an element
@@ -1450,7 +1450,7 @@ div {
   ```
 
 #### Practice
-[Exercise 10](exercises/css/ex_10.md)
+[Exercise 10](../exercises/css/ex_10.md)
 
 ### Display
 * Every element on a web page is a rectangular box
@@ -1489,9 +1489,9 @@ div {
 * The document is rendered as though the element doesn't exist in the document tree
 
 #### Practice
-[Exercise 11](exercises/css/ex_11.md)
+[Exercise 11](../exercises/css/ex_11.md)
 
-[Exercise 12](exercises/css/ex_12.md)
+[Exercise 12](../exercises/css/ex_12.md)
 
 
 ### Visibility
@@ -1515,7 +1515,7 @@ div {
   * **visibility hidden:** will hide the element but it will still show the empty space for that element
 * [display-none vs visibility-hidden](https://www.lifewire.com/display-none-vs-visibility-hidden-3466884)
 
-[Exercise 13](exercises/css/ex_13.md)
+[Exercise 13](../exercises/css/ex_13.md)
 
 ### Background Image
 * The **background-image** property sets one or more background images on an element
@@ -1660,9 +1660,9 @@ div {
   ```
 
 #### Practice
-[Exercise 14](exercises/css/ex_14.md)
+[Exercise 14](../exercises/css/ex_14.md)
 
-[Exercise 15](exercises/css/ex_15.md)
+[Exercise 15](../exercises/css/ex_15.md)
 
 ## Cursor
 * The **cursor** property specifies which mouse cursor to display when the mouse pointer is over an element
@@ -1750,7 +1750,7 @@ div {
   ```
 
 #### Practice
-[Exercise 16](exercises/css/ex_16.md)
+[Exercise 16](../exercises/css/ex_16.md)
 
 
 ## Tables
@@ -1792,7 +1792,7 @@ div {
   ```
 
 #### Practice
-[Exercise 17](exercises/css/ex_17.md)
+[Exercise 17](../exercises/css/ex_17.md)
 
 ## Forms
 * We can use the CSS properties that we learned to styles our forms
@@ -1843,9 +1843,9 @@ div {
   ```
 
 #### Practice
-[Exercise 18](exercises/css/ex_18.md)
+[Exercise 18](../exercises/css/ex_18.md)
 
-[Exercise 19](exercises/css/ex_19.md)
+[Exercise 19](../exercises/css/ex_19.md)
 
 ## Layout
 
@@ -1934,7 +1934,7 @@ div {
 * [Position Relative example](./examples/css/layout/relative.html)
 
 #### Practice
-[Exercise 20](exercises/css/ex_20.md)
+[Exercise 20](../exercises/css/ex_20.md)
 
 #### Absolute
 * The element is removed from the normal document flow
@@ -2066,7 +2066,7 @@ div {
 * [Position Absolute z-index example](./examples/css/layout/absolute3.html)
 
 #### Practice
-[Exercise 21](exercises/css/ex_21.md)
+[Exercise 21](../exercises/css/ex_21.md)
 
 #### Fixed
 * The element is removed from the normal document flow
@@ -2118,7 +2118,7 @@ div {
 * [Position fixed example](./examples/css/layout/fixed.html)
 
 #### Practice
-[Exercise 22](exercises/css/ex_22.md)
+[Exercise 22](../exercises/css/ex_22.md)
 
 #### Sticky
 * The element is positioned according to the normal flow of the document
@@ -2175,7 +2175,7 @@ div {
 * [Position sticky example](./examples/css/layout/sticky.html)
 
 #### Practice
-[Exercise 23](exercises/css/ex_23.md)
+[Exercise 23](../exercises/css/ex_23.md)
 
 ### Float
 * Floats is a technique that allows the elements to **float** to the `left or right` of one another, rather than the default of sitting on top of one another
@@ -2288,9 +2288,9 @@ div {
 * [Don't overthink it grids tutorial](https://css-tricks.com/dont-overthink-it-grids/)
 
 #### Practice
-[Exercise 24](exercises/css/ex_24.md)
+[Exercise 24](../exercises/css/ex_24.md)
 
-[Exercise 25](exercises/css/ex_25.md)
+[Exercise 25](../exercises/css/ex_25.md)
 
 ## Media Query
 * Media query are a great way to apply CSS only to selected devices depending on their type or characteristics
@@ -2400,7 +2400,7 @@ div {
   ```
 
 #### Practice
-[Exercise 26](exercises/css/ex_26.md)
+[Exercise 26](../exercises/css/ex_26.md)
 
 ## Extra
 
