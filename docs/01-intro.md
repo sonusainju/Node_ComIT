@@ -2,12 +2,6 @@
 
 [<- Go Back](../README.md)
 
-## Slack 
-
-Joined the slack through the workspace link:
-
-- [Node.js Regina 2020](https://noderegjan23.slack.com)
-
 ## Installing Git
 
 Git is a version control system that we'll use to save changes and deploy our app. We need to install Git! 
