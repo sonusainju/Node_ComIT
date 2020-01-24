@@ -1,10 +1,12 @@
 # Node.js Regina
 
-## Slack 
+## Resources
 
-Joined the slack through the workspace link:
+* _Slack_: Joined the slack through the workspace link: [Node.js Regina 2020](https://noderegjan23.slack.com)
+* _Articles_: Check the [Medium.com](https://medium.com/topic/javascript) for hot topics on Javascript
+* _Extra Content_: Several examples ara avaliable at [W3Schools](http://www.w3schools.com/)
+* _JavaScript new Features_: An excellent reference can be found on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 
-- [Node.js Regina 2020](https://noderegjan23.slack.com)
 
 ## Content
 
