@@ -27,7 +27,7 @@
 ## Using Git
 * To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
 * As the commands might change between operating systems:
-  * [Windows Command Prompt Cheat sheet](http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt)
+  * [Windows Command Prompt Cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
   * [Linux/Mac Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 * This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
 * Create a folder with the name `nodeyqr`
