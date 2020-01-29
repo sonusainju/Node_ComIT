@@ -18,9 +18,6 @@
     git config --global user.email <github email>
     ```
 * To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
-* As the commands might change between operating systems:
-  * [Windows Command Prompt Cheat sheet](http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt)
-  * [Linux/Mac Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 * This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
 * You’ve downloaded Git, now what? [Download Git-It](https://github.com/jlord/git-it-electron#what-to-install) to your machine and you’ll get a hands-on tutorial that teaches you to use Git right from your local environment, using commands on real repositories. ![Welcome to Git-It](../resources/images/git/git-it.png)
 
