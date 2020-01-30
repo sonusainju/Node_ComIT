@@ -122,8 +122,9 @@ To be able to publish it we need a free hosting and a domain. For this we will u
     git add .
     git commit -m "my first commit"
     ```
-10. In GitHub, Click the copy to keyboard the commands in "…or push an existing repository on the command line" section. ![GitHub new repository](../resources/images/first-site/github1.png)
+10. In GitHub, Click the copy to keyboard the commands in "…or push an existing repository on the command line" section. Make sure you have `HTTS`selected to see the https commands. ![GitHub new repository](../resources/images/first-site/github1.png)
 11. In the Integrated Terminal, paste the copied line from the "…or push an existing repository on the command line" section. You may be required to Login using your GitHub username and password.
+    * The commands you are looking for is `git remote add origin https://...` and `git push origin master`
     * If you are having issues using HTTPS, use SSH instead by [adding a new SSH key to your GitHub account](https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account).
 12. Go to the repository page and refresh. You should see the files that you created. ![GitHub my-first-website repository](../resources/images/first-site/github2.png)
 13. Under your repository name, click "Settings". ![Repository settings button](https://help.github.com/assets/images/help/repository/repo-actions-settings.png)

@@ -346,15 +346,15 @@
 * As we already created a project we can run the following commands
 
 ### `git remote`
-* Now let's execute this command
+* Now let's execute this command. Replace `<user>` with your github user.
 	```bash
-	git remote add origin https://github.com/DJCrossman/nodeyqr.git
+	git remote add origin https://github.com/<user>/nodeyqr.git
 	```
 * By executing this command we're configuring a remote git server (github)
 * We run the **git remote** commands to work with a remote server
 * Then we are adding a new server so we have **add**
 * Origin is the default name by convention for our main source
-* So with this command we let git know that we want to add a remote server with the url https://github.com/DJCrossman/nodeyqr.git that we'll call origin
+* So with this command we let git know that we want to add a remote server with the url `https://github.com/<user>/nodeyqr.git` that we'll call origin
 * We can list the project remote servers
 	```bash
 	git remote
@@ -366,8 +366,8 @@
 	```bash
 	git remote -v
 
-	origin	https://github.com/DJCrossman/nodeyqr.git (fetch)
-	origin	https://github.com/DJCrossman/nodeyqr.git (push)
+	origin	https://github.com/<user>/nodeyqr.git (fetch)
+	origin	https://github.com/<user>/nodeyqr.git (push)
 	```
 * Now I can see that I have **fetch** & **push** permission
 * We use **fetch** to get changes from the server
@@ -393,7 +393,7 @@
 * To setup our Github project it's nice to add a README.md file as initial project file
 * Create a README.md file at the same level than .git folder
 	```bash
-	/
+	/-
 		|- .git
 	|- README.md
 	```
@@ -502,9 +502,9 @@
 	/test
 	```
 * We created this folder so we can clone our Github project in a different folder
-* Now we can clone the nodeyqr Github project into this test folder one
+* Now we can clone the nodeyqr Github project into this test folder one. Remember of replacing `<user>` with your github username.
 	```bash
-	git clone https://github.com/DJCrossman/nodeyqr.git
+	git clone https://github.com/<user>/nodeyqr.git
 	```
 * List the files
 	```bash
