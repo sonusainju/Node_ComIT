@@ -6,7 +6,9 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('../resources'), require('path').resolve('./static') + '/resources') } catch (e) {}\""
+
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.40",
