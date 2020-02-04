@@ -18,7 +18,7 @@ module.exports = {
       title: 'Node JS Course',
       logo: {
         alt: 'My Project Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       links: [
         {to: 'docs/01-intro', label: 'Course', position: 'left'},
