@@ -1,12 +1,13 @@
 # Exercise 5
 
-* Start MongoDB server
-* Connect to MongoDB server using MongoDB shell and 
-* Select comics database
-* Drop the superheroes collection
-* Drop the comics database
-* Re-create the comic database and superheroes collection
-* Insert the following documents
+- Start MongoDB server
+- Connect to MongoDB server using MongoDB shell and
+- Select comics database
+- Drop the superheroes collection
+- Drop the comics database
+- Re-create the comic database and superheroes collection
+- Insert the following documents
+
 ```json
 { "name": "SPIDER-MAN", "image": "spiderman.jpg" }
 { "name": "CAPTAIN MARVEL", "image": "captainmarvel.jpg" }
@@ -22,5 +23,5 @@
 { "name": "BATMAN", "image": "batman.jpg" }
 ```
 
-* Query the documents with the `BATMAN` name
-* Query the documents with the `HULK` name
+- Query the documents with the `BATMAN` name
+- Query the documents with the `HULK` name

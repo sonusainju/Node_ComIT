@@ -1,6 +1,6 @@
 # Exercise 1
 
-* Create the following folder/file structure:
+- Create the following folder/file structure:
   ```
   /ex_1
     |-- index.js
@@ -8,20 +8,24 @@
   ```
 
 ## Todo
-* Add the following files to the folder:
-  * `index.js`
+
+- Add the following files to the folder:
+
+  - `index.js`
+
     ```js
-    const express = require('express')
-    const app = express()
-    const port = process.env.PORT || 3000
+    const express = require("express");
+    const app = express();
+    const port = process.env.PORT || 3000;
 
-    app.get('/', (req,res) => {
-      res.send('Hello world')
-    })
+    app.get("/", (req, res) => {
+      res.send("Hello world");
+    });
 
-    app.listen(port, () => console.log(`Open at http://localhost:${port}`))
+    app.listen(port, () => console.log(`Open at http://localhost:${port}`));
     ```
-  * `package.json`
+
+  - `package.json`
     ```json
     {
       "name": "ex_1",
@@ -40,8 +44,10 @@
       }
     }
     ```
-* Run the application using `npm start`
-* Resolve the following error in terminal
+
+- Run the application using `npm start`
+- Resolve the following error in terminal
+
   ```sh
   sh: nodemon: command not found
   npm ERR! file sh
@@ -50,7 +56,7 @@
   npm ERR! syscall spawn
   npm ERR! ex_1@1.0.0 start: `nodemon`
   npm ERR! spawn ENOENT
-  npm ERR! 
+  npm ERR!
   npm ERR! Failed at the ex_1@1.0.0 start script.
   npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
   npm WARN Local package.json exists, but node_modules missing, did you mean to install?
@@ -61,8 +67,8 @@
 
 ## index.js
 
-* Once we start the project it will otuput the following message:
+- Once we start the project it will otuput the following message:
   ```sh
   Open at http://localhost:3000
   ```
-* The page should load with the message "Hello world"
+- The page should load with the message "Hello world"

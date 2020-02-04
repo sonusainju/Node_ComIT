@@ -15,9 +15,9 @@
 - [ ] If the paragraph content gets too long add some break lines to it
 - [ ] Some texts or words must be strong depending upon the content
 - [ ] Use generic inline container (spans) to highlight some words
-    ```html
-    <span style="color: red;">
-    ```
+  ```html
+  <span style="color: red;"></span>
+  ```
 - [ ] Use this code to highlight the selected spans. You can choose the color
 - [ ] Each document must have a multiline comment with the updates you'll have to do
 - [ ] Create at least one of each type of lists. They should make sense depending the content of the document
@@ -30,7 +30,7 @@
 - [ ] Add an image gallery using figure and figure caption elements
 - [ ] Create at least 2 content tables (please use all table section body, head and foot)
 - [ ] Create a favicon using an [online site](http://www.favicon-generator.org)
-- [ ] Add your favicon to your html documents 
+- [ ] Add your favicon to your html documents
 
 ## If you got everything on this list you're rocking it!!! congratulations!!!
 

@@ -1,7 +1,7 @@
 # Exercise 1
 
-* Inside your git project create a index1.html file
-* Copy and paste the following HTML code:
+- Inside your git project create a index1.html file
+- Copy and paste the following HTML code:
 
 ```html
 <!DOCTYPE html>
@@ -24,13 +24,12 @@
 </html>
 ```
 
-* After applying all styles the document must look like this:
+- After applying all styles the document must look like this:
 
 ![Ex 1](./results/ex_1.png)
 
-
-* Add a style element
-* All h1 element must be pink
-* All paragraphs must be green
-* All divs must be yellow
-* All links must be black
+- Add a style element
+- All h1 element must be pink
+- All paragraphs must be green
+- All divs must be yellow
+- All links must be black

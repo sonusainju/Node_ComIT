@@ -8,8 +8,8 @@ title: Production Best Practices
 - Use gzip compression
 - Use the [compression](https://www.npmjs.com/package/compression) middleware for gzip compression in your Express app. For example:
   ```js
-  const compression = require('compression');
-  const express = require('express');
+  const compression = require("compression");
+  const express = require("express");
   const app = express();
   app.use(compression());
   ```
@@ -19,15 +19,15 @@ title: Production Best Practices
 
   - [Use try-catch](https://expressjs.com/en/advanced/best-practice-performance.html#use-try-catch)
     ```js
-    app.get('/search', function(req, res) {
+    app.get("/search", function(req, res) {
       // Simulating async operation
       setImmediate(function() {
         const jsonStr = req.query.params;
         try {
           const jsonObj = JSON.parse(jsonStr);
-          res.send('Success');
+          res.send("Success");
         } catch (e) {
-          res.status(400).send('Invalid JSON string');
+          res.status(400).send("Invalid JSON string");
         }
       });
     });
@@ -35,7 +35,7 @@ title: Production Best Practices
   - [Use promises](https://expressjs.com/en/advanced/best-practice-performance.html#use-promises)
 
   ```js
-  app.get('/', function(req, res, next) {
+  app.get("/", function(req, res, next) {
     // do some sync stuff
     queryDb()
       .then(function(data) {
