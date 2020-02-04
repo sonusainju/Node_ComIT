@@ -1,6 +1,7 @@
-# Browser API
-
-[<- Go Back](08-javascript.md)
+---
+id: 09-browserapi
+title: Browser API
+---
 
 # http-server
 * **http-server** is a simple, zero-configuration command-line http server
@@ -14,28 +15,28 @@
 
 * We create an HTML file like always
 
-  ![image](./resources/images/browser/1.png)
+  ![image](../resources/images/browser/1.png)
 
 * Usually you just double click the file
 
-  ![image](./resources/images/browser/2.png)
+  ![image](../resources/images/browser/2.png)
 
 * And open it on a browser
 
-  ![image](./resources/images/browser/3.png)
+  ![image](../resources/images/browser/3.png)
 
 * Now we are going to use the Visual Studio Code terminal
 * Go to the main bar and select View > Open View
 
-  ![image](./resources/images/browser/4.png)
+  ![image](../resources/images/browser/4.png)
 
 * You will see a couple of options
 
-  ![image](./resources/images/browser/5.png)
+  ![image](../resources/images/browser/5.png)
 
 * Select the Terminal
 
-  ![image](./resources/images/browser/6.png)
+  ![image](../resources/images/browser/6.png)
 
 * You will see the terminal view inside VSC
 * If you opened the folder VSC already knows that we're using this path
@@ -50,13 +51,13 @@
 * By default this server will run on port `8080`
 * The port might change if you already have that port listening with other app
 
-  ![image](./resources/images/browser/7.png)
+  ![image](../resources/images/browser/7.png)
 
 * Now open the browser again
 * Navigate to `http://localhost:8080`
 * At this moment you must see your index.html document
 
-  ![image](./resources/images/browser/8.png)
+  ![image](../resources/images/browser/8.png)
 
 * Using http-server we have a local server running and we are able to simulate a real site
 * From now on use http-server or similar to create your sites
@@ -264,7 +265,7 @@
 
 * Take a look at a URL structure
 
-  ![URL](./resources/images/browser/url.jpg)
+  ![URL](../resources/images/browser/url.jpg)
 
 * The location interface has properties that represent the different parts of a URL
   * **href**
@@ -452,7 +453,7 @@
 ### HTML element structure
 * This is a good time to remember the HTML element tag structure
 
-  ![element](./resources/images/browser/anatomy-of-an-html-element.png)
+  ![element](../resources/images/browser/anatomy-of-an-html-element.png)
 
 * Element structure:
   * **Opening tag:** We define the beginning of a new element
@@ -475,7 +476,7 @@
   * **attribute:** represents a node/element attributes
   * **nodeList:** It's a node array and we can access the items using indexes
 
-  ![DOM](./resources/images/browser/dom.png)
+  ![DOM](../resources/images/browser/dom.png)
 
 * [MDN Document Object Model doc](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 * [MDN DOM Introduction guide](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
@@ -1934,7 +1935,7 @@
 * Open the following link and take a look at the JSON object that we get back from the API
 * [https://api.tvmaze.com/search/shows?q=batman](https://api.tvmaze.com/search/shows?q=batman)
 
-  ![JSON](./resources/images/browser/json.png)
+  ![JSON](../resources/images/browser/json.png)
 
 * As you can see we can get JSON back from a server but it might be difficult to read this way
 * Open the following url: [https://codebeautify.org/jsonviewer](https://codebeautify.org/jsonviewer)
@@ -1943,7 +1944,7 @@
 * This site will help us see the response that we get from the server on the left side
 * We can see the JSON object representation in a way that is more readable
 
-  ![JSON](./resources/images/browser/json2.png)
+  ![JSON](../resources/images/browser/json2.png)
 
 * Now that we know what we want to retrieve from the API call we can learn how to get it using JavaScript
 * The **Fetch** API provides an interface for fetching resources (including across the network)
@@ -1974,7 +1975,7 @@
   ```
 
 * The Response object looks like this
-  ![API Response](./resources/images/js-browser/api_response.png)
+  ![API Response](../resources/images/js-browser/api_response.png)
 
 * The Response object has a `json` method that returns a promise that resolves with the result of parsing the body text as JSON
 
@@ -2003,7 +2004,7 @@
     });
   ```
 
-  ![data](./resources/images/browser/response.png)
+  ![data](../resources/images/browser/response.png)
 
 * Each episode JSON has the following structure:
 
@@ -2095,7 +2096,7 @@
 ## Congrats!!!
 * Browser will fight to parse and interpret you JavaScript code
 
-  ![Browsers](./resources/images/browser/browserfight.jpg)
+  ![Browsers](../resources/images/browser/browserfight.jpg)
 
 * You Rock! 🤘🏻
 
@@ -2103,12 +2104,9 @@
 
 * Now you know JavaScript Browser side, we no longer need a droid! Thanks C-3PO 🤖
 
-  ![Java](./resources/images/browser/java.webp)
+  ![Java](../resources/images/browser/java.webp)
 
 ## Assets / Resources
 * [Wes Bos - 30 Day Vanilla JS Coding Challenge (Great practice)](https://javascript30.com)
 * [Frontendmasters - front-end handbook](https://frontendmasters.com/books/front-end-handbook/2018/)
 * [Superhero.js](http://superherojs.com)
-
-## Let's Checkout Node.js
-* [<- JavaScript](08-javascript.md) - [Node.js ->](10-nodejs.md)

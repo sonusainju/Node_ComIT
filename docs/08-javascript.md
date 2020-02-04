@@ -1,6 +1,7 @@
-# JavaScript
-
-[<- Go Back](07-bootstrap.md)
+---
+id: 08-javascript
+title: Javascript
+---
 
 ## Definition
 > JavaScript often abbreviated as JS, is a `high-level`, `interpreted` programming language. It is a language which is also characterized as `dynamic`, >  `weakly typed`, `prototype-based` and `multi-paradigm`. 
@@ -47,7 +48,7 @@ properties.forEach(function(property) {
 * Open Devtools
 * Select the console tab inside Devtools
 
-![Devtools](./resources/images/js/show_devtools.png)
+![Devtools](../resources/images/js/show_devtools.png)
 
 * Write the following code and press enter to execute it:
 
@@ -59,7 +60,7 @@ properties.forEach(function(property) {
 console.log(2 + 2);
 ```
 
-![Devtools](./resources/images/js/devtools.png)
+![Devtools](../resources/images/js/devtools.png)
 
 * Now run the following code:
 
@@ -1563,7 +1564,7 @@ constantVariable = otherValue;
 * If the condition is **false**, another statement can be executed
 * [if else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-  ![if](./resources/images/js/if.gif)
+  ![if](../resources/images/js/if.gif)
 
   **Example:**
   ```js
@@ -1625,7 +1626,7 @@ constantVariable = otherValue;
 * Now we know how to use a if statement to check for a given condition but we only care about when it's a true value
 * In some cases we need to control also what happens in case the condition is false
 
-  ![if/else](./resources/images/js/if-else.gif)
+  ![if/else](../resources/images/js/if-else.gif)
 
   **Example:**
   ```js
@@ -3619,7 +3620,7 @@ constantVariable = otherValue;
   var name = "nico";
   ```
 
-  ![Hoisting](./resources/images/js/hoisting.png)
+  ![Hoisting](../resources/images/js/hoisting.png)
 
 * Also, we can do this with functions
 
@@ -3982,7 +3983,7 @@ constantVariable = otherValue;
 * At the end we add 10 and 20 using JavaScript scope
 * BOOOOOMMMMM..... Mind Blowing!!!
 
-![mind](./resources/images/js/mind.gif)
+![mind](../resources/images/js/mind.gif)
 
 ## Assets / Resources
 
@@ -3998,11 +3999,8 @@ constantVariable = otherValue;
 
 ## WELCOME TO JAVASCRIPT!!!
 
-![joke](./resources/images/js/joke1.jpg)
+![joke](../resources/images/js/joke1.jpg)
 
-![joke](./resources/images/js/joke2.jpg)
+![joke](../resources/images/js/joke2.jpg)
 
-![joke](./resources/images/js/joke3.jpg)
-
-## Let's Checkout Browser API
-* [<- Bootstrap](07-bootstrap.md) - [Browser API ->](09-browserapi.md)
+![joke](../resources/images/js/joke3.jpg)

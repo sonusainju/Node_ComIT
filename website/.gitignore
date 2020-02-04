@@ -1,9 +1,8 @@
 # Dependencies
-/**/node_modules/
+/node_modules
 
 # Production
 /build
-/website/build
 
 # Generated files
 .docusaurus
@@ -19,4 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-

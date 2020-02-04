@@ -1,6 +1,7 @@
-# Internet
-
-[<- Go Back](01-intro.md)
+---
+id: 02-internet
+title: Internet
+---
 
 ## What is the Internet?
 
@@ -52,7 +53,7 @@ Earlier we used the term "packets" to describe the format in which the data is s
 
 ## How the Internet Works
 
-![User's interaction with the Internet](/resources/images/internet/browser1.png)
+![User's interaction with the Internet](../resources/images/internet/browser1.png)
 
 [VIDEO: The Internet: HTTP & HTML](https://www.youtube.com/watch?v=kBXQZMmiA4s)
 
@@ -64,6 +65,3 @@ Earlier we used the term "packets" to describe the format in which the data is s
 ## Reference
 
 * [MDN How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
-
-## Let's create our first site
-* [<- Introduction to Development](01-intro.md) - [Our First Site ->](03-first-site.md) 

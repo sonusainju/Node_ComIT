@@ -1,6 +1,7 @@
-# Node.js
-
-[<- Go Back](09-browserapi.md)
+---
+id: 10-nodejs
+title: Node.js
+---
 
 * Node.js allows us to run JavaScript in different environments and run different tasks
 * Using Node we can:
@@ -21,7 +22,7 @@
 * Also learn more reading [NPM blog](https://blog.npmjs.org)
 * Also, they have the best mascot ever.. NPM wombat!!
 
-  ![Wombat](./resources/images/node/wombat.png)
+  ![Wombat](../resources/images/node/wombat.png)
 
 ### Start a new NPM project
 * To start a new project first we need to create a new folder and change directory to go inside of it
@@ -962,13 +963,13 @@
 * We use the send button to create a request to the given URL using the selected HTTP method
 * Then we can see the server response on the Postman lowers section of the screen
 
-  ![Postman](./resources/images/node/postman.png)
+  ![Postman](../resources/images/node/postman.png)
 
 * Using Postman we can know the response status (in this example it's 200)
 * We can also change the request and response HTTP headers
 * And configure different HTTP methods (POST, PUT, DELETE, etc)s
 
-  ![Postman](./resources/images/node/postman2.png)
+  ![Postman](../resources/images/node/postman2.png)
 
 #### Practice
 [Exercise 10](./exercises/node/ex_10.md)
@@ -994,7 +995,7 @@
 * Then when we call this route we get: {"name":"Marta","age":"40"} back
 * Also, we get the right headers too
 
-  ![JSON Header](./resources/images/node/json-header.png)
+  ![JSON Header](../resources/images/node/json-header.png)
 
 **sendFile**
 * Using the response `sendFile` method we can send a a file back
@@ -1813,7 +1814,7 @@
 * Learn more about iteration on [Pug iteration doc](https://pugjs.org/language/iteration.html)
 * Check out Pug assets and sources to learm much more about this powerful template engine
 
-  ![Pug](./resources/images/node/pug.jpg)
+  ![Pug](../resources/images/node/pug.jpg)
 
 
 ## Sending/getting data from the client to the server
@@ -2062,15 +2063,15 @@
 * [Node.js file upload using Multer](https://medium.com/@bmshamsnahid/nodejs-file-upload-using-multer-3a904516f6d2)
 
 ## We're CRAZY about JavaScript, Node.js and Express.js
-![The End](./resources/images/node/crazy1.gif)
+![The End](../resources/images/node/crazy1.gif)
 
-![The End](./resources/images/node/crazy2.webp)
+![The End](../resources/images/node/crazy2.webp)
 
-![The End](./resources/images/node/crazy3.webp)
+![The End](../resources/images/node/crazy3.webp)
 
-![The End](./resources/images/node/crazy4.webp)
+![The End](../resources/images/node/crazy4.webp)
 
-![The End](./resources/images/node/crazy5.webp)
+![The End](../resources/images/node/crazy5.webp)
 
 ## Assets / Sources
 * [NodeSchool - Free Node.js, JavaScript and more courses](https://nodeschool.io/)
@@ -2084,6 +2085,3 @@
 * [Practical Node - online book](https://gittobook.org/books/185/practicalnode) (look at the PUG sections over the index)
 * [Youtube - Node.js / Express / MongoDB - Build a Shopping Cart](https://www.youtube.com/watch?v=-3vvxn78MH4&t=1s)
 * [Youtube - Node Authentication Tutorial | Creating a User Based App from Scratch](https://www.youtube.com/watch?v=gYjHDMPrkWU&list=PLpPnRKq7eNW3Qm2OfoJ3Hyvf-36TulLDp)
-
-## Let's Checkout Building a Site with Express.js
-* [<- Browser API](09-browser.md) - [Building a site using Node.js and Express ->](11-buildingsite.md)

@@ -1,6 +1,7 @@
-# CSS - Cascade Style Sheet
-
-[<- Go Back](05-html.md)
+---
+id: 06-css
+title: CSS - Cascade Style Sheet
+---
 
 ## Intro to CSS
 
@@ -590,7 +591,7 @@ p + div {
 * Generic family name list: **serif, sans-serif, monospace, cursive, fantasy, system-ui**
 * [MDN font-family doc](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
-  ![Fonts](./resources/images/css/fonts.png)
+  ![Fonts](../resources/images/css/fonts.png)
 
   **Example:**
   ```css
@@ -677,7 +678,7 @@ p + div {
 
 * Google fonts does a great work to help us adding our fonts
 
-  ![Google fonts image](./resources/images/css/google_fonts.png)
+  ![Google fonts image](../resources/images/css/google_fonts.png)
 
 * To know more about Google Fonts read the following [guide](https://developers.google.com/fonts/docs/getting_started)
 
@@ -698,7 +699,7 @@ p + div {
 * [Viewport sized yypography tutorial](https://css-tricks.com/viewport-sized-typography/)
 * [Read the How to size text in css a list apart guide!](https://alistapart.com/article/howtosizetextincss)
 
-  ![Font size](./resources/images/css/size.png)
+  ![Font size](../resources/images/css/size.png)
 
   **Example:**
   ```css
@@ -988,7 +989,7 @@ div {
 * This concept is known as CSS box model
 * The CSS box model is the foundation of layout on the Web as each element is represented as a rectangular box
 
-  ![Box Model](./resources/images/css/css-box-model.png)
+  ![Box Model](../resources/images/css/css-box-model.png)
 
 * The box model has 5 parts:
   * **Content area**
@@ -1021,7 +1022,7 @@ div {
   }
   ```
 
-  ![Box model border](./resources/images/css/border.png)
+  ![Box model border](../resources/images/css/border.png)
 
 * We can also use individual property for each of the values:
   * border-width
@@ -1050,7 +1051,7 @@ div {
   }
   ```
 
-  ![Box model border](./resources/images/css/border-name.png)
+  ![Box model border](../resources/images/css/border-name.png)
 
 ### Width
 * The **border-width** property is a shorthand property for setting the widths on all four sides of an element's border
@@ -1218,7 +1219,7 @@ div {
   }
   ```
 
-  ![Padding](./resources/images/css/padding.png)
+  ![Padding](../resources/images/css/padding.png)
 
 * It is a shorthand for setting all individual paddings at once: 
   * padding-top
@@ -1274,7 +1275,7 @@ div {
   }
   ```
 
-  ![Margin](./resources/images/css/margin-1.png)
+  ![Margin](../resources/images/css/margin-1.png)
 
   **Example:**
   ```css
@@ -1284,7 +1285,7 @@ div {
   }
   ```
 
-  ![Margin](./resources/images/css/margin-2.png)
+  ![Margin](../resources/images/css/margin-2.png)
 
 * It is a shorthand for setting all individual margins at once: 
   * margin-top
@@ -1851,7 +1852,7 @@ div {
 
 * We can think about our web layout the same way designers design editorial layouts
 
-  ![Editorial design](./resources/images/css/editorial.png)
+  ![Editorial design](../resources/images/css/editorial.png)
 
 * Using a grid system with rows and columns we can create flexible layouts
 * This creates a better web design experience
@@ -1859,7 +1860,7 @@ div {
 * Some time ago we used to design [sites 960px wide](https://960.gs)
 * Using this grid system we have 12 columns
 
-  ![Grid](./resources/images/css/using-grids-1.jpg)
+  ![Grid](../resources/images/css/using-grids-1.jpg)
 
 * If the row should be 960px wide then we can create 1 column and set the value to 12
 * In case we need 2 columns then each column can be 6 columns big
@@ -1872,7 +1873,7 @@ div {
   * [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid)
   * [Foundation](https://foundation.zurb.com/grid.html)
 
-  ![Bootstrap](./resources/images/css/using-grids-2.jpg)
+  ![Bootstrap](../resources/images/css/using-grids-2.jpg)
 
 ### Position
 * The **position** property specifies how an element is positioned in a document
@@ -1929,9 +1930,9 @@ div {
   }
   ```
 
-  ![Relative position](./resources/images/css/layout/relative.png)
+  ![Relative position](../resources/images/css/layout/relative.png)
 
-* [Position Relative example](./resources/examples//css/layout/relative.html)
+* [Position Relative example](../resources/examples//css/layout/relative.html)
 
 #### Practice
 [Exercise 20](./exercises/css/ex_20.md)
@@ -1962,9 +1963,9 @@ div {
     }
   ```
 
-  ![Absolute position](./resources/images/css/layout/absolute1.png)
+  ![Absolute position](../resources/images/css/layout/absolute1.png)
 
-* [Position Absolute example](./resources/examples//css/layout/absolute.html)
+* [Position Absolute example](../resources/examples//css/layout/absolute.html)
 
 * In the previous example the absolute position is based on the body position as it's the parent element
 
@@ -1995,8 +1996,8 @@ div {
   }
   ```
 
-  ![Absolute position](./resources/images/css/layout/absolute2.png)
-* [Position Absolute using container example](./resources/examples//css/layout/absolute2.html)
+  ![Absolute position](../resources/images/css/layout/absolute2.png)
+* [Position Absolute using container example](../resources/examples//css/layout/absolute2.html)
 
 * Now that we added a parent container the absolute element will get the initial position from the container element instead of the body
 * In some way we can say that using absolute position in this way is like creating a relative position between the parent and child element
@@ -2040,7 +2041,7 @@ div {
     </body>
   ```
 
-  ![Absolute position](./resources/images/css/layout/absolute3.png)
+  ![Absolute position](../resources/images/css/layout/absolute3.png)
 
 * In this case we can use the **z-index** property to change the way elements will overlap
 * Position value: a number
@@ -2061,9 +2062,9 @@ div {
   }
   ```
 
-  ![Absolute position](./resources/images/css/layout/absolute4.png)
+  ![Absolute position](../resources/images/css/layout/absolute4.png)
 
-* [Position Absolute z-index example](./resources/examples//css/layout/absolute3.html)
+* [Position Absolute z-index example](../resources/examples//css/layout/absolute3.html)
 
 #### Practice
 [Exercise 21](./exercises/css/ex_21.md)
@@ -2109,13 +2110,13 @@ div {
   }
   ```
 
-  ![Fixed position](./resources/images/css/layout/fixed1.png)
+  ![Fixed position](../resources/images/css/layout/fixed1.png)
 
 * If we scroll down the static elements will follow the scroll flow
 * The fixed element is going to stay in the same possition
 
-  ![Fixed position](./resources/images/css/layout/fixed2.png)
-* [Position fixed example](./resources/examples//css/layout/fixed.html)
+  ![Fixed position](../resources/images/css/layout/fixed2.png)
+* [Position fixed example](../resources/examples//css/layout/fixed.html)
 
 #### Practice
 [Exercise 22](./exercises/css/ex_22.md)
@@ -2162,17 +2163,17 @@ div {
 
 * In this example the h1 elements are positioned using a sticky value
 
-  ![Sticky position](./resources/images/css/layout/sticky1.png)
+  ![Sticky position](../resources/images/css/layout/sticky1.png)
 
 * As we scroll the document the browser will stick each h1 element to the same position
 
-  ![Sticky position](./resources/images/css/layout/sticky2.png)
+  ![Sticky position](../resources/images/css/layout/sticky2.png)
 
 * Each element is replaced if the section is over and there's other sticky elements
 
-  ![Sticky position](./resources/images/css/layout/sticky3.png)
+  ![Sticky position](../resources/images/css/layout/sticky3.png)
 
-* [Position sticky example](./resources/examples//css/layout/sticky.html)
+* [Position sticky example](../resources/examples//css/layout/sticky.html)
 
 #### Practice
 [Exercise 23](./exercises/css/ex_23.md)
@@ -2200,7 +2201,7 @@ div {
 
 * By default if we add a image bettwen text it's going to look like this:
 
-  ![Float](./resources/images/css/layout/float1.png)
+  ![Float](../resources/images/css/layout/float1.png)
 
 * If we float the element to the left the text can flow around it
 
@@ -2212,9 +2213,9 @@ div {
     margin: 20px 30px 20px 0;
   }
   ```
-  ![Float](./resources/images/css/layout/float2.png)
+  ![Float](../resources/images/css/layout/float2.png)
 
-* [Float image example](./resources/examples//css/layout/float1.html)
+* [Float image example](../resources/examples//css/layout/float1.html)
 
 * We can use float with other elements to create a different layout
 * As we're going to float the elements we'll use the width property too
@@ -2228,9 +2229,9 @@ div {
   }
   ```
 
-  ![Float](./resources/images/css/layout/float3.png)
+  ![Float](../resources/images/css/layout/float3.png)
 
-* [Float image example](./resources/examples//css/layout/float2.html)
+* [Float image example](../resources/examples//css/layout/float2.html)
 
 * In this example we float boath div elements to the left so each will position beside the other one
 * We set the width value to 50% so each of them will cover half of the parent container
@@ -2279,9 +2280,9 @@ div {
     </body>
   ```
 
-  ![Clear](./resources/images/css/layout/clear.png)
+  ![Clear](../resources/images/css/layout/clear.png)
 
-* [Clear example](./resources/examples//css/layout/clear.html)
+* [Clear example](../resources/examples//css/layout/clear.html)
 
 * To know more about floating elements read this [Great CSS tricks guide](https://css-tricks.com/all-about-floats/)
 * To learn more about `position and float` read [learn CSS positioning in ten steps guide](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
@@ -2329,8 +2330,8 @@ div {
 
 * We can set the default values for all media types and then override the specific one
 
-  ![Media Print](./resources/images/css/media.png)
-* [Media Query print example](./resources/examples//css/media/print.html)
+  ![Media Print](../resources/images/css/media.png)
+* [Media Query print example](../resources/examples//css/media/print.html)
 
 * Also we can select devices by specific characteristics
 * Bootstrap for example uses the following configuration for different displays:
@@ -2361,7 +2362,7 @@ div {
 * We configure a couple of media query so the body background color will change deppending the device screen resolution
 * Use the `and` operator to add more than one rule
 
-* [Media Query example](./resources/examples//css/media/resolution.html)
+* [Media Query example](../resources/examples//css/media/resolution.html)
 
 * Also we can specify the device **orientation** using **landscape or portrait** as values
 
@@ -2433,10 +2434,7 @@ div {
 [CodeSchool - Adventures in Web animations](https://www.codeschool.com/courses/adventures-in-web-animations)
 
 ## Congratulations, you made it, now you know CSS and can enjoy this great joke!!
-![Family Guy CSS](./resources/images/css/css.gif)
+![Family Guy CSS](../resources/images/css/css.gif)
 
 #### Practice
 * Now you're ready to style your personal site and show it to the rest of the world!
-
-## Let's Checkout Bootstrap
-* [<- Git](05-html.md) - [Bootstrap ->](07-bootstrap.md)

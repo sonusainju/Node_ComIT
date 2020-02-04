@@ -1,6 +1,7 @@
-# HTML
-
-[<- Go Back](04-git.md)
+---
+id: 05-html
+title: HTML
+---
 
 ## What is HTML?
 
@@ -25,19 +26,19 @@ Looks like this document has the following sections:
 * A main title: ’Black Panther’ stays strong with $108M in second weekend
 * A picture
 * A picture description: This image released by Disney shows a scene from Marvel Studios' "Black Panther." Matt Kennedy / AP
-![Black Panther news](./resources/images/html/html_news.png)
+![Black Panther news](../resources/images/html/html_news.png)
 * Secondary title: NEW YORK — “Black Panther” has scored one of the best second weekends ever with an estimated $108 million in ticket sales.
 * Text:
 Studio estimates Sunday say “Black Panther” is still performing as one of the top blockbusters of all time. This weekend’s result makes Ryan Coogler’s Marvel sensation only the fourth film to earn $100 million in its second weekend, along with “Star Wars: The Force Awakens,” “Jurassic World” and “The Avengers.”
 Of those, only “The Force Awakens” had a better second weekend.
 In two weeks of release, “Black Panther” has grossed $400 million domestically and $704 million worldwide.
 Of new releases, faring the best is the Warner Bros. comedy “Game Night,” starring Jason Bateman and Rachel McAdams. It debuted with $16.6 million.
-The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![Black Panther news](./resources/images/html/html_news_content.png)
+The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![Black Panther news](../resources/images/html/html_news_content.png)
 * Comments section: 0 Comments
-* Share your thoughts ![Black Panther news](./resources/images/html/html_news_comments_title.png)
-* Featured Articles title ![Black Panther news](./resources/images/html/html_news_feature_news.png)
-* Comments form ![Black Panther news](./resources/images/html/html_news_comments.png)
-* Finally, this is how the news HTML code looks like: ![Black Panther news](./resources/images/html/html_news_html.png)
+* Share your thoughts ![Black Panther news](../resources/images/html/html_news_comments_title.png)
+* Featured Articles title ![Black Panther news](../resources/images/html/html_news_feature_news.png)
+* Comments form ![Black Panther news](../resources/images/html/html_news_comments.png)
+* Finally, this is how the news HTML code looks like: ![Black Panther news](../resources/images/html/html_news_html.png)
 
 ## Tag Structure
 
@@ -171,7 +172,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 ### BODY
-* The **body** Element represents the content of an HTML document. There can be only one <body> element in a document.
+* The **body** Element represents the content of an HTML document. There can be only one `<body>` element in a document.
 * We can write any content or other HTML elements between the html tags
 * [MDN body doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
@@ -385,7 +386,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 * We can use any list type
 * Very helpful and used to create sites menus adding CSS
 
-![mindblown](./resources/images/html/mindblown.gif)
+![mindblown](../resources/images/html/mindblown.gif)
 
 **Example:**
 ```html
@@ -851,29 +852,29 @@ Absolute URL:
 **Search engines:**
 
 Google:
-![Google](./resources/images/html/google.png)
+![Google](../resources/images/html/google.png)
 
 Twitter:
-![Twitter search](./resources/images/html/buscar1.png)
+![Twitter search](../resources/images/html/buscar1.png)
 
 Youtube:
-![Youtube search](./resources/images/html/youtube_search.png)
+![Youtube search](../resources/images/html/youtube_search.png)
 
 **Comments / Posts:**
 
 Twitter post:
-![Twitter post](./resources/images/html/twit.png)
+![Twitter post](../resources/images/html/twit.png)
 
 Medium: 
-![Medium post](./resources/images/html/medium_comment.png)
+![Medium post](../resources/images/html/medium_comment.png)
 
 Facebook: 
-![Medium post](./resources/images/html/facebook_post.png)
+![Medium post](../resources/images/html/facebook_post.png)
 
 **Log in / sign up**
 
 Facebook:
-![Facebook post](./resources/images/html/facebook_signup.png)
+![Facebook post](../resources/images/html/facebook_signup.png)
 
 * The form element has 3 important attributes:
   * action: the URI of a program that processes the form information
@@ -1654,7 +1655,4 @@ OR
 [HTML5 Specs](https://dev.w3.org/html5/spec-preview/Overview.html)
 
 ## Congratulations, you made it, now you know HTML!!
-![Super Hero HTML5](./resources/images/html/html_superhero.jpg)
-
-## Let's Checkout CSS
-* [<- Git](04-git.md) - [CSS ->](06-css.md)
+![Super Hero HTML5](../resources/images/html/html_superhero.jpg)

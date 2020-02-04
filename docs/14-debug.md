@@ -1,6 +1,7 @@
-# Debugging & Troubleshooting
-
-[<- Go Back](13-deploy.md)
+---
+id: 14-debug
+title: Debugging & Troubleshooting
+---
 
 * Copy and paste the error into Google.
 
@@ -65,6 +66,3 @@
 ## Resources
 * [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
 * [How To Pause Your Code With Breakpoints In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
-
-## Let's Checkout Deploying
-* [<- Deploying a Node.js Application](13-deploy.md) - [Production Best Practices ->](15-best-practices.md)

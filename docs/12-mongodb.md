@@ -1,6 +1,7 @@
-# MongoDB & Mongoose
-
-[<- Go Back](11-buildingsite.md)
+---
+id: 12-mongodb
+title: MongoDB & Mongoose
+---
 
 ## What's a database?
 * A **database** is an organized collection of data
@@ -1025,7 +1026,3 @@
 * [Node.js MongoDB API (to use node and mongod)](http://mongodb.github.io/node-mongodb-native/3.0/api/)
 * [Add schema support with Mongoose](http://mongoosejs.com/)
 * [Creating a REST API with Node.js, MongoDB & Mongoose](https://www.youtube.com/watch?v=0oXYLzuucwE&index=1&list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
-
-
-## Let's Checkout Deploying
-* [<- Building a site using Node.js and Express](11-buildingsite.md) - [Deploying a Node.js Application ->](13-deploy.md)

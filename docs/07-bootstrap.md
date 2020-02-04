@@ -1,4 +1,7 @@
-# Bootstrap
+---
+id: 07-bootstrap
+title: Bootstrap
+---
 
 [<- Go Back](06-css.md)
 
@@ -114,6 +117,3 @@
 🚧 Under Construction 🚧
 
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/utilities/colors/)
-
-## Let's Checkout Javascript
-* [<- Git](06-css.md) - [JavaScript ->](08-javascript.md)
