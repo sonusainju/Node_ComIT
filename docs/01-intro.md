@@ -6,7 +6,7 @@
 
 Git is a version control system that we'll use to save changes and deploy our app. We need to install Git! 
 
-1. Visit the URL https://git-scm.com/. ![Download Git](../resources/images/intro/git.png)
+1. Visit the URL https://git-scm.com/. ![Download Git](./resources/images/intro/git.png)
 2. Select your operating system. 
 3. Follow the prompts to install Git! 
 4. If Git asks you which default editor to use, we recommend Visual Studio Code!

@@ -572,15 +572,15 @@
 * Read and learn more about [Node.js modules](https://nodejs.org/api/modules.html)
 
 #### Practice
-[Exercise 1](../exercises/node/ex_1.md)
+[Exercise 1](./exercises/node/ex_1.md)
 
-[Exercise 2](../exercises/node/ex_2.md)
+[Exercise 2](./exercises/node/ex_2.md)
 
-[Exercise 3](../exercises/node/ex_3.md)
+[Exercise 3](./exercises/node/ex_3.md)
 
-[Exercise 4](../exercises/node/ex_4.md)
+[Exercise 4](./exercises/node/ex_4.md)
 
-[Exercise 5](../exercises/node/ex_5.md)
+[Exercise 5](./exercises/node/ex_5.md)
 
 ## Arrow Functions
 * Node.js uses arrow functions for its callbacks and you can see many examples in their documentation
@@ -707,9 +707,9 @@
 * [The Coding Train - ES6 Arrow Function - YouTube](https://www.youtube.com/watch?v=mrYMzpbFz18)
 
 #### Practice
-[Exercise 6](../exercises/node/ex_6.md)
+[Exercise 6](./exercises/node/ex_6.md)
 
-[Exercise 7](../exercises/node/ex_7.md)
+[Exercise 7](./exercises/node/ex_7.md)
 
 ## Web Server
 * Node.js has a build in [HTTP](https://nodejs.org/dist/latest-v8.x/docs/api/http.html) module
@@ -821,7 +821,7 @@
 * In this course we'll use `Express.js`
 
 #### Practice
-[Exercise 8](../exercises/node/ex_8.md)
+[Exercise 8](./exercises/node/ex_8.md)
 
 ## Express
 * Using express we'll be able to execute the following tasks:
@@ -888,7 +888,7 @@
 * Now that we have our server running we can visit `localhost:3000` using a browser to get the response back from the server
 
 #### Practice
-[Exercise 9](../exercises/node/ex_9.md)
+[Exercise 9](./exercises/node/ex_9.md)
 
 ### Using GET routes
 * As you can see creating routes with express is really easy
@@ -971,7 +971,7 @@
   ![Postman](./resources/images/node/postman2.png)
 
 #### Practice
-[Exercise 10](../exercises/node/ex_10.md)
+[Exercise 10](./exercises/node/ex_10.md)
 
 ### Response handling
 * Using the `response` object we can send the response to the client and choose different formats
@@ -1022,9 +1022,9 @@
 * By joining the current direname and the file name we're creating an absolute path so sendFile knows exactly where it needs to get the file from
 
 #### Practice
-[Exercise 11](../exercises/node/ex_11.md)
+[Exercise 11](./exercises/node/ex_11.md)
 
-[Exercise 12](../exercises/node/ex_12.md)
+[Exercise 12](./exercises/node/ex_12.md)
 
 ### Express Router
 * As we saw on the products route example we can have many routes for one resource and our server file can grow
@@ -1095,7 +1095,7 @@
 * We call this process `router mounting`
 
 #### Practice
-[Exercise 13](../exercises/node/ex_13.md)
+[Exercise 13](./exercises/node/ex_13.md)
 
 ### Status and error handling
 * The response object has a `status` method that allows us to set the HTTP status response codes
@@ -1146,7 +1146,7 @@
   ```
 
 #### Practice
-[Exercise 14](../exercises/node/ex_14.md)
+[Exercise 14](./exercises/node/ex_14.md)
 
 ### Middleware
 * A **Middleware** is a function that has access to the request & response objects
@@ -1240,7 +1240,7 @@
 * Learn more about [Express middleware reading the docs](https://expressjs.com/guide/writing-middleware.html)
 
 #### Practice
-[Exercise 15](../exercises/node/ex_15.md)
+[Exercise 15](./exercises/node/ex_15.md)
 
 ### Static Content
 * So far we created routes to handle our requests
@@ -1319,7 +1319,7 @@
 * If it doesn't find it, then it will look for them on the `imgs` folder
 
 #### Practice
-[Exercise 16](../exercises/node/ex_16.md)
+[Exercise 16](./exercises/node/ex_16.md)
 
 ### Templates
 * Using express we can configure a template engine

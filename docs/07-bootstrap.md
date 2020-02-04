@@ -53,7 +53,7 @@
   ```
 
 #### Practice
-[Exercise 1](../exercises/bootstrap/ex_1.md)
+[Exercise 1](./exercises/bootstrap/ex_1.md)
 
 ## Layout
 
@@ -64,9 +64,9 @@
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/layout/grid/)
 
 #### Practice
-[Exercise 2](../exercises/bootstrap/ex_2.md)
+[Exercise 2](./exercises/bootstrap/ex_2.md)
 
-[Exercise 3](../exercises/bootstrap/ex_3.md)
+[Exercise 3](./exercises/bootstrap/ex_3.md)
 
 ## Content
 
@@ -77,7 +77,7 @@
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/content/images/)
 
 #### Practice
-[Exercise 4](../exercises/bootstrap/ex_4.md)
+[Exercise 4](./exercises/bootstrap/ex_4.md)
 
 ## Components
 
@@ -95,7 +95,7 @@
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/components/forms/)
 
 #### Practice
-[Exercise 5](../exercises/bootstrap/ex_5.md)
+[Exercise 5](./exercises/bootstrap/ex_5.md)
 
 ### Navbar
 
@@ -105,7 +105,7 @@
 
 
 #### Practice
-[Exercise 6](../exercises/bootstrap/ex_6.md)
+[Exercise 6](./exercises/bootstrap/ex_6.md)
 
 ## Utilities
 

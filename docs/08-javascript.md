@@ -221,7 +221,7 @@ var healthInsuranceNumber;
 ```
 
 #### Practice
-[Exercise 1](../exercises/js/ex_1.md)
+[Exercise 1](./exercises/js/ex_1.md)
 
 ## Assignment operator
 * Once we defined a variable name we can assign a value
@@ -246,7 +246,7 @@ age = 20;
 ```
 
 #### Practice
-[Exercise 2](../exercises/js/ex_2.md)
+[Exercise 2](./exercises/js/ex_2.md)
 
 * Also we can declare all variables using a single line:
 
@@ -258,7 +258,7 @@ age = 20;
 ```
 
 #### Practice
-[Exercise 3](../exercises/js/ex_3.md)
+[Exercise 3](./exercises/js/ex_3.md)
 
 * We can declare a variable and assign a value in the same line:
 * Multiple assignment doesn't work in JavaScript (only one variable and one value)
@@ -270,7 +270,7 @@ var age = 20;
 ```
 
 #### Practice
-[Exercise 4](../exercises/js/ex_4.md)
+[Exercise 4](./exercises/js/ex_4.md)
 
 * Using `console.log()` we can output the variable value
 
@@ -288,7 +288,7 @@ node index.js
 ```
 
 #### Practice
-[Exercise 5](../exercises/js/ex_5.md)
+[Exercise 5](./exercises/js/ex_5.md)
 
 * After executing the program we should see pablo & 20 as output
 * `console.log()` accepts multiple comma separated values 
@@ -311,7 +311,7 @@ node index.js
 * This is an easy way to debug our variable values
 
 #### Practice
-[Exercise 6](../exercises/js/ex_6.md)
+[Exercise 6](./exercises/js/ex_6.md)
 
 ### ES6
 * In version 6 of the language we can use **let** to define variables
@@ -325,7 +325,7 @@ let variable = value;
 ```
 
 #### Practice
-[Exercise 7](../exercises/js/ex_7.md)
+[Exercise 7](./exercises/js/ex_7.md)
 
 * When the value of a variable is always the same we can define it as a **constant**
 * In ES6 we can declare constants using the reserved word **const** 
@@ -336,7 +336,7 @@ const constantVariable = value;
 ```
 
 #### Practice
-[Exercise 8](../exercises/js/ex_8.md)
+[Exercise 8](./exercises/js/ex_8.md)
 
 * We'll get an error if we try to change a constant value
 
@@ -348,7 +348,7 @@ constantVariable = otherValue;
 ```
 
 #### Practice
-[Exercise 9](../exercises/js/ex_9.md)
+[Exercise 9](./exercises/js/ex_9.md)
 
 ### var vs let & const
 * [Medium - Eric Elliot - JavaScript ES6 var, let or const](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
@@ -423,9 +423,9 @@ constantVariable = otherValue;
 * In this example we use a literal **string** as `console.log()` parameter
 
 #### Practice
-[Exercise 10](../exercises/js/ex_10.md)
+[Exercise 10](./exercises/js/ex_10.md)
 
-[Exercise 11](../exercises/js/ex_11.md)
+[Exercise 11](./exercises/js/ex_11.md)
 
 ### String concatenation
 * The `+` operator allows us to concat two or more strings together
@@ -453,11 +453,11 @@ constantVariable = otherValue;
 * In this example we see how to use a literal value without being assigned to a variable
 
 #### Practice
-[Exercise 12](../exercises/js/ex_12.md)
+[Exercise 12](./exercises/js/ex_12.md)
 
-[Exercise 13](../exercises/js/ex_13.md)
+[Exercise 13](./exercises/js/ex_13.md)
 
-[Exercise 14](../exercises/js/ex_14.md)
+[Exercise 14](./exercises/js/ex_14.md)
 
 ### Template literals
 * In ES6 we have `template literals` that will help us write better string templates
@@ -507,11 +507,11 @@ constantVariable = otherValue;
 * Using templates looks like an easier way to do it!!
 
 #### Practice
-[Exercise 15](../exercises/js/ex_15.md)
+[Exercise 15](./exercises/js/ex_15.md)
 
-[Exercise 16](../exercises/js/ex_16.md)
+[Exercise 16](./exercises/js/ex_16.md)
 
-[Exercise 17](../exercises/js/ex_17.md)
+[Exercise 17](./exercises/js/ex_17.md)
 
 ### Single or double quotes
 * In JavaScript we can choose between single or double quotes
@@ -532,9 +532,9 @@ constantVariable = otherValue;
   * Use singe quotes if the text has double quote content
 
 #### Practice
-[Exercise 18](../exercises/js/ex_18.md)
+[Exercise 18](./exercises/js/ex_18.md)
 
-[Exercise 19](../exercises/js/ex_19.md)
+[Exercise 19](./exercises/js/ex_19.md)
 
 ### Numbers
 * JavaScript also supports number type
@@ -550,9 +550,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 20](../exercises/js/ex_20.md)
+[Exercise 20](./exercises/js/ex_20.md)
 
-[Exercise 21](../exercises/js/ex_21.md)
+[Exercise 21](./exercises/js/ex_21.md)
 
 * A common mistake is to code numbers as strings
 
@@ -583,7 +583,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 22](../exercises/js/ex_22.md)
+[Exercise 22](./exercises/js/ex_22.md)
 
 ### Undefined
 * A variable that has not been assigned a value is of type **undefined**
@@ -601,7 +601,7 @@ constantVariable = otherValue;
 * We might need to assign **undefined** in some special cases
 
 #### Practice
-[Exercise 23](../exercises/js/ex_23.md)
+[Exercise 23](./exercises/js/ex_23.md)
 
 ### Null
 * In JavaScript we also have a **null** value
@@ -615,7 +615,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 24](../exercises/js/ex_24.md)
+[Exercise 24](./exercises/js/ex_24.md)
 
 * At the beginning **null** & **undefined** look similar but they are different
 * We can assign a null value and know that the variable has been defined but it has no value
@@ -643,9 +643,9 @@ constantVariable = otherValue;
 * Object is a different type of JavaScript data value and we'll talk more about it in a different section
 
 #### Practice
-[Exercise 25](../exercises/js/ex_25.md)
+[Exercise 25](./exercises/js/ex_25.md)
 
-[Exercise 26](../exercises/js/ex_26.md)
+[Exercise 26](./exercises/js/ex_26.md)
 
 ## Arithmetic operators
 * Arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value
@@ -811,17 +811,17 @@ constantVariable = otherValue;
 [Freecodecamp - Finding a remainder in JavaScript](https://www.freecodecamp.org/challenges/finding-a-remainder-in-javascript)
 
 #### Practice
-[Exercise 27](../exercises/js/ex_27.md)
+[Exercise 27](./exercises/js/ex_27.md)
 
-[Exercise 28](../exercises/js/ex_28.md)
+[Exercise 28](./exercises/js/ex_28.md)
 
-[Exercise 29](../exercises/js/ex_29.md)
+[Exercise 29](./exercises/js/ex_29.md)
 
-[Exercise 30](../exercises/js/ex_30.md)
+[Exercise 30](./exercises/js/ex_30.md)
 
-[Exercise 31](../exercises/js/ex_31.md)
+[Exercise 31](./exercises/js/ex_31.md)
 
-[Exercise 32](../exercises/js/ex_32.md)
+[Exercise 32](./exercises/js/ex_32.md)
 
 ### Increment & Decrement
 * Using the increment and decrement operators we can do addition and substraction by one really easy
@@ -974,7 +974,7 @@ constantVariable = otherValue;
 * You can learn more about assignment operators on [MDN site](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)
 
 #### Practice
-[Exercise 33](../exercises/js/ex_33.md)
+[Exercise 33](./exercises/js/ex_33.md)
 
 ## Comparison operators
 
@@ -1081,9 +1081,9 @@ constantVariable = otherValue;
 * Read more about the [comparison operators on MDN site](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 #### Practice
-[Exercise 34](../exercises/js/ex_34.md)
+[Exercise 34](./exercises/js/ex_34.md)
 
-[Exercise 35](../exercises/js/ex_35.md)
+[Exercise 35](./exercises/js/ex_35.md)
 
 ## Logical Operators
 * Logical operators are typically used with Boolean (logical) values
@@ -1166,9 +1166,9 @@ constantVariable = otherValue;
 * The age condition is **false** but as we use the not operator it will be **true**
 
 #### Practice
-[Exercise 36](../exercises/js/ex_36.md)
+[Exercise 36](./exercises/js/ex_36.md)
 
-[Exercise 37](../exercises/js/ex_37.md)
+[Exercise 37](./exercises/js/ex_37.md)
 
 ## String special characters
 * Strings support some special characters that will provide extra functionality
@@ -1242,9 +1242,9 @@ constantVariable = otherValue;
 * [MDN length doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 
 #### Practice
-[Exercise 38](../exercises/js/ex_38.md)
+[Exercise 38](./exercises/js/ex_38.md)
 
-[Exercise 39](../exercises/js/ex_39.md)
+[Exercise 39](./exercises/js/ex_39.md)
 
 ### String methods
 * Object methods can give us different functionality for different data types
@@ -1305,7 +1305,7 @@ constantVariable = otherValue;
 * We can also use variables
 
 #### Practice
-[Exercise 40](../exercises/js/ex_40.md)
+[Exercise 40](./exercises/js/ex_40.md)
 
 ### Upper and lower case
 * Using the **toUpperCase** & **toLowerCase** we can transform our text to upper and lower case
@@ -1323,9 +1323,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 41](../exercises/js/ex_41.md)
+[Exercise 41](./exercises/js/ex_41.md)
 
-[Exercise 42](../exercises/js/ex_42.md)
+[Exercise 42](./exercises/js/ex_42.md)
 
 ### String characters position
 * The **charAt** method returns the character at the specified index
@@ -1358,9 +1358,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 43](../exercises/js/ex_43.md)
+[Exercise 43](./exercises/js/ex_43.md)
 
-[Exercise 44](../exercises/js/ex_44.md)
+[Exercise 44](./exercises/js/ex_44.md)
 
 
 ### String slice
@@ -1402,7 +1402,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 45](../exercises/js/ex_45.md)
+[Exercise 45](./exercises/js/ex_45.md)
 
 * The **substr** method returns the part of a string between the start index and a number of characters after it
 * We can also use 2 parameters (start and end)
@@ -1427,7 +1427,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 46](../exercises/js/ex_46.md)
+[Exercise 46](./exercises/js/ex_46.md)
 
 * You can learn more about [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) and [substr](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) reading the MDN guides
 
@@ -1459,7 +1459,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 47](../exercises/js/ex_47.md)
+[Exercise 47](./exercises/js/ex_47.md)
 
 * The String object has a lot of methods that we can use
 * Read about them on the [MDN string guide -  methods section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
@@ -1549,7 +1549,7 @@ constantVariable = otherValue;
 * This is why we need to be careful of which type of value we operate with
 
 #### Practice
-[Exercise 48](../exercises/js/ex_48.md)
+[Exercise 48](./exercises/js/ex_48.md)
 
 ## Conditionals / Making decisions in your code
 * In any programming language, code needs to make decisions and carry out actions accordingly depending on different inputs
@@ -1615,11 +1615,11 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 49](../exercises/js/ex_49.md)
+[Exercise 49](./exercises/js/ex_49.md)
 
-[Exercise 50](../exercises/js/ex_50.md)
+[Exercise 50](./exercises/js/ex_50.md)
 
-[Exercise 51](../exercises/js/ex_51.md)
+[Exercise 51](./exercises/js/ex_51.md)
 
 ## If / else statement
 * Now we know how to use a if statement to check for a given condition but we only care about when it's a true value
@@ -1649,11 +1649,11 @@ constantVariable = otherValue;
 * We can read this code like: `IF number equals 2 THEN show the number is 2 message ELSE show the number is not 2 message` 
 
 #### Practice
-[Exercise 52](../exercises/js/ex_52.md)
+[Exercise 52](./exercises/js/ex_52.md)
 
-[Exercise 53](../exercises/js/ex_53.md)
+[Exercise 53](./exercises/js/ex_53.md)
 
-[Exercise 54](../exercises/js/ex_54.md)
+[Exercise 54](./exercises/js/ex_54.md)
 
 ### Conditional ternary operator
 * The conditional **ternary operator** is the only JavaScript operator that takes three operands
@@ -1671,11 +1671,11 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 55](../exercises/js/ex_55.md)
+[Exercise 55](./exercises/js/ex_55.md)
 
-[Exercise 56](../exercises/js/ex_56.md)
+[Exercise 56](./exercises/js/ex_56.md)
 
-[Exercise 57](../exercises/js/ex_57.md)
+[Exercise 57](./exercises/js/ex_57.md)
 
 ### If else if
 * We can also use if else if to check for more conditions
@@ -1709,11 +1709,11 @@ constantVariable = otherValue;
 * Try to avoid nesting too many if else if statements
 
 #### Practice
-[Exercise 58](../exercises/js/ex_58.md)
+[Exercise 58](./exercises/js/ex_58.md)
 
-[Exercise 59](../exercises/js/ex_59.md)
+[Exercise 59](./exercises/js/ex_59.md)
 
-[Exercise 60](../exercises/js/ex_60.md)
+[Exercise 60](./exercises/js/ex_60.md)
 
 ### Switch
 * The switch statement evaluates an expression
@@ -1782,11 +1782,11 @@ constantVariable = otherValue;
 * [MDN switch doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 #### Practice
-[Exercise 61](../exercises/js/ex_61.md)
+[Exercise 61](./exercises/js/ex_61.md)
 
-[Exercise 62](../exercises/js/ex_62.md)
+[Exercise 62](./exercises/js/ex_62.md)
 
-[Exercise 63](../exercises/js/ex_63.md)
+[Exercise 63](./exercises/js/ex_63.md)
 
 
 ## true and false (true and false values)
@@ -1874,9 +1874,9 @@ constantVariable = otherValue;
 * [MDN Type Conversion doc](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion)
 
 #### Practice
-[Exercise 64](../exercises/js/ex_64.md)
+[Exercise 64](./exercises/js/ex_64.md)
 
-[Exercise 65](../exercises/js/ex_65.md)
+[Exercise 65](./exercises/js/ex_65.md)
 
 #### Iterators
 * It's common that when coding we need to keep repeating the same code execution until a given condition it's true
@@ -2009,25 +2009,25 @@ constantVariable = otherValue;
 * [MDN while doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 #### Practice
-[Exercise 66](../exercises/js/ex_66.md)
+[Exercise 66](./exercises/js/ex_66.md)
 
-[Exercise 67](../exercises/js/ex_67.md)
+[Exercise 67](./exercises/js/ex_67.md)
 
-[Exercise 68](../exercises/js/ex_68.md)
+[Exercise 68](./exercises/js/ex_68.md)
 
-[Exercise 69](../exercises/js/ex_69.md)
+[Exercise 69](./exercises/js/ex_69.md)
 
-[Exercise 70](../exercises/js/ex_70.md)
+[Exercise 70](./exercises/js/ex_70.md)
 
-[Exercise 71](../exercises/js/ex_71.md)
+[Exercise 71](./exercises/js/ex_71.md)
 
-[Exercise 72](../exercises/js/ex_72.md)
+[Exercise 72](./exercises/js/ex_72.md)
 
-[Exercise 73](../exercises/js/ex_73.md)
+[Exercise 73](./exercises/js/ex_73.md)
 
-[Exercise 74](../exercises/js/ex_74.md)
+[Exercise 74](./exercises/js/ex_74.md)
 
-[Exercise 75](../exercises/js/ex_75.md)  (advance)
+[Exercise 75](./exercises/js/ex_75.md)  (advance)
 
 ### do/while
 * The **do/while** statement creates a loop that executes a specified statement until the test condition evaluates to false
@@ -2084,25 +2084,25 @@ constantVariable = otherValue;
 * [MDN do...while doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 
 #### Practice
-[Exercise 76](../exercises/js/ex_76.md)
+[Exercise 76](./exercises/js/ex_76.md)
 
-[Exercise 77](../exercises/js/ex_77.md)
+[Exercise 77](./exercises/js/ex_77.md)
 
-[Exercise 78](../exercises/js/ex_78.md)
+[Exercise 78](./exercises/js/ex_78.md)
 
-[Exercise 79](../exercises/js/ex_79.md)
+[Exercise 79](./exercises/js/ex_79.md)
 
-[Exercise 80](../exercises/js/ex_80.md)
+[Exercise 80](./exercises/js/ex_80.md)
 
-[Exercise 81](../exercises/js/ex_81.md)
+[Exercise 81](./exercises/js/ex_81.md)
 
-[Exercise 82](../exercises/js/ex_82.md)
+[Exercise 82](./exercises/js/ex_82.md)
 
-[Exercise 83](../exercises/js/ex_83.md)
+[Exercise 83](./exercises/js/ex_83.md)
 
-[Exercise 84](../exercises/js/ex_84.md)
+[Exercise 84](./exercises/js/ex_84.md)
 
-[Exercise 85](../exercises/js/ex_85.md)
+[Exercise 85](./exercises/js/ex_85.md)
 
 ## For
 * The **for** statement creates a loop that consists of three optional expressions
@@ -2148,29 +2148,29 @@ constantVariable = otherValue;
 * [MDN for doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
 #### Practice
-[Exercise 86](../exercises/js/ex_86.md)
+[Exercise 86](./exercises/js/ex_86.md)
 
-[Exercise 87](../exercises/js/ex_87.md)
+[Exercise 87](./exercises/js/ex_87.md)
 
-[Exercise 88](../exercises/js/ex_88.md)
+[Exercise 88](./exercises/js/ex_88.md)
 
-[Exercise 89](../exercises/js/ex_89.md)
+[Exercise 89](./exercises/js/ex_89.md)
 
-[Exercise 90](../exercises/js/ex_90.md)
+[Exercise 90](./exercises/js/ex_90.md)
 
-[Exercise 91](../exercises/js/ex_91.md)
+[Exercise 91](./exercises/js/ex_91.md)
 
-[Exercise 92](../exercises/js/ex_92.md)
+[Exercise 92](./exercises/js/ex_92.md)
 
-[Exercise 93](../exercises/js/ex_93.md)
+[Exercise 93](./exercises/js/ex_93.md)
 
-[Exercise 94](../exercises/js/ex_94.md)
+[Exercise 94](./exercises/js/ex_94.md)
 
-[Exercise 95](../exercises/js/ex_95.md)
+[Exercise 95](./exercises/js/ex_95.md)
 
-[Exercise 96](../exercises/js/ex_96.md)
+[Exercise 96](./exercises/js/ex_96.md)
 
-[Exercise 97](../exercises/js/ex_97.md)
+[Exercise 97](./exercises/js/ex_97.md)
 
 ### Break
 * The **break** statement terminates the current loop or switch statement and transfers program control to the statement following the terminated statement
@@ -2199,9 +2199,9 @@ constantVariable = otherValue;
 * [MDN break doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
 
 #### Practice
-[Exercise 98](../exercises/js/ex_98.md)
+[Exercise 98](./exercises/js/ex_98.md)
 
-[Exercise 99](../exercises/js/ex_99.md)
+[Exercise 99](./exercises/js/ex_99.md)
 
 ## Functions
 * In JavaScript **function** is a value
@@ -2229,9 +2229,9 @@ constantVariable = otherValue;
 * We can also use functions to test our code too
 
 #### Practice
-[Exercise 100](../exercises/js/ex_100.md)
+[Exercise 100](./exercises/js/ex_100.md)
 
-[Exercise 101](../exercises/js/ex_101.md)
+[Exercise 101](./exercises/js/ex_101.md)
 
 * In JavaScript functions are a type of value so we can assign
 * We can assign a function to a variable
@@ -2254,11 +2254,11 @@ constantVariable = otherValue;
 * This is because a function is a JavaScript data type!! :)
 
 #### Practice
-[Exercise 102](../exercises/js/ex_102.md)
+[Exercise 102](./exercises/js/ex_102.md)
 
-[Exercise 103](../exercises/js/ex_103.md)
+[Exercise 103](./exercises/js/ex_103.md)
 
-[Exercise 104](../exercises/js/ex_104.md)
+[Exercise 104](./exercises/js/ex_104.md)
 
 * A function might return a value
 * When a function doesn't explicit return a value it will return a **undefined** value
@@ -2345,9 +2345,9 @@ constantVariable = otherValue;
 * If it's false then the if statement block won't be executed
 
 #### Practice
-[Exercise 105](../exercises/js/ex_105.md)
+[Exercise 105](./exercises/js/ex_105.md)
 
-[Exercise 106](../exercises/js/ex_106.md)
+[Exercise 106](./exercises/js/ex_106.md)
 
 * Functions can accept none, one or many parameters
 * We can have more flexible functions using parameters
@@ -2433,25 +2433,25 @@ constantVariable = otherValue;
 * In the second call we get we pass the parameters order in the wrong way so we get an unexpected result back
 
 #### Practice
-[Exercise 107](../exercises/js/ex_107.md)
+[Exercise 107](./exercises/js/ex_107.md)
 
-[Exercise 108](../exercises/js/ex_108.md)
+[Exercise 108](./exercises/js/ex_108.md)
 
-[Exercise 109](../exercises/js/ex_109.md)
+[Exercise 109](./exercises/js/ex_109.md)
 
-[Exercise 110](../exercises/js/ex_110.md)
+[Exercise 110](./exercises/js/ex_110.md)
 
-[Exercise 111](../exercises/js/ex_111.md)
+[Exercise 111](./exercises/js/ex_111.md)
 
-[Exercise 112](../exercises/js/ex_112.md)
+[Exercise 112](./exercises/js/ex_112.md)
 
-[Exercise 113](../exercises/js/ex_113.md)
+[Exercise 113](./exercises/js/ex_113.md)
 
-[Exercise 114](../exercises/js/ex_114.md)
+[Exercise 114](./exercises/js/ex_114.md)
 
-[Exercise 115](../exercises/js/ex_115.md)
+[Exercise 115](./exercises/js/ex_115.md)
 
-[Exercise 116](../exercises/js/ex_116.md)
+[Exercise 116](./exercises/js/ex_116.md)
 
 #### Array
 * An **array** literal is a list of zero or more expressions
@@ -2571,11 +2571,11 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 117](../exercises/js/ex_117.md)
+[Exercise 117](./exercises/js/ex_117.md)
 
-[Exercise 118](../exercises/js/ex_118.md)
+[Exercise 118](./exercises/js/ex_118.md)
 
-[Exercise 119](../exercises/js/ex_119.md)
+[Exercise 119](./exercises/js/ex_119.md)
 
 * Using index we can also assign new values to the array
 
@@ -2639,11 +2639,11 @@ constantVariable = otherValue;
 * In this example we don't leave any empty array items
 
 #### Practice
-[Exercise 120](../exercises/js/ex_120.md)
+[Exercise 120](./exercises/js/ex_120.md)
 
-[Exercise 121](../exercises/js/ex_121.md)
+[Exercise 121](./exercises/js/ex_121.md)
 
-[Exercise 122](../exercises/js/ex_122.md)
+[Exercise 122](./exercises/js/ex_122.md)
 
 
 ## Array methods 
@@ -2688,9 +2688,9 @@ constantVariable = otherValue;
 * [MDN array length doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 
 #### Practice
-[Exercise 123](../exercises/js/ex_123.md)
+[Exercise 123](./exercises/js/ex_123.md)
 
-[Exercise 124](../exercises/js/ex_124.md)
+[Exercise 124](./exercises/js/ex_124.md)
 
 ### Push, unshift, shift & pop methods
 * We can change an array element using the following methods  **push, unshift, shift & pop**
@@ -2955,25 +2955,25 @@ constantVariable = otherValue;
 * It's like calling `mutants.join(',');`
 
 #### Practice
-[Exercise 125](../exercises/js/ex_125.md)
+[Exercise 125](./exercises/js/ex_125.md)
 
-[Exercise 126](../exercises/js/ex_126.md)
+[Exercise 126](./exercises/js/ex_126.md)
 
-[Exercise 127](../exercises/js/ex_127.md)
+[Exercise 127](./exercises/js/ex_127.md)
 
-[Exercise 128](../exercises/js/ex_128.md)
+[Exercise 128](./exercises/js/ex_128.md)
 
-[Exercise 129](../exercises/js/ex_129.md)
+[Exercise 129](./exercises/js/ex_129.md)
 
-[Exercise 130](../exercises/js/ex_130.md)
+[Exercise 130](./exercises/js/ex_130.md)
 
-[Exercise 131](../exercises/js/ex_131.md)
+[Exercise 131](./exercises/js/ex_131.md)
 
-[Exercise 132](../exercises/js/ex_132.md)
+[Exercise 132](./exercises/js/ex_132.md)
 
-[Exercise 133](../exercises/js/ex_133.md)
+[Exercise 133](./exercises/js/ex_133.md)
 
-[Exercise 134](../exercises/js/ex_134.md)
+[Exercise 134](./exercises/js/ex_134.md)
 
 ### ForEach
 * The **forEach** method executes a provided function once for each array element
@@ -3030,9 +3030,9 @@ constantVariable = otherValue;
 * [MDN array forEach doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 #### Practice
-[Exercise 135](../exercises/js/ex_135.md)
+[Exercise 135](./exercises/js/ex_135.md)
 
-[Exercise 136](../exercises/js/ex_136.md)
+[Exercise 136](./exercises/js/ex_136.md)
 
 ### Map
 * The **map** method `creates a new array with the results of calling a provided function on every element` in the calling array
@@ -3058,9 +3058,9 @@ constantVariable = otherValue;
 * [MDN array map doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 #### Practice
-[Exercise 137](../exercises/js/ex_137.md)
+[Exercise 137](./exercises/js/ex_137.md)
 
-[Exercise 138](../exercises/js/ex_138.md)
+[Exercise 138](./exercises/js/ex_138.md)
 
 ### Filter
 * The **filter** method creates a new array with all elements that pass the test implemented by the provided function
@@ -3080,9 +3080,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 139](../exercises/js/ex_139.md)
+[Exercise 139](./exercises/js/ex_139.md)
 
-[Exercise 140](../exercises/js/ex_140.md)
+[Exercise 140](./exercises/js/ex_140.md)
 
 ### Reduce
 * The **reduce** method applies a function against an accumulator and each element in the array (from left to right) to `reduce it to a single value`
@@ -3103,9 +3103,9 @@ constantVariable = otherValue;
 * [MDN array reduce doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 #### Practice
-[Exercise 141](../exercises/js/ex_141.md)
+[Exercise 141](./exercises/js/ex_141.md)
 
-[Exercise 142](../exercises/js/ex_142.md)
+[Exercise 142](./exercises/js/ex_142.md)
 
 * Learn more about array methods on the [MDN array doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -3121,7 +3121,7 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 143](../exercises/js/ex_143.md)
+[Exercise 143](./exercises/js/ex_143.md)
 
 ### Properties
 * An object can have properties that will describe it
@@ -3154,9 +3154,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 144](../exercises/js/ex_144.md)
+[Exercise 144](./exercises/js/ex_144.md)
 
-[Exercise 145](../exercises/js/ex_145.md)
+[Exercise 145](./exercises/js/ex_145.md)
 
 
 * We can access a property that doesn't exist on the object and get undefined as value
@@ -3211,13 +3211,13 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 146](../exercises/js/ex_146.md)
+[Exercise 146](./exercises/js/ex_146.md)
 
-[Exercise 147](../exercises/js/ex_147.md)
+[Exercise 147](./exercises/js/ex_147.md)
 
-[Exercise 148](../exercises/js/ex_148.md)
+[Exercise 148](./exercises/js/ex_148.md)
 
-[Exercise 149](../exercises/js/ex_149.md)
+[Exercise 149](./exercises/js/ex_149.md)
 
 ### Methods
 * JavaScript objects have methods
@@ -3265,9 +3265,9 @@ constantVariable = otherValue;
 * `person.greet()` will execute the greet method (it will execute the function code)
 
 #### Practice
-[Exercise 150](../exercises/js/ex_150.md)
+[Exercise 150](./exercises/js/ex_150.md)
 
-[Exercise 151](../exercises/js/ex_151.md)
+[Exercise 151](./exercises/js/ex_151.md)
 
 * We learned about Strings, Numbers and Arrays methods
 * When we call a string, number or array literal methods JavaScript will transform the literal value into a object
@@ -3305,19 +3305,19 @@ constantVariable = otherValue;
 
 #### Practice
 
-[Exercise 152](../exercises/js/ex_152.md)
+[Exercise 152](./exercises/js/ex_152.md)
 
-[Exercise 153](../exercises/js/ex_153.md)
+[Exercise 153](./exercises/js/ex_153.md)
 
-[Exercise 154](../exercises/js/ex_154.md)
+[Exercise 154](./exercises/js/ex_154.md)
 
-[Exercise 155](../exercises/js/ex_155.md)
+[Exercise 155](./exercises/js/ex_155.md)
 
-[Exercise 156](../exercises/js/ex_156.md)
+[Exercise 156](./exercises/js/ex_156.md)
 
-[Exercise 157](../exercises/js/ex_157.md)
+[Exercise 157](./exercises/js/ex_157.md)
 
-[Exercise 158](../exercises/js/ex_158.md)
+[Exercise 158](./exercises/js/ex_158.md)
 
 * Inside an object method we can update an object property value
 
@@ -3383,9 +3383,9 @@ constantVariable = otherValue;
   ```
 
 #### Practice
-[Exercise 159](../exercises/js/ex_159.md)
+[Exercise 159](./exercises/js/ex_159.md)
 
-[Exercise 160](../exercises/js/ex_160.md)
+[Exercise 160](./exercises/js/ex_160.md)
 
 * Now that we know how to access dynamic properties from an object we'll learn about objects keys!
 * `Object.keys` returns an array value with all the objects properties names (not the value)
@@ -3474,9 +3474,9 @@ constantVariable = otherValue;
 * [MDN Object key doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 
 #### Practice
-[Exercise 161](../exercises/js/ex_161.md)
+[Exercise 161](./exercises/js/ex_161.md)
 
-[Exercise 162](../exercises/js/ex_162.md)
+[Exercise 162](./exercises/js/ex_162.md)
 
 ## Callback
 * A **callback function** `is a function passed into another function as an argument`, which is then invoked inside the outer function to complete some kind of routine or action
@@ -3619,7 +3619,7 @@ constantVariable = otherValue;
   var name = "nico";
   ```
 
-  ![Hoisting](../resources/images/js/hoisting.png)
+  ![Hoisting](./resources/images/js/hoisting.png)
 
 * Also, we can do this with functions
 
@@ -3899,7 +3899,7 @@ constantVariable = otherValue;
 * [MDN arguments doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
 
 #### Practice
-[Exercise 163](../exercises/js/ex_163.md)
+[Exercise 163](./exercises/js/ex_163.md)
 
 ### Recursion
 * Recursion is an act of a function calling itself
@@ -3982,7 +3982,7 @@ constantVariable = otherValue;
 * At the end we add 10 and 20 using JavaScript scope
 * BOOOOOMMMMM..... Mind Blowing!!!
 
-![mind](../resources/images/js/mind.gif)
+![mind](./resources/images/js/mind.gif)
 
 ## Assets / Resources
 
@@ -3998,11 +3998,11 @@ constantVariable = otherValue;
 
 ## WELCOME TO JAVASCRIPT!!!
 
-![joke](../resources/images/js/joke1.jpg)
+![joke](./resources/images/js/joke1.jpg)
 
-![joke](../resources/images/js/joke2.jpg)
+![joke](./resources/images/js/joke2.jpg)
 
-![joke](../resources/images/js/joke3.jpg)
+![joke](./resources/images/js/joke3.jpg)
 
 ## Let's Checkout Browser API
 * [<- Bootstrap](07-bootstrap.md) - [Browser API ->](09-browserapi.md)

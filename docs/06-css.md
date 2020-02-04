@@ -141,7 +141,7 @@
   ```
 
 #### Practice
-[Exercise 1](../exercises/css/ex_1.md)
+[Exercise 1](./exercises/css/ex_1.md)
 
 ## CSS Styles
 
@@ -177,7 +177,7 @@
 * Because it is the last property read, it's a good option when you need to override styles
 
 #### Practice
-[Exercise 2](../exercises/css/ex_2.md)
+[Exercise 2](./exercises/css/ex_2.md)
 
 ### Site styles
 * The **link** element links a HTML document with a CSS one
@@ -287,7 +287,7 @@
   ```
 
 #### Practice
-[Exercise 3](../exercises/css/ex_3.md)
+[Exercise 3](./exercises/css/ex_3.md)
 
 ## CSS Selectors
 * To use CSS on our site we need more ways to select elements and apply styles
@@ -431,7 +431,7 @@
   ```
 
 #### Practice
-[Exercise 4](../exercises/css/ex_4.md)
+[Exercise 4](./exercises/css/ex_4.md)
 
 ## Pseudo-classes selector
 * The pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s)
@@ -569,7 +569,7 @@ p + div {
   ```
 
 #### Practice
-[Exercise 5](../exercises/css/ex_5.md)
+[Exercise 5](./exercises/css/ex_5.md)
 
 ## Font
 * To make our site look better we can select the font that we want to use
@@ -962,7 +962,7 @@ div {
   ```
 
 #### Practice
-[Exercise 6](../exercises/css/ex_6.md)
+[Exercise 6](./exercises/css/ex_6.md)
 
 ### Vertical Align
 * The **vertical-align** property specifies the vertical alignment of an inline or table-cell box
@@ -980,7 +980,7 @@ div {
   ```
 
 #### Practice
-[Exercise 7](../exercises/css/ex_7.md)
+[Exercise 7](./exercises/css/ex_7.md)
 
 ## Box Model
 
@@ -1199,7 +1199,7 @@ div {
   ```
 
 #### Practice
-[Exercise 8](../exercises/css/ex_8.md)
+[Exercise 8](./exercises/css/ex_8.md)
 
 ### Padding
 * The padding property defines the innermost portion of the box model, creating space around an element's content, inside of any defined margins and/or borders
@@ -1368,7 +1368,7 @@ div {
   ```
 
 #### Practice
-[Exercise 9](../exercises/css/ex_9.md)
+[Exercise 9](./exercises/css/ex_9.md)
 
 ### Background color
 * The **background-color** property sets the background color of an element
@@ -1450,7 +1450,7 @@ div {
   ```
 
 #### Practice
-[Exercise 10](../exercises/css/ex_10.md)
+[Exercise 10](./exercises/css/ex_10.md)
 
 ### Display
 * Every element on a web page is a rectangular box
@@ -1489,9 +1489,9 @@ div {
 * The document is rendered as though the element doesn't exist in the document tree
 
 #### Practice
-[Exercise 11](../exercises/css/ex_11.md)
+[Exercise 11](./exercises/css/ex_11.md)
 
-[Exercise 12](../exercises/css/ex_12.md)
+[Exercise 12](./exercises/css/ex_12.md)
 
 
 ### Visibility
@@ -1515,7 +1515,7 @@ div {
   * **visibility hidden:** will hide the element but it will still show the empty space for that element
 * [display-none vs visibility-hidden](https://www.lifewire.com/display-none-vs-visibility-hidden-3466884)
 
-[Exercise 13](../exercises/css/ex_13.md)
+[Exercise 13](./exercises/css/ex_13.md)
 
 ### Background Image
 * The **background-image** property sets one or more background images on an element
@@ -1660,9 +1660,9 @@ div {
   ```
 
 #### Practice
-[Exercise 14](../exercises/css/ex_14.md)
+[Exercise 14](./exercises/css/ex_14.md)
 
-[Exercise 15](../exercises/css/ex_15.md)
+[Exercise 15](./exercises/css/ex_15.md)
 
 ## Cursor
 * The **cursor** property specifies which mouse cursor to display when the mouse pointer is over an element
@@ -1750,7 +1750,7 @@ div {
   ```
 
 #### Practice
-[Exercise 16](../exercises/css/ex_16.md)
+[Exercise 16](./exercises/css/ex_16.md)
 
 
 ## Tables
@@ -1792,7 +1792,7 @@ div {
   ```
 
 #### Practice
-[Exercise 17](../exercises/css/ex_17.md)
+[Exercise 17](./exercises/css/ex_17.md)
 
 ## Forms
 * We can use the CSS properties that we learned to styles our forms
@@ -1843,9 +1843,9 @@ div {
   ```
 
 #### Practice
-[Exercise 18](../exercises/css/ex_18.md)
+[Exercise 18](./exercises/css/ex_18.md)
 
-[Exercise 19](../exercises/css/ex_19.md)
+[Exercise 19](./exercises/css/ex_19.md)
 
 ## Layout
 
@@ -1931,10 +1931,10 @@ div {
 
   ![Relative position](./resources/images/css/layout/relative.png)
 
-* [Position Relative example](./examples/css/layout/relative.html)
+* [Position Relative example](./resources/examples//css/layout/relative.html)
 
 #### Practice
-[Exercise 20](../exercises/css/ex_20.md)
+[Exercise 20](./exercises/css/ex_20.md)
 
 #### Absolute
 * The element is removed from the normal document flow
@@ -1964,7 +1964,7 @@ div {
 
   ![Absolute position](./resources/images/css/layout/absolute1.png)
 
-* [Position Absolute example](./examples/css/layout/absolute.html)
+* [Position Absolute example](./resources/examples//css/layout/absolute.html)
 
 * In the previous example the absolute position is based on the body position as it's the parent element
 
@@ -1996,7 +1996,7 @@ div {
   ```
 
   ![Absolute position](./resources/images/css/layout/absolute2.png)
-* [Position Absolute using container example](./examples/css/layout/absolute2.html)
+* [Position Absolute using container example](./resources/examples//css/layout/absolute2.html)
 
 * Now that we added a parent container the absolute element will get the initial position from the container element instead of the body
 * In some way we can say that using absolute position in this way is like creating a relative position between the parent and child element
@@ -2063,10 +2063,10 @@ div {
 
   ![Absolute position](./resources/images/css/layout/absolute4.png)
 
-* [Position Absolute z-index example](./examples/css/layout/absolute3.html)
+* [Position Absolute z-index example](./resources/examples//css/layout/absolute3.html)
 
 #### Practice
-[Exercise 21](../exercises/css/ex_21.md)
+[Exercise 21](./exercises/css/ex_21.md)
 
 #### Fixed
 * The element is removed from the normal document flow
@@ -2115,10 +2115,10 @@ div {
 * The fixed element is going to stay in the same possition
 
   ![Fixed position](./resources/images/css/layout/fixed2.png)
-* [Position fixed example](./examples/css/layout/fixed.html)
+* [Position fixed example](./resources/examples//css/layout/fixed.html)
 
 #### Practice
-[Exercise 22](../exercises/css/ex_22.md)
+[Exercise 22](./exercises/css/ex_22.md)
 
 #### Sticky
 * The element is positioned according to the normal flow of the document
@@ -2172,10 +2172,10 @@ div {
 
   ![Sticky position](./resources/images/css/layout/sticky3.png)
 
-* [Position sticky example](./examples/css/layout/sticky.html)
+* [Position sticky example](./resources/examples//css/layout/sticky.html)
 
 #### Practice
-[Exercise 23](../exercises/css/ex_23.md)
+[Exercise 23](./exercises/css/ex_23.md)
 
 ### Float
 * Floats is a technique that allows the elements to **float** to the `left or right` of one another, rather than the default of sitting on top of one another
@@ -2214,7 +2214,7 @@ div {
   ```
   ![Float](./resources/images/css/layout/float2.png)
 
-* [Float image example](./examples/css/layout/float1.html)
+* [Float image example](./resources/examples//css/layout/float1.html)
 
 * We can use float with other elements to create a different layout
 * As we're going to float the elements we'll use the width property too
@@ -2230,7 +2230,7 @@ div {
 
   ![Float](./resources/images/css/layout/float3.png)
 
-* [Float image example](./examples/css/layout/float2.html)
+* [Float image example](./resources/examples//css/layout/float2.html)
 
 * In this example we float boath div elements to the left so each will position beside the other one
 * We set the width value to 50% so each of them will cover half of the parent container
@@ -2281,16 +2281,16 @@ div {
 
   ![Clear](./resources/images/css/layout/clear.png)
 
-* [Clear example](./examples/css/layout/clear.html)
+* [Clear example](./resources/examples//css/layout/clear.html)
 
 * To know more about floating elements read this [Great CSS tricks guide](https://css-tricks.com/all-about-floats/)
 * To learn more about `position and float` read [learn CSS positioning in ten steps guide](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
 * [Don't overthink it grids tutorial](https://css-tricks.com/dont-overthink-it-grids/)
 
 #### Practice
-[Exercise 24](../exercises/css/ex_24.md)
+[Exercise 24](./exercises/css/ex_24.md)
 
-[Exercise 25](../exercises/css/ex_25.md)
+[Exercise 25](./exercises/css/ex_25.md)
 
 ## Media Query
 * Media query are a great way to apply CSS only to selected devices depending on their type or characteristics
@@ -2330,7 +2330,7 @@ div {
 * We can set the default values for all media types and then override the specific one
 
   ![Media Print](./resources/images/css/media.png)
-* [Media Query print example](./examples/css/media/print.html)
+* [Media Query print example](./resources/examples//css/media/print.html)
 
 * Also we can select devices by specific characteristics
 * Bootstrap for example uses the following configuration for different displays:
@@ -2361,7 +2361,7 @@ div {
 * We configure a couple of media query so the body background color will change deppending the device screen resolution
 * Use the `and` operator to add more than one rule
 
-* [Media Query example](./examples/css/media/resolution.html)
+* [Media Query example](./resources/examples//css/media/resolution.html)
 
 * Also we can specify the device **orientation** using **landscape or portrait** as values
 
@@ -2400,7 +2400,7 @@ div {
   ```
 
 #### Practice
-[Exercise 26](../exercises/css/ex_26.md)
+[Exercise 26](./exercises/css/ex_26.md)
 
 ## Extra
 

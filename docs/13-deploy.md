@@ -115,30 +115,30 @@
 
 
 * Click **Build a Cluster** button in the Clusters Overview section.
-  ![Create a cluster on MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_CreateCluster.jpg)
+  ![Create a cluster on MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_CreateCluster.jpg)
 * This will open the *Create New Cluster* screen.
-  ![Choose a cloud provider when using MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
+  ![Choose a cloud provider when using MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
   * Select any provider from the *Cloud Provider & Region* section. Different providers offer different regions.
   * Select any region marked "FREE TIER AVAILABLE".
   * Click the **Create Cluster** button (creation of the cluster will take some minutes).
 * You will return to the *Cluster Overview* screen.
-  ![Setup a collection on MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
+  ![Setup a collection on MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
   * Click the **Collections** button.
 * This will open the *Collections* section.
-  ![Create a database on MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
+  ![Create a database on MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
   * Click the **Create Database** button.
 * This will open the *Create Database* screen.
-  ![Details during database creation on MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_DatabaseDetails.jpg)
+  ![Details during database creation on MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_DatabaseDetails.jpg)
   * Enter the name for the new database as `public`.
   * Enter the name of the collection as `Collection0`.
   * Click the **Create** button to create the database.
 * You will return to the *Collection* screen with your database created.
-  ![Database creation confirmation on MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_DatabaseCreated.jpg)
+  ![Database creation confirmation on MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_DatabaseCreated.jpg)
   * Click the *Overview* tab to return the cluster overview.
 * From the Cluster0 Overview screen click the **Connect** button.
-  ![Configure a connection when after setting up a cluster in MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_Connectbutton.jpg)
+  ![Configure a connection when after setting up a cluster in MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_Connectbutton.jpg)
 * This will open the Connect to Cluster screen.
-  ![Setup a connection when using MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_ConnectCluster.jpg)
+  ![Setup a connection when using MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_ConnectCluster.jpg)
   * Click the **Add a Different IP Address** button, enter `0.0.0.0/0` for the IP Address and click **Add IP Address** button.
     * Note: It is a best practice to limit the IP addresses that can connect to your database and other resources. Here we allow a connection from anywhere because we don't know where the request will come from after deployment.
   * Enter a username and password and click **Create MongoDB User** button.
@@ -146,13 +146,13 @@
   * If you have completed the 2 previous steps, the button **Choose a connection method** will turn green.
   * Click the **Choose a connection method** button.
 * This will access the *Choose a connection method* tab.
-  ![Choose a connection type when connecting with MongoDB Atlas.](../resources/images/deploy/MongoDB_Atlas_-_ChooseAConnectionMethod.jpg)
+  ![Choose a connection type when connecting with MongoDB Atlas.](./resources/images/deploy/MongoDB_Atlas_-_ChooseAConnectionMethod.jpg)
   * Click the **Connect Your Application** option.
 * This will open the Connect screen.
-  ![Choose the Short SRV connection when settinup a connection on MongoDB Atalas.](../resources/images/deploy/MongoDB_Atlas_-_ConnectForShortSRV.jpg)
+  ![Choose the Short SRV connection when settinup a connection on MongoDB Atalas.](./resources/images/deploy/MongoDB_Atlas_-_ConnectForShortSRV.jpg)
   * Click the **Short SRV connection string** option to copy the connection string.
 * This will open the connection string URL.
-  ![Copy the Short SRV connection string when setting up a connection on MongoDB Atlas](../resources/images/deploy/MongoDB_Atlas_-_CopyShortSRV.jpg)
+  ![Copy the Short SRV connection string when setting up a connection on MongoDB Atlas](./resources/images/deploy/MongoDB_Atlas_-_CopyShortSRV.jpg)
   * Choose **Copy** button to copy the string.
   * Save this string somewhere safe.
   * Update the password with your users password.

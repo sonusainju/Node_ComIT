@@ -19,7 +19,7 @@
     ```
 * To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
 * This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
-* You’ve downloaded Git, now what? [Download Git-It](https://github.com/jlord/git-it-electron#what-to-install) to your machine and you’ll get a hands-on tutorial that teaches you to use Git right from your local environment, using commands on real repositories. ![Welcome to Git-It](../resources/images/git/git-it.png)
+* You’ve downloaded Git, now what? [Download Git-It](https://github.com/jlord/git-it-electron#what-to-install) to your machine and you’ll get a hands-on tutorial that teaches you to use Git right from your local environment, using commands on real repositories. ![Welcome to Git-It](./resources/images/git/git-it.png)
 
 ## Using Git
 * To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
