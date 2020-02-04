@@ -1,6 +1,7 @@
-# Deploying a Node.js Application
-
-[<- Go Back](12-mongodb.md)
+---
+id: 13-deploy
+title: Deploying a Node.js Application
+---
 
 ## Deploying to Heroku
 
@@ -165,6 +166,3 @@
 * [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs)
 * [MDN Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 * [MDN Deploying to production](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment)
-
-## Let's Checkout Deploying
-* [<- MongoDB & Mongoose](12-mongodb.md) - [Debugging & Troubleshooting ->](14-debug.md)

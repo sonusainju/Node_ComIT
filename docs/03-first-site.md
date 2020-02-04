@@ -1,6 +1,7 @@
-# Our First Site
-
-[<- Go Back](02-internet.md)
+---
+id: 03-first-site
+title: Our First Site
+---
 
 Follow the next steps to create your first site!! These steps are fast pace but follow them and know that __we will review every component of this tutorial__ throughout the course.
 
@@ -148,5 +149,3 @@ To be able to publish it we need a free hosting and a domain. For this we will u
 * [Favicon Generator](https://www.favicon-generator.org)
 * [Getting started with Visual Studio Code - by John Papa](https://johnpapa.net/getting-started-with-visual-studio-code)
 
-## Let's Git started
-* [<- Internet](02-internet.md) - [Git & GitHub ->](04-git.md)

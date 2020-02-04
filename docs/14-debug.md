@@ -1,6 +1,7 @@
-# Debugging & Troubleshooting
-
-[<- Go Back](13-deploy.md)
+---
+id: 14-debug
+title: Debugging & Troubleshooting
+---
 
 * Copy and paste the error into Google.
 
@@ -10,8 +11,8 @@
 
 #### Exercises
 
-* [Exercise 1](../exercises/debug/ex_1.md)
-* [Exercise 2](../exercises/debug/ex_2.md)
+* [Exercise 1](./exercises/debug/ex_1.md)
+* [Exercise 2](./exercises/debug/ex_2.md)
 
 ## Debugging
 
@@ -46,7 +47,7 @@
 
 #### Exercises
 
-* [Exercise 3](../exercises/debug/ex_3.md)
+* [Exercise 3](./exercises/debug/ex_3.md)
 
 ### Using Breakpoints In Chrome DevTools
 
@@ -59,12 +60,9 @@
 
 #### Exercises
 
-* [Exercise 4](../exercises/debug/ex_4.md)
-* [Exercise 5](../exercises/debug/ex_5.md)
+* [Exercise 4](./exercises/debug/ex_4.md)
+* [Exercise 5](./exercises/debug/ex_5.md)
 
 ## Resources
 * [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
 * [How To Pause Your Code With Breakpoints In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints)
-
-## Let's Checkout Deploying
-* [<- Deploying a Node.js Application](13-deploy.md) - [Production Best Practices ->](15-best-practices.md)

@@ -1,6 +1,7 @@
-# Building a site using Node.js and Express
-
-[<- Go Back](10-nodejs.md)
+---
+id: 11-buildingsite
+title: Building a site using Node.js and Express
+---
 
 * Now that we know how to create a project with NPM
 * Add Express as dependency and create a web server
@@ -610,6 +611,3 @@
   ```
   npm i multer
   ```
-
-## Let's Checkout MongoDB
-* [<- Node.js](10-nodejs.md) - [MongoDB ->](12-mongodb.md)

@@ -1,6 +1,7 @@
-# Introduction to Development
-
-[<- Go Back](../README.md)
+---
+id: 01-intro
+title: Introduction to Development
+---
 
 ## Installing Git
 
@@ -24,9 +25,9 @@ Visual Studio Code is a simple, code-centric integrated development environment 
 ### Download Visual Studio Code
 
 1. Go to [Visual Studio Code](https://code.visualstudio.com/)
-2. Click the big **"Download for xxx"** button ![VS Code download](/resources/images/intro/vs-code1.png) *If you're having trouble, scroll to the bottom of the page and manually select the correct package for your system* ![VS Code alternative download](/resources/images/intro/vs-code2.png)
+2. Click the big **"Download for xxx"** button ![VS Code download](../resources/images/intro/vs-code1.png) *If you're having trouble, scroll to the bottom of the page and manually select the correct package for your system* ![VS Code alternative download](../resources/images/intro/vs-code2.png)
 
-3. Open the VSCode .zip file after it has finished downloading to set up Visual Studio Code. Your browser may let you open the file directly from the download page... ![VS Code extract](/resources/images/intro/vs-code3.png) ...or you may have to open your Downloads folder and select the .zip file: ![VS Code extract from folder](/resources/images/intro/vs-code4.png)
+3. Open the VSCode .zip file after it has finished downloading to set up Visual Studio Code. Your browser may let you open the file directly from the download page... ![VS Code extract](../resources/images/intro/vs-code3.png) ...or you may have to open your Downloads folder and select the .zip file: ![VS Code extract from folder](../resources/images/intro/vs-code4.png)
 
 
 ## What's Web Development?
@@ -43,6 +44,3 @@ Visual Studio Code is a simple, code-centric integrated development environment 
 * Basically any language, but mostly Node.js, Ruby and Python
 
 *NOTE: Full Stack developer: Someone who is familiar with both kinds of development, and can work on a website from start to finish!*
-
-## Let's learn more about the internet
-* [<- Home](../README.md) - [Internet ->](02-internet.md) 

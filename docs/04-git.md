@@ -1,7 +1,7 @@
-# Git & Github
-
-[<- Go Back](03-first-site.md)
-
+---
+id: 04-git
+title: Git & GitHub
+---
 
 ## Git
 
@@ -684,5 +684,3 @@
 * [Github Guides](https://www.youtube.com/githubguides)
 * [Resources to learn Git](https://try.github.io/)
 
-## Let's Checkout HTML
-* [<- Our First Site](03-first-site.md) - [HTML ->](05-html.md)

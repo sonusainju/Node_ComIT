@@ -36,9 +36,9 @@
 1. Create a navbar with a dark color scheme and primary background color
 1. Create a navbar brand link with the following image:
     
-    ![Computer](./images/technical-support.png)
+    ![Computer](https://github.com/prma85/node_comit/blob/master/docs/exercises/bootstrap/images/technical-support.png?raw=true)
     
-    [./images/technical-support.png](./images/technical-support.png)
+    [technical-support.png](https://github.com/prma85/node_comit/blob/master/docs/exercises/bootstrap/images/technical-support.png?raw=true)
 1. Create a responsive/collapsable navbar with toggler  
 1. Create a navbar navigation that has the following navigation items (on the left)
     * A link to `#` that is the active link with the content "Home"

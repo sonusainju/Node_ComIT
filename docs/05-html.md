@@ -1,6 +1,7 @@
-# HTML
-
-[<- Go Back](04-git.md)
+---
+id: 05-html
+title: HTML
+---
 
 ## What is HTML?
 
@@ -171,7 +172,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 ### BODY
-* The **body** Element represents the content of an HTML document. There can be only one <body> element in a document.
+* The **body** Element represents the content of an HTML document. There can be only one `<body>` element in a document.
 * We can write any content or other HTML elements between the html tags
 * [MDN body doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
@@ -195,7 +196,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 1](../exercises/html/ex_01.md)
+[Exercise 1](./exercises/html/ex_01.md)
 
 ### Heading Elements
 * HTML has 6 title levels
@@ -231,7 +232,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 2](../exercises/html/ex_02.md)
+[Exercise 2](./exercises/html/ex_02.md)
 
 ## Containers
 ### Div
@@ -311,7 +312,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 3](../exercises/html/ex_03.md)
+[Exercise 3](./exercises/html/ex_03.md)
 
 ### Text Format
 * HTML has some tags to describe how the text should be
@@ -401,7 +402,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 </ul>
 ```
 #### Practice
-[Exercise 4](../exercises/html/ex_04.md)
+[Exercise 4](./exercises/html/ex_04.md)
 
 ## Hyperlink
 * The **a** element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
@@ -564,9 +565,9 @@ Also we can navigate to a different document section:
 ```
 
 #### Practice
-[Exercise 5](../exercises/html/ex_05.md)
+[Exercise 5](./exercises/html/ex_05.md)
 
-[Exercise 6](../exercises/html/ex_06.md)
+[Exercise 6](./exercises/html/ex_06.md)
 
 ## Images
 * The **img** element embeds an image into the document
@@ -642,7 +643,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 7](../exercises/html/ex_07.md)
+[Exercise 7](./exercises/html/ex_07.md)
 
 ## Table
 * The **table** element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data
@@ -683,7 +684,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 8](../exercises/html/ex_08.md)
+[Exercise 8](./exercises/html/ex_08.md)
 
 * Also we can use a **th** to define a cell as header
 * [MDN th doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
@@ -739,7 +740,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 9](../exercises/html/ex_09.md)
+[Exercise 9](./exercises/html/ex_09.md)
 
 ### Make the tables happier!
 * The table element has some attributes that will allow us to add color and other visual effects
@@ -826,7 +827,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 10](../exercises/html/ex_10.md)
+[Exercise 10](./exercises/html/ex_10.md)
 
 ## Favicon
 * Favicon is an icon that we can show on our browser window (tabs)
@@ -841,7 +842,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Personal Site](../exercises/html/personal_site.md)
+[Personal Site](./exercises/html/personal_site.md)
 
 
 ##  Forms
@@ -992,7 +993,7 @@ Facebook:
 ```
 
 #### Practice
-[Exercise 11](../exercises/html/ex_11.md)
+[Exercise 11](./exercises/html/ex_11.md)
 
 ### Labels
 * The **label** element represents a caption for an item in a user interface
@@ -1154,7 +1155,7 @@ Facebook:
 * We'll use CSS to change the way elements have to look (friendly reminder)
 
 #### Practice
-[Exercise 12](../exercises/html/ex_12.md)
+[Exercise 12](./exercises/html/ex_12.md)
 
 ### Text area
 * The **textarea** element represents a multi-line plain-text editing control
@@ -1303,7 +1304,7 @@ OR
 ```
 
 #### Practice
-[Exercise 13](../exercises/html/ex_13.md)
+[Exercise 13](./exercises/html/ex_13.md)
 
 #### New HTML5 input types
 * HTML5 adds some new specific inputs
@@ -1358,7 +1359,7 @@ OR
 ```
 
 #### Practice
-[Exercise 14](../exercises/html/ex_14.md)
+[Exercise 14](./exercises/html/ex_14.md)
 
 
 ### Form validation
@@ -1492,7 +1493,7 @@ OR
 ```
 
 #### Practice
-[Exercise 15](../exercises/html/ex_15.md)
+[Exercise 15](./exercises/html/ex_15.md)
 
 ## Video
 * The **video** element embeds a media player which supports video playback into the document
@@ -1646,15 +1647,12 @@ OR
 ```
 
 #### Practice
-[Exercise 16](../exercises/html/ex_16.md)
+[Exercise 16](./exercises/html/ex_16.md)
 
-[Exercise 17](../exercises/html/ex_17.md)
+[Exercise 17](./exercises/html/ex_17.md)
 
 ## Extra:
 [HTML5 Specs](https://dev.w3.org/html5/spec-preview/Overview.html)
 
 ## Congratulations, you made it, now you know HTML!!
 ![Super Hero HTML5](../resources/images/html/html_superhero.jpg)
-
-## Let's Checkout CSS
-* [<- Git](04-git.md) - [CSS ->](06-css.md)

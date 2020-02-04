@@ -80,15 +80,14 @@ This is the official course program! The course content will be distributed on a
 
 This extra content that you can check at home once the course is over. If there is remain time, we can go over some topics
 
-* [Beyond ES5](docs/extra/01-es6.md)
+* [Beyond ES5](docs/extra/es6.md)
   * `Let's see what I.E. can't handle`
-* [Bundling JS](docs/extra/02-bundle.md)
+* [Bundling JS](docs/extra/bundle.md)
   * `Let's help old browsers with babel and webpack`
-* [Typescript](docs/extra/03-typescript.md)
+* [Typescript](docs/extra/typescript.md)
   * `The javascript taken to the next level`
-* [Testig your code](docs/extra/04-testing.md)
+* [Testig your code](docs/extra/testing.md)
   * `The eternal jorney to find bugs`
-* [React](docs/extra/05-react.md)
+* [React](docs/extra/react.md)
   * `Facebook making our life easier`
-* [Scrum](docs/extra/06-scrum.md)
-  * `How will be your life at work`
+  

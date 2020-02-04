@@ -1,6 +1,7 @@
-# Production Best Practices
-
-[<- Go Back](14-debug.md)
+---
+id: best-practices
+title: Production Best Practices
+---
 
 ## Performance and Reliability
 
@@ -85,6 +86,3 @@
 * [Production Best Practices: Security](https://expressjs.com/en/advanced/best-practice-security.html) (Express docs)
 * [Website Security](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security) (Mozilla docs)
 * [OWASP Top 10 2017](https://www.cloudflare.com/learning/security/threats/owasp-top-10/) (Cloudflare docs)
-
-## Let's Checkout Debugging
-* [<- Debugging & Troubleshooting](14-debug.md)
