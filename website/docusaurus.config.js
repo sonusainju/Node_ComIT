@@ -15,6 +15,14 @@ module.exports = {
   projectName: 'node_comit', // Usually your repo name.
   scripts: ['https://buttons.github.io/buttons.js'],
   themeConfig: {
+    algolia: {
+      apiKey: '',
+      indexName: 'prma85',
+      algoliaOptions: {}
+    },
+    googleAnalytics: {
+      trackingID: 'UA-157726893-1'
+    },
     navbar: {
       title: 'Node JS Course',
       logo: {

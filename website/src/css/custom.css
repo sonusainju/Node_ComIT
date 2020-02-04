@@ -71,39 +71,6 @@ input#search_input_react:active {
   color: #666;
 }
 
-/* Responsiveness */
-
-@media only screen and (min-width: 1024px) {
-  .onPageNav {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .onPageNav {
-    display: initial;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .homeWrapper {
-    max-width: 1400px;
-  }
-}
-
-@media only screen and (min-width: 736px) {
-  .homeContainer .homeWrapper {
-    position: relative;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .projectTitle {
-    font-size: 300%;
-    margin: 0.3em 0;
-  }
-}
-
 /* Dark Theme */
 
 html[data-theme="dark"] blockquote {
