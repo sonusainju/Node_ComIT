@@ -13,14 +13,21 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #3088bf;
+  --ifm-color-primary-dark: #2b7aac;
+  --ifm-color-primary-darker: #2974a2;
+  --ifm-color-primary-darkest: #225f86;
+  --ifm-color-primary-light: #3a95cd;
+  --ifm-color-primary-lighter: #439ad0;
+  --ifm-color-primary-lightest: #60a9d7;
+
+  --ifm-color-secondary: #02436b;
+  --ifm-color-secondary-dark: #023c60;
+  --ifm-color-secondary-darker: #02395b;
+  --ifm-color-secondary-darkest: #012f4b;
+  --ifm-color-secondary-light: #024a76;
+  --ifm-color-secondary-lighter: #024d7b;
+  --ifm-color-secondary-lightest: #03578b;
 }
 
 .docusaurus-highlight-code-line {
@@ -28,4 +35,78 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+blockquote {
+  background-color: rgba(255, 229, 100, 0.3);
+  border-left: 6px solid #ffe564;
+}
+
+/* Search Bar */
+
+@media only screen and (max-width: 1024px) {
+  .navbar__search input#search_input_react {
+    color: #666;
+    background: #f6f9fc;
+  }
+
+  .navbar__search input#search_input_react:focus,
+  .navbar__search input#search_input_react:active {
+    color: black;
+    background: #f6f9fc;
+  }
+}
+input#search_input_react {
+  color: #666;
+  background: #f6f9fc;
+  outline-color: initial;
+}
+
+input#search_input_react::placeholder {
+  color: #999;
+}
+
+input#search_input_react:focus,
+input#search_input_react:active {
+  color: #666;
+}
+
+/* Responsiveness */
+
+@media only screen and (min-width: 1024px) {
+  .onPageNav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .onPageNav {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .homeWrapper {
+    max-width: 1400px;
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  .homeContainer .homeWrapper {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .projectTitle {
+    font-size: 300%;
+    margin: 0.3em 0;
+  }
+}
+
+/* Dark Theme */
+
+html[data-theme="dark"] blockquote {
+  background-color: rgba(60, 60, 60, 0.3);
+  border-left: 6px solid var(--ifm-color-emphasis-300);
 }

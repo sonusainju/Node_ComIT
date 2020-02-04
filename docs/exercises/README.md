@@ -3,4 +3,4 @@ id: all-exercises
 title: All exercises
 ---
 
-🚧 Under Construction 🚧
+Find in the menu all exercises used in the this course.
