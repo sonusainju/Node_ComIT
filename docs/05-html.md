@@ -196,7 +196,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 1](./exercises/html/ex_01.md)
+[Exercise 1](./exercises/html/ex_1.md)
 
 ### Heading Elements
 * HTML has 6 title levels
@@ -232,7 +232,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 2](./exercises/html/ex_02.md)
+[Exercise 2](./exercises/html/ex_2.md)
 
 ## Containers
 ### Div
@@ -312,7 +312,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 ```
 
 #### Practice
-[Exercise 3](./exercises/html/ex_03.md)
+[Exercise 3](./exercises/html/ex_3.md)
 
 ### Text Format
 * HTML has some tags to describe how the text should be
@@ -402,7 +402,7 @@ The well-reviewed sci-fi thriller “Annihilation” opened with $11 million.![B
 </ul>
 ```
 #### Practice
-[Exercise 4](./exercises/html/ex_04.md)
+[Exercise 4](./exercises/html/ex_4.md)
 
 ## Hyperlink
 * The **a** element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
@@ -565,9 +565,9 @@ Also we can navigate to a different document section:
 ```
 
 #### Practice
-[Exercise 5](./exercises/html/ex_05.md)
+[Exercise 5](./exercises/html/ex_5.md)
 
-[Exercise 6](./exercises/html/ex_06.md)
+[Exercise 6](./exercises/html/ex_6.md)
 
 ## Images
 * The **img** element embeds an image into the document
@@ -643,7 +643,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 7](./exercises/html/ex_07.md)
+[Exercise 7](./exercises/html/ex_7.md)
 
 ## Table
 * The **table** element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data
@@ -684,7 +684,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 8](./exercises/html/ex_08.md)
+[Exercise 8](./exercises/html/ex_8.md)
 
 * Also we can use a **th** to define a cell as header
 * [MDN th doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
@@ -740,7 +740,7 @@ Absolute URL:
 ```
 
 #### Practice
-[Exercise 9](./exercises/html/ex_09.md)
+[Exercise 9](./exercises/html/ex_9.md)
 
 ### Make the tables happier!
 * The table element has some attributes that will allow us to add color and other visual effects
