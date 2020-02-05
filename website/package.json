@@ -7,7 +7,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('../resources'), require('path').resolve('./static') + '/resources') } catch (e) {}\""
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('./static/resources'), require('path').resolve('../') + '/resources') } catch (e) {console.log(e)}\""
 
   },
   "dependencies": {
