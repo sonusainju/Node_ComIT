@@ -5,7 +5,7 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 2](./results/ex_2.png)
+![Ex 2](../../../resources/exercises/css/results/ex_2.png)
 
 - Use inline styles to override the previous defined document styles
   - All h1 element must be red

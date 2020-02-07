@@ -70,13 +70,13 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 9](./results/ex_9.png)
+![Ex 9](../../../resources/exercises/css/results/ex_9.png)
 
-![Ex 9](./results/ex_9b.png)
+![Ex 9](../../../resources/exercises/css/results/ex_9b.png)
 
-![Ex 9](./results/ex_9c.png)
+![Ex 9](../../../resources/exercises/css/results/ex_9c.png)
 
-![Ex 9](./results/ex_9d.png)
+![Ex 9](../../../resources/exercises/css/results/ex_9d.png)
 
 - Add a style element
 - Refresh the browser on each style change to see how it works

@@ -2,7 +2,7 @@
 
 - Create a folder with the name ex_7
 - Create a index.html file inside the ex_7 folder
-- Download the following [icon](../../resources/images/css/easter-egg.jpg) and copy it to the ex_7 folder
+- Download the following [icon](../../../resources/images/css/easter-egg.jpg) and copy it to the ex_7 folder
 
 ```
 /ex_7
@@ -37,11 +37,11 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 7](./results/ex_7.png)
+![Ex 7](../../../resources/exercises/css/results/ex_7.png)
 
-![Ex 7](./results/ex_7b.png)
+![Ex 7](../../../resources/exercises/css/results/ex_7b.png)
 
-![Ex 7](./results/ex_7c.png)
+![Ex 7](../../../resources/exercises/css/results/ex_7c.png)
 
 - Add a style element
 - Select the image element inside the paragraph and set the following style:

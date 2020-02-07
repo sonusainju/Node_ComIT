@@ -12,13 +12,13 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 3](./results/ex_3.png)
+![Ex 3](../../../resources/exercises/css/results/ex_3.png)
 
-![Ex 3](./results/ex_3b.png)
+![Ex 3](../../../resources/exercises/css/results/ex_3b.png)
 
-![Ex 3](./results/ex_3c.png)
+![Ex 3](../../../resources/exercises/css/results/ex_3c.png)
 
-![Ex 3](./results/ex_3d.png)
+![Ex 3](../../../resources/exercises/css/results/ex_3d.png)
 
 ## index.html
 

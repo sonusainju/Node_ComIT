@@ -141,9 +141,9 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 6](./results/ex_6.png)
+![Ex 6](../../../resources/exercises/css/results/ex_6.png)
 
-![Ex 6](./results/ex_6b.png)
+![Ex 6](../../../resources/exercises/css/results/ex_6b.png)
 
 - Add a style element
 - Add the following CSS properties using the right selector for each case:
