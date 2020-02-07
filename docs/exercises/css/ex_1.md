@@ -26,7 +26,7 @@
 
 - After applying all styles the document must look like this:
 
-![Ex 1](/node_compit/resources/exercises/css/results/ex_1.png)
+![Ex 1](/node_comit/resources/exercises/css/results/ex_1.png)
 
 - Add a style element
 - All h1 element must be pink
