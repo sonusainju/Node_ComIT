@@ -16,8 +16,8 @@ module.exports = {
   scripts: ['https://buttons.github.io/buttons.js'],
   themeConfig: {
     algolia: {
-      apiKey: '',
-      indexName: 'prma85',
+      apiKey: '1265343f7e001be91f5be260fd529063',
+      indexName: 'prma85_node_comit',
       algoliaOptions: {}
     },
     googleAnalytics: {
