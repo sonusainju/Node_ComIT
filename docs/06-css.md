@@ -1583,7 +1583,7 @@ div {
     /* Only y axis */
     overflow-y: scroll;
 
-    /* Only y axis */
+    /* Only x axis */
     overflow-x: scroll;
   }
   ```
