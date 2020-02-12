@@ -17,56 +17,59 @@ This is the official course program! The course content will be distributed on a
   - `Let's get some of tools.`
 - [Internet](docs/02-internet.md)
   - `You've surfed the Internet but how does it work?`
-- [Our First Site](docs/03-first-site.md)
-  - `A tutorial to say hello to the world`
 
 ### Week 2
 
+- [Our First Site](docs/03-first-site.md)
+  - `A tutorial to say hello to the world`
 - [Git & Github](docs/04-git.md)
   - `git: Multiplayer Notepad`
+
+### Week 3
+
 - [HTML](docs/05-html.md)
   - `Structuring the web`
 
-### Week 3
+### Week 4
 
 - [CSS](docs/06-css.md)
   - `.thumbs { vertical-align: top; }`
 - [Bootstrap](docs/07-bootstrap.md)
   - `Giving complex CSS the boot`
 
-### Week 4 & 5
+### Week 5 & 6
 
 - [JavaScript](docs/08-javascript.md)
   - `Promise you will enjoy this`
 
-### Week 6
+### Week 7
 
 - [Browser API](docs/09-browserapi.md)
   - `Protect and serve`
 
-### Week 7
+### Week 8
 
 - [Node.js](docs/10-nodejs.md)
   - `Oh Node You Didn't`
 
-### Week 8
+### Week 9
 
 - [Building a Node.js site with Express](docs/11-buildingsite.md)
   - `Express yourself`
 
-### Week 9
+### Week 10
 
 - [MongoDB & Mongoose](docs/12-mongodb.md)
   - `This franchise has NoSQL`
+
+### Week 11
+
 - [Deploy](docs/13-deploy.md)
   - `Sharing to world wide wide`
-
-### Week 10
-
 - [Debugging & Troubleshooting](docs/14-debug.md)
   - `throw everything.out(docs/)`
 
-### Week 11
+### Week 12
 
 - [Production Best Practices](docs/15-practices.md)
   - `Let's produce the best apps`
