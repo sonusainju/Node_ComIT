@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">Name:</label>
+            <input size="30" type="text" name="name" placeholder="Type your name" />
+            <br />
+            <label>Username:</label>
+            <input required type="text" name="username" placeholder="Please input a username" />
+            <br />
+            <label>Email:</label>
+            <input required type="email" name="email" placeholder="input an email" />
+            <br />
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Type your password" />
+            <br />
+            Are you a Riders Fan?
+            <input type="radio" name="ridersfan" value="true" /> Oh Yeahhhhhh, Go Riders!!! <input type="radio" name="ridersfan" value="false" /> No
+            <br />
+            Select your favourite Harry Potter wizards
+            <input type="checkbox" name="wizards" value="harry potter" checked="checked" />
+            Harry Potter
+            <input type="checkbox" name="wizards" value="hermione granger" checked />
+            Hermione Granger
+            <input type="checkbox" name="wizards" value="ron weasley" /> Ron Weasley
+            <input type="checkbox" name="wizards" value="aberforth dumbledore" />
+            Aberforth Dumbledore
+            <br />
+            <textarea name="about">Rick Sanchez it's a great scientific..</textarea>
+            <br />
+            <select name="countries">
+              <option value="">Please select a Country</option>
+              <option value="arg">Argentina</option>
+              <option value="bra">Brasil</option>
+              <option value="chl">Chile</option>
+              <option value="can">Canada</option>
+            </select>
+            <br />
+            <input type="submit" value="send" />
+        </form>
+    </body>
+</html>
