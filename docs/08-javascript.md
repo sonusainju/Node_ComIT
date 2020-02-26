@@ -1884,7 +1884,7 @@ constantVariable = otherValue;
 
   if (name === "Miriam") {
     console.log("The name is Miriam");
-  } else if (nombre === "Felipa") {
+  } else if (name === "Felipa") {
     console.log("The name is Felipa");
   } else {
     console.log("The name is not Miriam or Felipa");
@@ -1916,7 +1916,7 @@ constantVariable = otherValue;
 
   if (name === "Miriam") {
     console.log("The name is Miriam");
-  } else if (nombre === "Felipa") {
+  } else if (name === "Felipa") {
     console.log("The name is Felipa");
   } else {
     console.log("The name is not Miriam or Felipa");
@@ -1946,7 +1946,7 @@ constantVariable = otherValue;
   **Example:**
 
   ```js
-  const name = "marta";
+  const name = "Marta";
   let message = null;
 
   switch (name) {
