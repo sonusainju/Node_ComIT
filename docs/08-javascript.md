@@ -1342,9 +1342,9 @@ constantVariable = otherValue;
 
 - Open a browser console and try all the examples to see the output
 
-## String object properties and methods
+## String object properties
 
-### Length
+### String.length()
 
 - The **length** property of a **String object** indicates the length of a string
 - This property returns the **number** of code units in the string
@@ -1384,7 +1384,7 @@ constantVariable = otherValue;
 
 [Exercise 39](./exercises/js/ex_39.md)
 
-### String methods
+## String object methods
 
 - Object methods can give us different functionality for different data types
 - In this section we'll explore the String object methods
@@ -1410,7 +1410,7 @@ constantVariable = otherValue;
 
 - This method returns a new string with the text of the inputs concatenated (put together)
 
-## Concat
+### String.concat()
 
 - Using the **+** operator we can concatenate string values
 - The String object has a **concat** method to do the same using methods instead of operators
@@ -1452,7 +1452,7 @@ constantVariable = otherValue;
 
 [Exercise 40](./exercises/js/ex_40.md)
 
-### Upper and lower case
+### String.toLowerCase() and String.toUpperCase()
 
 - Using the **toUpperCase** & **toLowerCase** we can transform our text to upper and lower case
 
@@ -1514,7 +1514,7 @@ constantVariable = otherValue;
 
 [Exercise 44](./exercises/js/ex_44.md)
 
-### String slice
+### String.slice()
 
 - The **slice** method extracts a section of a string and returns it as a new string
 - This method accepts two parameters slice(start, end)
@@ -1590,7 +1590,7 @@ constantVariable = otherValue;
 
 - You can learn more about [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) and [substr](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) reading the MDN guides
 
-### String split
+### String.split()
 
 - The **split** method splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split
 - The first method parameter will be the separator value to split the string by (also known as a "delimiter")
@@ -1640,7 +1640,7 @@ constantVariable = otherValue;
 - The Number JavaScript object is a wrapper object allowing you to work with numerical values
 - Great learning project: Find out about wrappers and why Strings are different than "primitives" in most computer languages
 
-### parseInt
+### parseInt()
 
 - The **parseInt** method parses a string argument and returns an integer of the specified radix or base
 - This method returns an integer number parsed from the given string
@@ -1673,7 +1673,7 @@ constantVariable = otherValue;
 - We can get a **number** from a **string**
 - parseInt will return an integer number
 
-### parseFloat
+### parseFloat()
 
 - The **parseFloat** function parses an argument and returns a floating point number
 - This method returns a floating point number parsed from the given value
@@ -1695,7 +1695,7 @@ constantVariable = otherValue;
   console.log(typeof pi); // number
   ```
 
-### Number toString
+### Number.toString()
 
 - The **toString** method returns a string representing the specified Number object
 - [MDN number toString doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
@@ -1730,7 +1730,7 @@ constantVariable = otherValue;
 - Conditional statements allow us to represent this kind of decision making in JavaScript from the choice that must be made, to the resulting outcome of those choices
 - [MDN conditionals doc](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 
-## If statement
+### If statement
 
 - The **if** statement executes a statement if a specified condition is **true**
 - If the condition is **false**, another statement can be executed
@@ -1801,7 +1801,7 @@ constantVariable = otherValue;
 
 [Exercise 51](./exercises/js/ex_51.md)
 
-## If / else statement
+### If / else statement
 
 - Now we know how to use a if statement to check for a given condition but we only care about when it's a true value
 - In some cases we need to control also what happens in case the condition is false
@@ -1981,7 +1981,7 @@ constantVariable = otherValue;
 
 [Exercise 63](./exercises/js/ex_63.md)
 
-## true and false (true and false values)
+### true and false (true and false values)
 
 - In JavaScript we have values that are true and false
 - This means that some values might be true and some values might be false
@@ -2078,7 +2078,7 @@ constantVariable = otherValue;
 
 [Exercise 65](./exercises/js/ex_65.md)
 
-#### Iterators
+## Iterators / Loops
 
 - It's common that when coding we need to keep repeating the same code execution until a given condition it's true
 - For example I might want to show numbers from 0 to 10 to create a list
@@ -2323,7 +2323,7 @@ constantVariable = otherValue;
 
 [Exercise 85](./exercises/js/ex_85.md)
 
-## For
+### For
 
 - The **for** statement creates a loop that consists of three optional expressions
 - Enclosed in parentheses and separated by semicolons
@@ -2464,6 +2464,8 @@ constantVariable = otherValue;
 
 [Exercise 101](./exercises/js/ex_101.md)
 
+### Function as a type
+
 - In JavaScript functions are a type of value so we can assign
 - We can assign a function to a variable
 - When we assign a function to a variable we don't need to name our function as we have the variable for
@@ -2492,6 +2494,8 @@ constantVariable = otherValue;
 [Exercise 103](./exercises/js/ex_103.md)
 
 [Exercise 104](./exercises/js/ex_104.md)
+
+### Returning values
 
 - A function might return a value
 - When a function doesn't explicit return a value it will return a **undefined** value
@@ -2587,6 +2591,9 @@ constantVariable = otherValue;
 [Exercise 105](./exercises/js/ex_105.md)
 
 [Exercise 106](./exercises/js/ex_106.md)
+
+### Using parameters
+
 
 - Functions can accept none, one or many parameters
 - We can have more flexible functions using parameters
@@ -2699,7 +2706,7 @@ constantVariable = otherValue;
 
 [Exercise 116](./exercises/js/ex_116.md)
 
-#### Array
+## Array
 
 - An **array** literal is a list of zero or more expressions
 - Each value represents an array element
@@ -2917,7 +2924,7 @@ constantVariable = otherValue;
 
 ## Array methods
 
-### Length
+### Array.length
 
 - The **length** property of an object which `is an instance of type Array` sets or returns the number of elements in that array
 - This property works in the same way as the string length property
@@ -2966,11 +2973,7 @@ constantVariable = otherValue;
 
 [Exercise 124](./exercises/js/ex_124.md)
 
-### Push, unshift, shift & pop methods
-
-- We can change an array element using the following methods **push, unshift, shift & pop**
-
-#### Push
+### Array.push()
 
 - The **push** method adds one or more elements to the `end of an array`
 - This method returns the new length of the array
@@ -3002,7 +3005,7 @@ constantVariable = otherValue;
 - Using const with array allows us to change the array items but we can't assign a new value to the variable
 - More about [const and updating values in JavaScript](https://mathiasbynens.be/notes/es6-const)
 
-#### Unshift
+#### Array.unshift()
 
 - The **unshift** method adds one or more elements to the `beginning of an array`
 - This method returns the new length of the array
@@ -3027,7 +3030,7 @@ constantVariable = otherValue;
   console.log(animalCount); // 6
   ```
 
-#### Shift
+### Array.shift()
 
 - The **shift** method `removes the first element` from an array and `returns that removed element`
 - This method **changes the length** of the array
@@ -3068,7 +3071,7 @@ constantVariable = otherValue;
 - Using the **shift** we can remove the first array element and get it as returned value
 - The length array property changes as it has less elements
 
-#### Pop
+### Array.pop()
 
 - The **pop** method `removes the last element from an array`returns that element
 - This method changes the length of the array
@@ -3112,9 +3115,7 @@ constantVariable = otherValue;
 - Some return the element from the begining or the end and return the element
 - Some adds a new element to the begining or end and return the new array length
 
-### Sort and reverse
-
-#### Sort
+### Array.sort()
 
 - The **sort** method sorts the elements of an array in place and `returns the array`
 - The sort is not necessarily stable
@@ -3134,7 +3135,7 @@ constantVariable = otherValue;
 
 - This method accepts a function as parameter to be executed to change the way it will sort the elements
 
-#### Reverse
+### Array.reverse()
 
 - The **reverse** method reverses an array in place
 - The first array element becomes the last, and the last array element becomes the first
@@ -3150,9 +3151,7 @@ constantVariable = otherValue;
   // [ 9, 8, 3, 5, 2, 4, 1 ]
   ```
 
-### Concat & join
-
-#### Join
+### Array.join()
 
 - The **join** method joins all elements of an array into a string and returns this string
 - This method accepts a string value to join by
@@ -3176,7 +3175,7 @@ constantVariable = otherValue;
 
 - We can choose any string to join array items
 
-#### Concat
+### Array.concat()
 
 - The **concat** method is used to merge two or more arrays
 - This method does not change the existing arrays, but instead returns a new array
@@ -3203,7 +3202,7 @@ constantVariable = otherValue;
   */
   ```
 
-### IndexOf
+### Array.indexOf()
 
 - The **indexOf** method `returns the first index at which a given element can be found` in the array
 - This method returns -1 if the element is not present
@@ -3234,7 +3233,7 @@ constantVariable = otherValue;
 - In the second example we ask if the value Logan is in the mutants array
 - We get -1 as is not a mutants item (We <3 Logan anyway!)
 
-### toString
+### Array.toString()
 
 - The **toString** method returns a string representing the specified array and its elements
 - [MDN array toString doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
@@ -3272,7 +3271,7 @@ constantVariable = otherValue;
 
 [Exercise 134](./exercises/js/ex_134.md)
 
-### ForEach
+### Array.forEach()
 
 - The **forEach** method executes a provided function once for each array element
 
@@ -3336,7 +3335,7 @@ constantVariable = otherValue;
 
 [Exercise 136](./exercises/js/ex_136.md)
 
-### Map
+### Array.map()
 
 - The **map** method `creates a new array with the results of calling a provided function on every element` in the calling array
 
@@ -3367,7 +3366,7 @@ constantVariable = otherValue;
 
 [Exercise 138](./exercises/js/ex_138.md)
 
-### Filter
+### Array.filter()
 
 - The **filter** method creates a new array with all elements that pass the test implemented by the provided function
 - The iterated item will be part of the returned array only if the functions return a true value
@@ -3392,7 +3391,7 @@ constantVariable = otherValue;
 
 [Exercise 140](./exercises/js/ex_140.md)
 
-### Reduce
+### Array.reduce()
 
 - The **reduce** method applies a function against an accumulator and each element in the array (from left to right) to `reduce it to a single value`
 - The reduce function that we pass as parameter accepts the following parameters:
