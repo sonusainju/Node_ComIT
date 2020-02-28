@@ -103,8 +103,6 @@ title: Bootstrap
 
 ### Grid system
 
-🚧 Under Construction 🚧
-
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/layout/grid/)
 
 #### Practice
@@ -117,8 +115,6 @@ title: Bootstrap
 
 ### Images
 
-🚧 Under Construction 🚧
-
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/content/images/)
 
 #### Practice
@@ -129,13 +125,9 @@ title: Bootstrap
 
 ### Buttons
 
-🚧 Under Construction 🚧
-
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/components/buttons/)
 
 ### Forms
-
-🚧 Under Construction 🚧
 
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/components/forms/)
 
@@ -144,8 +136,6 @@ title: Bootstrap
 [Exercise 5](./exercises/bootstrap/ex_5.md)
 
 ### Navbar
-
-🚧 Under Construction 🚧
 
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/components/navbar/)
 
@@ -156,7 +146,5 @@ title: Bootstrap
 ## Utilities
 
 ### Colors
-
-🚧 Under Construction 🚧
 
 [Please review the Bootstrap Documentation](https://getbootstrap.com/docs/4.3/utilities/colors/)

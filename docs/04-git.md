@@ -55,7 +55,8 @@ title: Git & GitHub
 - You should get the following message: `Initialized empty Git repository in your folder path`
 - Now Git knows that we want to version this project and keep track of all the changes we do
 - Let check git status again
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -63,12 +64,15 @@ title: Git & GitHub
       	> nothing to commit (create/copy files and use "git add" to track)
       	```
 
+  ````
+
 - After running **git init** we don't longer see an error
 - Now we find out that we'll be using **branches**, **commits** & **add**ing files
 - Open the folder `nodeyqr` using VSC (Visual Studio Code)
 - Git creates a hidden folder to keep track of our project
 - List your folder files to see the `.git` folder
-  ```bash
+
+  ````bash
   ls -la
 
       	> .
@@ -76,12 +80,15 @@ title: Git & GitHub
       	> .git
       	```
 
+  ````
+
 - Create a new file and save it with the name **index.html**
 - Add the following content:
   `html <!DOCTYPE html> <html lang="en"> <head> <title>Using Git</title> </head> <body> <h1>Using Git</h1> <p>Creating my first versioned file</p> </body> </html>`
 - Make sure to save the file again
 - Go to the terminal and check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -93,6 +100,8 @@ title: Git & GitHub
 
       	> nothing added to commit but untracked files present (use "git add" to track)
       	```
+
+  ````
 
 - So we still get the same messages:
   `> On branch master > No commits yet`
@@ -107,7 +116,8 @@ title: Git & GitHub
   `bash git add index.html`
 - Looks like nothing happened
 - Check git status again
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -118,6 +128,8 @@ title: Git & GitHub
       	> 	new file:   index.html
       	```
 
+  ````
+
 - By executing **git add** we add the documents that we want to **commit**
 
 ### `git commit`
@@ -126,7 +138,8 @@ title: Git & GitHub
 - When we commit one or many files we create a new version of our project
 - To know what changed over time it's a good practice to write a descriptive message
 - Now we can commit our changes running **git commit -m 'Commit message'**
-  ```bash
+
+  ````bash
   git commit -m 'Added index.html file to project'
 
       	> [master (root-commit) 50400f2] Added index.html file to project
@@ -134,14 +147,19 @@ title: Git & GitHub
       	> create mode 100644 index.html
       	```
 
+  ````
+
 - We can see that only 1 file has changed and we added 10 new lines of code
 - Run git status to check the new status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
       	> nothing to commit, working tree clean
       	```
+
+  ````
 
 - As we just committed our changes there's nothing new to commit
 
@@ -149,7 +167,8 @@ title: Git & GitHub
 
 - This command shows commit logs
 - We can check our project commit history by running **git log**
-  ```bash
+
+  ````bash
   git log
 
       	> commit 50400f2fd1b7f6ce7030a2e651ac6c2956d53c58 (HEAD -> master)
@@ -159,6 +178,8 @@ title: Git & GitHub
       	>    Added index.html file to project
       	```
 
+  ````
+
 - Once we run this command we can see all the commits that this project has
 - By writing good commit messages we can know more about what changed over time
 - Open the index.html file again and change the following lines:
@@ -167,7 +188,8 @@ title: Git & GitHub
   `html <h1>Learning and using Git</h1> <p>Creating my commits</p>`
 - Save your file
 - Check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -180,6 +202,8 @@ title: Git & GitHub
       	> no changes added to commit (use "git add" and/or "git commit -a")
       	```
 
+  ````
+
 - Now we can see a couple of new things going on:
   - Git shows 2 options:
     - We can add the changes we did to index.html to commit them: `(use "git add <file>..." to update what will be committed)`
@@ -189,7 +213,8 @@ title: Git & GitHub
 - Commit the changes and create a new version
 - The commit message should be: Updated index.html content
 - Check git log
-  ```bash
+
+  ````bash
   git add index.html
   git status
   git commit -m 'Updated index.html content'
@@ -208,11 +233,14 @@ title: Git & GitHub
       			Added index.html file to project
       	```
 
+  ````
+
 - Now we have 2 commits in our project log
 - Delete index.html
   `bash rm index.html`
 - Check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -225,6 +253,8 @@ title: Git & GitHub
       	> no changes added to commit (use "git add" and/or "git commit -a")
       	```
 
+  ````
+
 - We can see that we deleted the file
 - Git shows 2 options
   - We can remove the file from git project by running git rm
@@ -232,15 +262,19 @@ title: Git & GitHub
 - As we don't want to delete the file execute git checkout to get the previous version
   `bash git checkout -- index.html`
 - If we run git status we'll see that the deleted index.html message is no longer there
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
       	> nothing to commit, working tree clean
       	```
 
+  ````
+
 - Also if we list our folder files we'll see that index.html is still there
-  ```bash
+
+  ````bash
   ls -la
 
       	> .
@@ -248,20 +282,25 @@ title: Git & GitHub
       	> .git
       	> index.html
       	```
+  ````
 
 ### `git rm`
 
 - To delete one or many files from a project we can run **git rm**
 - This command remove files from the working tree and from the index
 - Delete index.html from the project
-  ```bash
+
+  ````bash
   git rm index.html
 
       	> rm 'index.html'
       	```
 
+  ````
+
 - Check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -271,9 +310,12 @@ title: Git & GitHub
       		deleted:    index.html
       	```
 
+  ````
+
 - Git rm works like git add but instead of adding the file we'll delete it from the project
 - Now we need to commit our change and delete the index.html file
-  ```bash
+
+  ````bash
   git commit -m 'Deleted index.html'
 
       	> [master a03ee32] Deleted index.html
@@ -281,16 +323,22 @@ title: Git & GitHub
       	>  delete mode 100644 index.html
       	```
 
+  ````
+
 - Now check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
       	> nothing to commit, working tree clean
       	```
 
+  ````
+
 - List all the folder files
-  ```bash
+
+  ````bash
   ls -la
 
       	> .
@@ -298,8 +346,11 @@ title: Git & GitHub
       	> .git
       	```
 
+  ````
+
 - Finally check git log
-  ```bash
+
+  ````bash
   git log
 
       	commit a03ee32909a04e5001860f6048289cb5d7b59a1a (HEAD -> master)
@@ -320,6 +371,8 @@ title: Git & GitHub
 
       			Added index.html file to project
       	```
+
+  ````
 
 - We can see that we added a index.html file
 - Then we updated the file contents
@@ -344,26 +397,33 @@ title: Git & GitHub
 - Origin is the default name by convention for our main source
 - So with this command we let git know that we want to add a remote server with the url `https://github.com/<user>/nodeyqr.git` that we'll call origin
 - We can list the project remote servers
-  ```bash
+
+  ````bash
   git remote
 
       	> origin
       	```
 
+  ````
+
 - That didn't help :(
 - Do it again but now add **-v**
-  ```bash
+
+  ````bash
   git remote -v
 
       	origin	https://github.com/<user>/nodeyqr.git (fetch)
       	origin	https://github.com/<user>/nodeyqr.git (push)
       	```
 
+  ````
+
 - Now I can see that I have **fetch** & **push** permission
 - We use **fetch** to get changes from the server
 - We use **push** to push our changes to the server
 - Push your local code changes to the Github server
-  ```bash
+
+  ````bash
   git push origin master
 
       	> Counting objects: 12, done.
@@ -376,6 +436,8 @@ title: Git & GitHub
       	* [new branch]      master -> master
       	```
 
+  ````
+
 - If we refresh our Github page we'll see that our html folder is now part of the Github project
 - Click on the html folder to see the exercises files
 - Now go back to the project home page
@@ -385,13 +447,17 @@ title: Git & GitHub
 - Create a README.md file at the same level than .git folder
   `bash /- |- .git |- README.md`
 - Add the following content to README.md
-  ``` # Node.js Regina
+
+  ````# Node.js Regina
 
       	This project it's to learn HTML, CSS, JS, Node.js and MongoDB
       	```
 
+  ````
+
 - Check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -403,11 +469,14 @@ title: Git & GitHub
       	> nothing added to commit but untracked files present (use "git add" to track)
       	```
 
+  ````
+
 - Now add the README.md file to git
   `bash git add .`
 - By using a dot `.` we let Git know that we want to add all the files that we changed
 - Check Git status
-  ```bash
+
+  ````bash
   git status
 
       	> On branch master
@@ -417,9 +486,12 @@ title: Git & GitHub
       	>	new file:   README.md
       	```
 
+  ````
+
 - Looks like README.md has been `staged` so we can commit it
 - So we just need to commit
-  ```bash
+
+  ````bash
   git commit -m 'Added README.md'
 
       	> [master 98db347] Added README.md
@@ -427,8 +499,11 @@ title: Git & GitHub
       	> create mode 100644 README.md
       	```
 
+  ````
+
 - Check Git log
-  ```bash
+
+  ````bash
   git status
 
       	commit 98db34767b80dca6e55c63d1c60f18641cd9e473 (HEAD -> master)
@@ -456,13 +531,16 @@ title: Git & GitHub
       			Added index.html file to project
       	```
 
+  ````
+
 - Look at the last commit and the the previous one
 - The last commit shows (HEAD -> master)
 - The previous one (origin/master)
 - So it looks like our local project is ahead 1 commit from origin (our remote server)
 - Check on Github commits to see if you have the latest commit
 - As we don't have it we need to push it
-  ```bash
+
+  ````bash
   git push origin master
 
       	> Counting objects: 3, done.
@@ -474,6 +552,8 @@ title: Git & GitHub
       	>   c74bf4d..98db347  master -> master
       	```
 
+  ````
+
 - Now check your commits on Github
 - Also take a look at the project home page
 - As you can see we can add a home page for our projects
@@ -484,7 +564,8 @@ title: Git & GitHub
 - This command clone a repository into a new directory
 - Create a test folder outside the `nodeyqr` one
 - Change directory to the test folder
-  ```bash
+
+  ````bash
   cd .. (to get out the nodeyqr folder)
   mkdir test
   cd test
@@ -493,11 +574,14 @@ title: Git & GitHub
       	/test
       	```
 
+  ````
+
 - We created this folder so we can clone our Github project in a different folder
 - Now we can clone the nodeyqr Github project into this test folder one. Remember of replacing `<user>` with your github username.
   `bash git clone https://github.com/<user>/nodeyqr.git`
 - List the files
-  ```bash
+
+  ````bash
   ls -la
 
       	> .
@@ -505,11 +589,14 @@ title: Git & GitHub
       	> nodeyqr
       	```
 
+  ````
+
 - Git by default uses the project name as project folder name
 - Change directory to `nodeyqr`
   `bash cd nodeyqr`
 - Check Git status
-  ```
+
+  ````
   git status
 
       	> On branch master
@@ -517,6 +604,8 @@ title: Git & GitHub
 
       	> nothing to commit, working tree clean
       	```
+
+  ````
 
 - Nothing to commit as we just got a fresh copy
 - Check the project log
@@ -529,17 +618,21 @@ title: Git & GitHub
 - Add the new change
   `bash git add .`
 - Now commit the changes
-  ```bash
+
+  ````bash
   git commit -m 'Added html exercises link to README.md'
 
       	> [master 1678975] Added html exercises link to README.md
       	> 1 file changed, 2 insertions(+), 1 deletion(-)
       	```
 
+  ````
+
 - So at this moment we have 2 folders that have the same project
 - The test one has one more commit that the initial `nodeyqr` one
 - Push your code to the Github server
-  ```bash
+
+  ````bash
   git push origin master
 
       	> Counting objects: 3, done.
@@ -552,10 +645,13 @@ title: Git & GitHub
       	>    98db347..1678975  master -> master
       	```
 
+  ````
+
 - Now we have the changes in the test/nodeyqr folder and on the Github server
 - We still need to update our initial `nodeyqr`
 - Lets change directory to the previous folder
-  ```bash
+
+  ````bash
   cd .. (to leave the nodeyqr folder)
   cd .. (to leave the test folder)
   cd nodeyqr (to enter the nodeyqr folder)
@@ -565,8 +661,11 @@ title: Git & GitHub
       	> nothing to commit, working tree clean
       	```
 
+  ````
+
 - Check git log
-  ```
+
+  ````
   git log
 
       	commit 98db34767b80dca6e55c63d1c60f18641cd9e473
@@ -594,9 +693,12 @@ title: Git & GitHub
       			Added index.html file to project
       	```
 
+  ````
+
 - We're missing the last commit
 - To sync again with the remote server we can fetch the latest changes
-  ```bash
+
+  ````bash
   git fetch origin master
 
       	> remote: Counting objects: 3, done.
@@ -611,9 +713,12 @@ title: Git & GitHub
       	>  README.md | 3 ++-
       	```
 
+  ````
+
 - Git got all the changes from the server
 - Now check the log again
-  ```bash
+
+  ````bash
   git log
 
       	commit 16789753fe1be574045cafa60a4ace270a643100 (HEAD -> master, origin/master)
@@ -646,6 +751,8 @@ title: Git & GitHub
 
       			Added index.html file to project
       	```
+
+  ````
 
 - Now our local folder is in sync with the server
 - Create a **html** folder at the same level than the html one

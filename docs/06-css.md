@@ -181,8 +181,7 @@ title: CSS - Cascade Style Sheet
   **Example:**
 
   ```html
-  <span style="color: white;">White text</span>
-  <span style="color: white;">Other white text</span>
+  <span style="color: white;">White text</span> <span style="color: white;">Other white text</span>
   ```
 
 - This type of selection is usefull if we only need a couple of elements
@@ -409,8 +408,7 @@ title: CSS - Cascade Style Sheet
   ```
 
   ```html
-  <div class="red">Red Text</div>
-  <p class="red">Red Text</p>
+  <div class="red">Red Text</div> <p class="red">Red Text</p>
   ```
 
 - Or
@@ -434,8 +432,7 @@ title: CSS - Cascade Style Sheet
   ```
 
   ```html
-  <div>Red Text</div>
-  <p>Red Text</p>
+  <div>Red Text</div> <p>Red Text</p>
   ```
 
 ## Universal selector
@@ -721,8 +718,7 @@ p + div {
   /* In this case we define a local (our server) font */
   @font-face {
     font-family: MyHelvetica;
-    src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
-      url(MgOpenModernaBold.ttf);
+    src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url(MgOpenModernaBold.ttf);
     font-weight: bold;
   }
   ```
@@ -750,10 +746,7 @@ p + div {
   **Example:**
 
   ```html
-  <link
-    href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet" />
   ```
 
 - After adding the reference we can call using the font name
