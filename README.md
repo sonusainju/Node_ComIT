@@ -54,7 +54,7 @@ This is the official course program! The course content will be distributed on a
 
 ### Week 9
 
-- [Building a Node.js site with Express](docs/11-buildingsite.md)
+- [Building a Node.js site with Express](docs/11-express.md)
   - `Express yourself`
 
 ### Week 10

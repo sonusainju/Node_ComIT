@@ -1,7 +1,9 @@
 ---
-id: 11-buildingsite
+id: 11-express
 title: Building a site using Node.js and Express
 ---
+
+## Getting start
 
 - Now that we know how to create a project with NPM
 - Add Express as dependency and create a web server
@@ -17,6 +19,8 @@ title: Building a site using Node.js and Express
   cd node-site-example
   ```
 
+### Installing packages
+
 - After creating the folder lets install pug, express and [nodemon](https://github.com/remy/nodemon)
 
   ```
@@ -24,6 +28,9 @@ title: Building a site using Node.js and Express
   ```
 
 - Nodemon is a Node.js module that will watch our files to see if we save them and reload the server for us
+
+### Configuring scripts
+
 - Configure NPM start script
 
   ```json
@@ -31,8 +38,10 @@ title: Building a site using Node.js and Express
   ```
 
 - Nodemon will look for an index.js file to start the server and watch for changes
-- Create an `index.js` file and add a express server
 
+### Using express server
+
+- Create an `index.js` file and add a express server
 - index.js
 
   ```js
@@ -59,6 +68,8 @@ title: Building a site using Node.js and Express
   [nodemon] starting `node index.js`
   Server running on port 3000
   ```
+
+### Project configuration
 
 - Now we have our server running and we need to configure routes, static assets and the template engine
 - We can see that nodemon is looking for all our files `[nodemon] watching: *.*`
@@ -105,6 +116,8 @@ title: Building a site using Node.js and Express
     console.log(`Server running on port ${port}`);
   });
   ```
+
+### Using public folder
 
 - It's time to add the static public folder and configure express to use it
 - Create a `public` folder
@@ -186,6 +199,9 @@ title: Building a site using Node.js and Express
 
 - Check that the site it still works as expected
 - If we don't have any errors we must see the same content but now using the layout
+
+### Adding more content
+
 - Inside the public/img create a `superheroes` folder and download the following images
   ```
   /node-site-example
@@ -263,6 +279,9 @@ title: Building a site using Node.js and Express
     margin-bottom: 40px;
   }
   ```
+
+  ### Adding routes
+
 - It would be nice to be able to click the image or the superhero name and see a detail page
 - To create this feature we need to do a couple of changes
 - First we need to change the template
@@ -307,6 +326,9 @@ title: Building a site using Node.js and Express
 - Also we only need to show one superhero at the time
 - And.. we need to create the superhero template
 - Uff.. so many things we better start soon!
+
+### Creating more templates
+
 - Create the `superhero.pug` template inside the views folder
 - Add the following code
 - superheroe.pug
@@ -318,6 +340,8 @@ title: Building a site using Node.js and Express
     img(src='/img/superheroes/' + superheroe.image)
     h3= superheroe.name
   ```
+
+### Getting the data by id
 
 - Great we are using the layout template that we created but we don't have the superheroe data
 - How can we deal with this situation?
@@ -378,6 +402,8 @@ title: Building a site using Node.js and Express
   });
   ```
 
+### Refining the code
+
 - This is looking much better now
 - We still have a problem on how to know the selected superhero
 - Having the ids to identify them is great but we still need to update our code
@@ -414,6 +440,9 @@ title: Building a site using Node.js and Express
 - The only remainding thing to do is render the template using the selectedSuperhero data
 - Now we can call any this url http://localhost:3000/superheros/2 changing the id from 1 to 9
 - Our home page still has blue and violet links so update the css so it looks better
+
+### Improving the CSS
+
 - styles.css
 
   ```css
@@ -424,6 +453,9 @@ title: Building a site using Node.js and Express
   ```
 
 - Great we're able to show the superheroes home and detail page
+
+### Adding new data
+
 - It would be really nice to be able to create a new superhero too, right?
 - To create any new resource we need to create a form
 - We'll create a new template and add a form
@@ -500,6 +532,8 @@ title: Building a site using Node.js and Express
   }
   ```
 
+### Handling POST requests
+
 - Now that our views are ready lets create the route handler
 - To hande post requests with express we need to install [body-parser](https://github.com/expressjs/body-parser) module
 - From the body-parser site we get this definition: `Parse incoming request bodies in a middleware before your handlers, available under the req.body property`
@@ -574,6 +608,9 @@ title: Building a site using Node.js and Express
   ```js
   superheroes.push(newSuperHero);
   ```
+
+  ### Responding requests
+  
 - And then we send the response.. oh wait.. what do we respond?
 - In all our previous routes we send something back as response but in this case we created a new route handler
 - We could return the same render response that we send on `/`

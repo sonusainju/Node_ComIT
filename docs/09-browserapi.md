@@ -3,7 +3,7 @@ id: 09-browserapi
 title: Browser API
 ---
 
-# http-server
+## http-server
 
 - **http-server** is a simple, zero-configuration command-line http server
 - It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning
@@ -366,7 +366,7 @@ title: Browser API
 
 - In JavaScript we have `setTimeout` & `setInterval` functions that allow us to execute code based on time
 
-### setTimeout / clearTimeout
+### setTimeout()
 
 - The **setTimeout()** method `sets a timer which executes a function or specified piece of code once after the timer expires`
 - This method accepts a function as first parameter that will be executed based on the delay that we configure `(callback)`
@@ -394,24 +394,6 @@ title: Browser API
   }, 5000);
   ```
 
-- The setTimeout returns a numeric value that represents the timeout ID
-- Using the **clearTimeout** and the timeout ID we can stop the function from being executed
-- The **clearTimeout** accepts a numeric parameter that represents the timeout ID
-
-  **Example:**
-
-  ```js
-  var idTimeOut = setTimeout(function() {
-    console.log("Hi!!");
-  }, 5000);
-
-  // halt the timer execution before the delay happens
-  clearTimeout(idTimeOut);
-  ```
-
-- In this example we configure the setTimeout function to execute the function that will greet in 5 seconds
-- We get an ID back that we store in the **idTimeOut** variable
-- Using **clearTimeout** and the timeout ID we stop the setTimeout from being executed (we turn off the timer)
 - In some cases we need to pass this timer more values
 - We can pass all the parameters that we want to the setTimeout function after we configure the callback and delay ones
 - Then in the setTimeout function we get the params in the same order that we send them
@@ -435,13 +417,35 @@ title: Browser API
 
 - [MDN setTimeout doc](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
+
+### clearTimeout()
+
+- The setTimeout returns a numeric value that represents the timeout ID
+- Using the **clearTimeout** and the timeout ID we can stop the function from being executed
+- The **clearTimeout** accepts a numeric parameter that represents the timeout ID
+
+  **Example:**
+
+  ```js
+  var idTimeOut = setTimeout(function() {
+    console.log("Hi!!");
+  }, 5000);
+
+  // halt the timer execution before the delay happens
+  clearTimeout(idTimeOut);
+  ```
+
+- In this example we configure the setTimeout function to execute the function that will greet in 5 seconds
+- We get an ID back that we store in the **idTimeOut** variable
+- Using **clearTimeout** and the timeout ID we stop the setTimeout from being executed (we turn off the timer)
+
 #### Practice
 
 [Exercise 10](./exercises/browser/ex_10.md)
 
 [Exercise 11](./exercises/browser/ex_11.md)
 
-### setInterval / clearInterval
+### setInterval() / clearInterval()
 
 - The **setInterval()** method `repeatedly` calls a function or executes a code snippet, with a fixed time delay between each call
 - It returns an interval ID which uniquely identifies the interval, so you can remove it later by calling **clearInterval()**
@@ -888,8 +892,7 @@ title: Browser API
 - HTML
 
   ```html
-  <p id="main" class="red">Element with attributes</p>
-  <h2>Element without attributes</h2>
+  <p id="main" class="red">Element with attributes</p> <h2>Element without attributes</h2>
   ```
 
 - JS
@@ -1246,7 +1249,7 @@ title: Browser API
 
 [Exercise 24](./exercises/browser/ex_24.md)
 
-### Element CRUD
+## Element CRUD
 
 - CRUD means:
   - Create
@@ -1256,7 +1259,7 @@ title: Browser API
 - This means that we can create, update & delete elements
 - The read action we can say it's when we select an element and get properties from it
 
-#### Creating elements
+### Creating elements
 
 - The document object has a **createElement** method that allows us to create new elements
 - `createElement` accepts a string as parameter with the HTML element name (a, div, span, li, ul, etc)
@@ -1274,7 +1277,7 @@ var paragraph = document.createElement("p");
 
 - [MDN createElement doc](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 
-#### Insert an element
+### Insert an element
 
 - The **appendChild** method adds a node to the end of the list of children of a specified parent node
 - This method will insert the new element as last child
@@ -1342,7 +1345,7 @@ var paragraph = document.createElement("p");
 
 [Exercise 28](./exercises/browser/ex_28.md)
 
-#### Remove elements
+### Remove elements
 
 - The **removeChild** method removes a child node from the DOM
 - This method returns the removed node
@@ -1404,7 +1407,7 @@ var paragraph = document.createElement("p");
 
 [Exercise 31](./exercises/browser/ex_31.md)
 
-#### Events
+## Events
 
 - DOM Events are sent to notify code of interesting things that have taken place
 - Each event is represented by an object which is based on the Event interface, and may have additional custom fields and/or functions used to get additional information about what happened
@@ -1621,7 +1624,7 @@ var paragraph = document.createElement("p");
 
 [Exercise 38](./exercises/browser/ex_38.md)
 
-#### List of Events you can use:
+### List of Events you can use:
 
 - The browser API allow us to use many events handlers to create interactive UI's:
   - onchange
@@ -1646,7 +1649,7 @@ var paragraph = document.createElement("p");
 
 [Exercise 42](./exercises/browser/ex_42.md)
 
-#### Forms
+## Forms
 
 - HTML Forms helps us retrieve user data
 - Using JavaScript we can handle inputs and forms events and values
@@ -1692,12 +1695,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  ></form>
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login"></form>
   ```
 
 - JS
@@ -1727,12 +1725,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -1763,12 +1756,7 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -1814,12 +1802,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <select name="countries" id="countries">
       <option value="ar">Argentina</option>
       <option value="br">Brazil</option>
@@ -1855,14 +1838,8 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
-    <input type="checkbox" name="sex" value="f" checked /> Female
-    <input type="checkbox" name="sex" value="m" /> Male
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+    <input type="checkbox" name="sex" value="f" checked /> Female <input type="checkbox" name="sex" value="m" /> Male
   </form>
   ```
 
@@ -1888,14 +1865,8 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
-    <input type="checkbox" name="sex" value="f" checked /> Female
-    <input type="checkbox" name="sex" value="m" /> Male
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+    <input type="checkbox" name="sex" value="f" checked /> Female <input type="checkbox" name="sex" value="m" /> Male
   </form>
   ```
 - JS
@@ -1924,12 +1895,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Submit" />
@@ -1965,12 +1931,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <select name="countries" id="countries">
       <option value="ar">Argentina</option>
       <option value="br">Brazil</option>
@@ -2005,12 +1966,7 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -2054,12 +2010,7 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form
-    action="save_user.html"
-    method="get"
-    enctype="application/x-www-form-urlencoded"
-    name="login"
-  >
+  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
     <input type="text" id="username" name="username" />
     <input type="text" id="mail" name="mail" />
     <input type="password" id="pass" name="pass" />
@@ -2131,7 +2082,7 @@ var paragraph = document.createElement("p");
     attribute1: 1,
     attribute2: [],
     attribute3: null,
-    attribute4: false
+    attribute4: false,
   };
   ```
 
@@ -2150,7 +2101,7 @@ var paragraph = document.createElement("p");
     password: "12345",
     email: "pepe@gmail.com",
     married: true,
-    childrens: ["maria", "juan"]
+    childrens: ["maria", "juan"],
   };
 
   const JSONuser = JSON.stringify(user); // returns a JSON object with the user representation

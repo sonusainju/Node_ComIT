@@ -161,7 +161,7 @@ title: Node.js
 - By default npm install now runs `npm install --save` to save the module as dependency
 - Lets install a dev dependency called [UglifyJS](https://github.com/mishoo/UglifyJS2)
 
-  ```
+  ```bash
   npm install uglify-js --save-dev
   ```
 
