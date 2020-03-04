@@ -4,32 +4,32 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-  - master
-  
-  pool:
-    vmImage: 'ubuntu-latest'
-  
-  steps:
-  - task: NodeTool@0
-    inputs:
-      versionSpec: '10.x'
-    displayName: 'Install Node.js'
-  
-  - script: yarn install
-    displayName: 'Install'
-    workingDirectory: ./website
-  
-  - script: yarn run build
-    displayName: 'Build'
-    workingDirectory: ./website
-  
-  - task: CopyFiles@2
-    inputs:
-      sourceFolder: '$(Build.SourcesDirectory)/website/build'
-      contents: '**/*'
-      TargetFolder: '$(Build.ArtifactStagingDirectory)'
-  
-  - task: PublishBuildArtifacts@1
-    inputs: 
-      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-      artifactName: drop
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: yarn install
+  displayName: 'Install'
+  workingDirectory: ./website
+
+- script: yarn run build
+  displayName: 'Build'
+  workingDirectory: ./website
+
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: '$(Build.SourcesDirectory)/website/build'
+    contents: '**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs: 
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: drop
