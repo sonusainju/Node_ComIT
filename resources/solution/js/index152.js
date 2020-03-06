@@ -3,7 +3,7 @@ const user = {
   password: null,
   greet: function() {
     if (this.username){
-    console.log(`Hello, I'm user ${username}`)
+      console.log(`Hello, I'm user ${username}`)
     } else {
       console.log('Please assign a username value')
     }

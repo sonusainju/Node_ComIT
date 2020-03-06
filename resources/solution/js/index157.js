@@ -81,4 +81,6 @@ const games = [
 
 const CONSOLE = "PS4";
 
-games.filter(game => game.console === CONSOLE).forEach(game => game.showDetails());
+// games.filter(game => game.console === CONSOLE).forEach(game => game.showDetails());
+const gamesFilteres = games.filter(game => game.console === CONSOLE);
+gamesFilteres.forEach(game => game.showDetails());
