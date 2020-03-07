@@ -1,5 +1,7 @@
 # Node.js Regina
 
+[![Build Status](https://dev.azure.com/prma85/Personal/_apis/build/status/ComIT%20course%20-%20Node?branchName=master)](https://dev.azure.com/prma85/Personal/_build/latest?definitionId=1&branchName=master)
+
 ## Resources
 
 - _Slack_: Joined the slack through the workspace link: [Node.js Regina 2020](https://noderegjan23.slack.com)
