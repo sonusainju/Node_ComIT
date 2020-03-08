@@ -10,5 +10,5 @@ do {
   f2 = f;
   console.log(f);
   quantity++;
-  if (quantity == 10) break;
+  if (quantity === 10) break;
 } while (f < n);
