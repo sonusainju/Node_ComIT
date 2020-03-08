@@ -30,9 +30,9 @@ switch (year) {
     break;
 }
 
-// if (typeof champion == "string")
+// if (champion)
 // if (champion !== null)
-if (champion) {
+if (typeof champion === "string") {
   console.log(`${champion} was the ${year} NHL Champion`)
 } else {
   console.error('Sorry, please try a differnt year')

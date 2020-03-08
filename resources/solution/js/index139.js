@@ -20,12 +20,6 @@ for (let i = 0 ; i < 20; i++) {
   console.log(even[i]);
 }
 
-// with forEach
-even.forEach((n, index) => {
-  console.log(even[i]);
-  if (index === 19) break;
-})
-
 // with filter
 let first20 = even.filter((n, index) => index > 19);
 console.log(first20);

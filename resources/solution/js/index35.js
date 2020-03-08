@@ -5,8 +5,8 @@ console.log('The input client id is correct by value ' + (clientId == inputClien
 
 // console.log('The input client id is correct by value and type' + (clientId === inputClientId));
 console.log('The input client id is correct by value and type');
-if (clientId === inputClientId) {
-  console.log(true);
-} else {
+if (clientId !== inputClientId) {
   console.log(false);
+} else {
+  console.log(true);
 }
