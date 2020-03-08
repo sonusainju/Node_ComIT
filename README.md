@@ -1,6 +1,6 @@
 # Node.js Regina
 
-[![Build Status](https://dev.azure.com/prma85/Personal/_apis/build/status/ComIT%20course%20-%20Node?branchName=master)](https://dev.azure.com/prma85/Personal/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/prma85/Personal/_apis/build/status/ComIT%20course%20-%20Node?branchName=master)](https://dev.azure.com/prma85/Personal/_build/latest?definitionId=1&branchName=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/23cee56a481d4955a8c36be59c7b3728)](https://app.codacy.com/manual/paulo85br/node_comit?utm_source=github.com&utm_medium=referral&utm_content=prma85/node_comit&utm_campaign=Badge_Grade_Dashboard)
 
 ## Resources
 

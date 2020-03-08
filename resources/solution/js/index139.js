@@ -23,7 +23,7 @@ for (let i = 0 ; i < 20; i++) {
 // with forEach
 even.forEach((n, index) => {
   console.log(even[i]);
-  if (index == 19) break;
+  if (index === 19) break;
 })
 
 // with filter

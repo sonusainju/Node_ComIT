@@ -26,6 +26,10 @@ jobs:
     displayName: 'Build'
     workingDirectory: ./website
 
+  - script: ln -s ../resources ./
+    displayName: 'Creating symlink for exercices'
+    workingDirectory: ./website/build/docs
+
   - task: CopyFiles@2
     inputs:
       sourceFolder: '$(Build.SourcesDirectory)/website/build'
