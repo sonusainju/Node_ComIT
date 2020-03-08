@@ -1,6 +1,6 @@
 # Node.js Regina
 
-[![Build Status](https://dev.azure.com/prma85/Personal/_apis/build/status/ComIT%20course%20-%20Node?branchName=master)](https://dev.azure.com/prma85/Personal/_build/latest?definitionId=1&branchName=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/23cee56a481d4955a8c36be59c7b3728)](https://app.codacy.com/manual/paulo85br/node_comit?utm_source=github.com&utm_medium=referral&utm_content=prma85/node_comit&utm_campaign=Badge_Grade_Dashboard)
+[![Build Status](https://dev.azure.com/prma85/Personal/_apis/build/status/ComIT%20course%20-%20Node?branchName=master)](https://dev.azure.com/prma85/Personal/_build/latest?definitionId=1&branchName=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/23cee56a481d4955a8c36be59c7b3728)](https://app.codacy.com/manual/paulo85br/node_comit?utm_source=github.com&utm_medium=referral&utm_content=prma85/node_comit&utm_campaign=Badge_Grade_Dashboard) [![DeepScan grade](https://deepscan.io/api/teams/7967/projects/10104/branches/135250/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=7967&pid=10104&bid=135250)
 
 ## Resources
 
