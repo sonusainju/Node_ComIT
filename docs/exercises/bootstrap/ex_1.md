@@ -10,13 +10,13 @@
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Getting Started with Bootstrap</title>
-</head>
-<body>
-  <h1>Hello world!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Getting Started with Bootstrap</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+  </body>
 </html>
 ```
 

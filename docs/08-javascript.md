@@ -2594,7 +2594,6 @@ constantVariable = otherValue;
 
 ### Using parameters
 
-
 - Functions can accept none, one or many parameters
 - We can have more flexible functions using parameters
 - Also we can reuse the function functionality for different parameters values

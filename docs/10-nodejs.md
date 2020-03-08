@@ -2108,6 +2108,7 @@ title: Node.js
 - To upload the file we need to change the `enctype="multipart/form-data"` so multer can take care of it
 - Also we need to add a `<input type="file" name="file">`
 - Note that the name of the input is `file` as this is the value that we need to set up in multer too
+
   ```js
   app.post("/products", upload.single("file"), (req, res) => {
     const filename = req.file.originalname;
@@ -2118,6 +2119,7 @@ title: Node.js
     res.send(`Congrats we uploaded the following file ${filename}`);
   });
   ```
+
 - in this example we can see that multer will store the inputs values into the request body (the same as body-parser)
 - The body object will look something like:
   ```js

@@ -417,7 +417,6 @@ title: Browser API
 
 - [MDN setTimeout doc](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
-
 ### clearTimeout()
 
 - The setTimeout returns a numeric value that represents the timeout ID
@@ -892,7 +891,8 @@ title: Browser API
 - HTML
 
   ```html
-  <p id="main" class="red">Element with attributes</p> <h2>Element without attributes</h2>
+  <p id="main" class="red">Element with attributes</p>
+  <h2>Element without attributes</h2>
   ```
 
 - JS
@@ -1695,7 +1695,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login"></form>
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  ></form>
   ```
 
 - JS
@@ -1725,7 +1730,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -1756,7 +1766,12 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -1802,7 +1817,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <select name="countries" id="countries">
       <option value="ar">Argentina</option>
       <option value="br">Brazil</option>
@@ -1838,8 +1858,14 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
-    <input type="checkbox" name="sex" value="f" checked /> Female <input type="checkbox" name="sex" value="m" /> Male
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
+    <input type="checkbox" name="sex" value="f" checked /> Female
+    <input type="checkbox" name="sex" value="m" /> Male
   </form>
   ```
 
@@ -1865,8 +1891,14 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
-    <input type="checkbox" name="sex" value="f" checked /> Female <input type="checkbox" name="sex" value="m" /> Male
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
+    <input type="checkbox" name="sex" value="f" checked /> Female
+    <input type="checkbox" name="sex" value="m" /> Male
   </form>
   ```
 - JS
@@ -1895,7 +1927,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Submit" />
@@ -1931,7 +1968,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <select name="countries" id="countries">
       <option value="ar">Argentina</option>
       <option value="br">Brazil</option>
@@ -1966,7 +2008,12 @@ var paragraph = document.createElement("p");
 - HTML
 
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <input type="text" id="username" name="username" />
     <input type="password" id="pass" name="pass" />
     <input type="submit" name="submit" value="Send" />
@@ -2010,7 +2057,12 @@ var paragraph = document.createElement("p");
 
 - HTML
   ```html
-  <form action="save_user.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+  <form
+    action="save_user.html"
+    method="get"
+    enctype="application/x-www-form-urlencoded"
+    name="login"
+  >
     <input type="text" id="username" name="username" />
     <input type="text" id="mail" name="mail" />
     <input type="password" id="pass" name="pass" />
@@ -2082,7 +2134,7 @@ var paragraph = document.createElement("p");
     attribute1: 1,
     attribute2: [],
     attribute3: null,
-    attribute4: false,
+    attribute4: false
   };
   ```
 
@@ -2101,7 +2153,7 @@ var paragraph = document.createElement("p");
     password: "12345",
     email: "pepe@gmail.com",
     married: true,
-    childrens: ["maria", "juan"],
+    childrens: ["maria", "juan"]
   };
 
   const JSONuser = JSON.stringify(user); // returns a JSON object with the user representation

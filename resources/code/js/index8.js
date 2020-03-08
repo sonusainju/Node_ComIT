@@ -1,10 +1,10 @@
 function executeFunction(callback) {
-  callback('Value');
+  callback("Value");
 }
 
 const log = function(message) {
   console.log(message);
-}
+};
 
 executeFunction(log);
 

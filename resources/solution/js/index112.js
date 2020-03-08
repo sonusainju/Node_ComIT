@@ -14,7 +14,7 @@ function showNumbers(a, b) {
   } else {
     console.log("NaN");
   }
-  console.log('--------------')
+  console.log("--------------");
 }
 
 showNumbers(5, 10);

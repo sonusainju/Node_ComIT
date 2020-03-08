@@ -1,6 +1,6 @@
 let numbers = [];
 
-for (let i = 0; i<=1000; i++) {
+for (let i = 0; i <= 1000; i++) {
   numbers.push(i);
 }
 
@@ -10,8 +10,10 @@ for (let i = 0; i<=1000; i++) {
 let incremented = numbers.map(function(n, index) {
   return n + 10;
   //console.log(`index: ${index}, original number: ${n}, incremented value: ${n+10}`)
-})
+});
 
 numbers.forEach(function(number, index) {
-  console.log(`index: ${index}, original number: ${number}, incremented value: ${incremented[index]}`)
-})
+  console.log(
+    `index: ${index}, original number: ${number}, incremented value: ${incremented[index]}`
+  );
+});

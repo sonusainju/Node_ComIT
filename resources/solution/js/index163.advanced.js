@@ -1,10 +1,9 @@
 const add = function() {
   let total = 0;
   let allArguments = [...arguments];
-  allArguments.forEach(argument => 
-    (typeof argument === "number" 
-    ? (total += argument) 
-    : false));
+  allArguments.forEach(argument =>
+    typeof argument === "number" ? (total += argument) : false
+  );
 
   return total;
 };

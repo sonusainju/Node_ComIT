@@ -1,15 +1,27 @@
-let mutants = ["Professor X", "Cyclops", "Iceman", "Angel", "Magneto", "Beast", "Phoenix", "Logan", "Gambit"];
+let mutants = [
+  "Professor X",
+  "Cyclops",
+  "Iceman",
+  "Angel",
+  "Magneto",
+  "Beast",
+  "Phoenix",
+  "Logan",
+  "Gambit"
+];
 
 // different print functions and ways to write
 
 // 1: as function
-function print(p) { 
-  console.log(p)
+function print(p) {
+  console.log(p);
 }
 mutants.forEach(print);
 
 // 2: as const or let
-const print2 = function(p) { console.log(p)}
+const print2 = function(p) {
+  console.log(p);
+};
 mutants.forEach(print2);
 
 // 3: as ES6 (arrow function)
@@ -17,8 +29,8 @@ const print3 = p => console.log(p);
 mutants.forEach(print3);
 
 // 4: as inline function
-mutants.forEach(function(mutant){
-  console.log(mutant)
+mutants.forEach(function(mutant) {
+  console.log(mutant);
 });
 
 // 5: as inline ES6 function

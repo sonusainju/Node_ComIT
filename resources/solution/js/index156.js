@@ -14,7 +14,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Lego Marvel Super Heroes",
@@ -23,7 +23,7 @@ const games = [
     console: "XBOX",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Gta V",
@@ -32,7 +32,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Mortal Kombat Xl",
@@ -41,7 +41,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Gta V",
@@ -50,7 +50,7 @@ const games = [
     console: "XBOX",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Fifa 2017",
@@ -59,7 +59,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Uncharted 4",
@@ -68,7 +68,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Uncharted 4",
@@ -77,7 +77,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Need For Speed",
@@ -86,7 +86,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Lego Batman",
@@ -95,7 +95,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Fifa 17",
@@ -104,7 +104,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Resident Evil 7",
@@ -113,7 +113,7 @@ const games = [
     console: "PS4",
     showDetails: function() {
       showGameDetails(this);
-    },
+    }
   },
   {
     name: "Dragon Ball XX",
@@ -122,8 +122,8 @@ const games = [
     console: "XBOX",
     showDetails: function() {
       showGameDetails(this);
-    },
-  },
+    }
+  }
 ];
 
 games.forEach(game => game.showDetails());

@@ -22,7 +22,14 @@ function getHexaColor(color) {
 }
 
 function toHexaColor(red, green, blue) {
-  if (red >= 0 && red <= 255 && green >= 0 && green <= 255 && blue >= 0 && blue <= 255) {
+  if (
+    red >= 0 &&
+    red <= 255 &&
+    green >= 0 &&
+    green <= 255 &&
+    blue >= 0 &&
+    blue <= 255
+  ) {
     const r = parseInt(red, 16);
     const g = parseInt(green, 16);
     const b = parseInt(blue, 16);

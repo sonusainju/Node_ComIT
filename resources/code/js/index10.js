@@ -1,4 +1,4 @@
-const students = ['nico', 'pepe', 'claudia'];
+const students = ["nico", "pepe", "claudia"];
 
 // forEach - ourForEach - done
 // accepts a function - it's called callback
@@ -13,17 +13,17 @@ function ourForEach(collection, callback) {
 
 const log = function(message) {
   console.log(message);
-}
+};
 
 const logToUpperCase = function(message) {
   console.log(message.toUpperCase());
-}
+};
 
 ourForEach(students, log);
 ourForEach(students, logToUpperCase);
 
 ourForEach(students, function(student) {
-  console.log('Student: ', student);
+  console.log("Student: ", student);
 });
 
 students.forEach(function(student) {

@@ -8,8 +8,8 @@ do {
 */
 
 let total = 0;
-for (let n=0; n<=100; n++) {
+for (let n = 0; n <= 100; n++) {
   total += n;
   console.log(total);
 }
-console.log('Toal is ' + total);
+console.log("Toal is " + total);

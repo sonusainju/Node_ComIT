@@ -2,10 +2,10 @@ const user = {
   username: null,
   password: null,
   greet: function() {
-    if (this.username){
-      console.log(`Hello, I'm user ${username}`)
+    if (this.username) {
+      console.log(`Hello, I'm user ${username}`);
     } else {
-      console.log('Please assign a username value')
+      console.log("Please assign a username value");
     }
   },
   updatePassword: function(value) {
@@ -13,10 +13,10 @@ const user = {
   },
   updaterUsername: function(value) {
     this.username = value;
-  },
-}
+  }
+};
 
 user.greet();
-user.updaterUsername('Paulo');
-user.updatePassword('1234');
+user.updaterUsername("Paulo");
+user.updatePassword("1234");
 user.greet();

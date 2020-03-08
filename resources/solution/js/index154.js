@@ -26,7 +26,7 @@ const player = {
     if (this.lives > 99) {
       this.energy = 99;
     }
-  },
+  }
 };
 
 /* game */
@@ -44,7 +44,9 @@ player.loseLife(1);
 player.recoverLife(1);
 
 /* result */
-console.log(`The ${player.name} has ${player.energy} energy and ${player.lives} lifes`);
+console.log(
+  `The ${player.name} has ${player.energy} energy and ${player.lives} lifes`
+);
 
 player.loseLife(1);
 player.recoverEnergy(10);

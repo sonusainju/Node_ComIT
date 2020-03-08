@@ -1,4 +1,4 @@
-let stars = '**********';
+let stars = "**********";
 let quantity = 10;
 
 while (quantity > 0) {

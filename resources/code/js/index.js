@@ -1,11 +1,11 @@
 // function definition
 function printMessage() {
   // function body
-  console.log('Hi Guys, we\'re not learning about functions');
+  console.log("Hi Guys, we're not learning about functions");
 }
 
 function getMessage() {
-  return 'Hi Guys, we\'re learning about functions';
+  return "Hi Guys, we're learning about functions";
 }
 
 function getNicoAge() {

@@ -270,6 +270,7 @@ title: Building a site using Node.js and Express
 - Now our site has all the superheroes pictures and name but it would be nice to change the design a little
 - Add the following class to your styles.css file
 - styles.css
+
   ```css
   .superheroe-container {
     display: inline-block;
@@ -560,6 +561,7 @@ title: Building a site using Node.js and Express
 - The new route handler must have the following code:
 
 - index.js
+
   ```js
   app.post("/superheros", urlencodedParser, (req, res) => {
     const newId = superheroes[superheroes.length - 1].id + 1;
@@ -574,6 +576,7 @@ title: Building a site using Node.js and Express
     res.redirect("/");
   });
   ```
+
 - First we create a post route handler to `app.post('/superheros')`
 - Then we added body-parser to this call using the `urlencodedParser` middleware
 - Body parser allows us to configure it for all routes or some of them
@@ -605,12 +608,13 @@ title: Building a site using Node.js and Express
 - As we don't have an image for now let's add some value
 - Also you can download this [lukecage.jpg]() and put it inside the img folder
 - Now that we have the superhero we can add it to the collection
+
   ```js
   superheroes.push(newSuperHero);
   ```
 
   ### Responding requests
-  
+
 - And then we send the response.. oh wait.. what do we respond?
 - In all our previous routes we send something back as response but in this case we created a new route handler
 - We could return the same render response that we send on `/`
