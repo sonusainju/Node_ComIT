@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>http-server</title>
+    <script>
+      const username = prompt("What is your username?");
+      const password = window.prompt("What is your password?");
+
+      alert("Welcome " + username);
+
+      setTimeout(function() {
+        const logged = confirm("Do you still want to be logged?");
+        if (logged) {
+          alert(username + " your session has been restored");
+        } else {
+          alert(username + " your session has expired");
+        }
+      }, 10000);
+    </script>
+  </head>
+  <body></body>
+</html>
