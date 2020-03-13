@@ -1709,8 +1709,8 @@ var paragraph = document.createElement("p");
   const form = document.querySelector("form");
 
   console.log(form.action); // save_user.html
-  console.log(form.encoding); // get
-  console.log(form.method); // application/x-www-form-urlencoded
+  console.log(form.method); // get
+  console.log(form.encoding); // application/x-www-form-urlencoded
   console.log(form.name); // login
   ```
 
@@ -1798,7 +1798,7 @@ var paragraph = document.createElement("p");
 
   // or
 
-  form.addEventHandler("submit", function(event) {
+  form.addEventListener("submit", function(event) {
     event.preventDefault();
   });
   ```
