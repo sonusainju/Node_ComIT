@@ -81,11 +81,11 @@ title: Building a site using Node.js and Express
 - index.pug
   ```
   doctype html
-    head
-      title Simple site using Node.js, Express and Pug
-    body
-      h1 Wellcome to Node.js, Express and Pug
-      p This project is just to practice
+  head
+    title Simple site using Node.js, Express and Pug
+  body
+    h1 Wellcome to Node.js, Express and Pug
+    p This project is just to practice
   ```
 - Configure Express to use pug
   ```index.js
