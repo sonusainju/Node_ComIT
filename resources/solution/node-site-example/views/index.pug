@@ -1,0 +1,9 @@
+extends ./layout.pug
+
+block content
+  h1 Wellcome to Node.js, Express and Pug
+  p This project is just to practice
+  each superhero in superheroes
+    div.superhero-container
+      img(src='/img/superheroes/' + superhero.image)
+      h3= superhero.name
