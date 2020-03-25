@@ -202,7 +202,7 @@ title: Building a site using Node.js and Express
 
 ### Adding more content
 
-- Inside the public/img create a `superheroes` folder and download the following images
+- Inside the public/img create a `superheroes` folder and download the following images from [here](https://github.com/prma85/node_comit/tree/master/resources/exercises)
   ```
   /node-site-example
   |- public
