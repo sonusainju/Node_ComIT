@@ -219,7 +219,7 @@ title: Building a site using Node.js and Express
   ```
 - Now we have the superheroes images in our static assets folder
 - We want to create a homepage with some superheores picture and name
-- Then we can create a superheroe description page
+- Then we can create a superhero description page
 - Start by creating a superheroes array in the root route handler
 - index.js
 
@@ -242,16 +242,16 @@ title: Building a site using Node.js and Express
   ```
 
 - We can see that we have a `superheroes array` that has JavaScript objects as content
-- Each object has a superheroe name and image
+- Each object has a superhero name and image
 - Then we pass this superheroes array as superheroes object property
 - This means that at the template level we'll have a `superheroes` variable that represents this objects
 - Now lets show the superheroes on our home page
 - Using each we can iterate the superheroes collection
   ```index.pug
-  each superheroe in superheroes
-    div.superheroe-container
-      img(src='/img/superheroes/' + superheroe.image)
-      h3= superheroe.name
+  each superhero in superheroes
+    div.superhero-container
+      img(src='/img/superheroes/' + superhero.image)
+      h3= superhero.name
   ```
 - Update index.pug to match this code:
 
@@ -261,10 +261,10 @@ title: Building a site using Node.js and Express
   block content
     h1 Superheroes
     p This site shows superheroes information
-    each superheroe in superheroes
-      div.superheroe-container
-        img(src='/img/superheroes/' + superheroe.image)
-        h3= superheroe.name
+    each superhero in superheroes
+      div.superhero-container
+        img(src='/img/superheroes/' + superhero.image)
+        h3= superhero.name
   ```
 
 - Now our site has all the superheroes pictures and name but it would be nice to change the design a little
@@ -272,7 +272,7 @@ title: Building a site using Node.js and Express
 - styles.css
 
   ```css
-  .superheroe-container {
+  .superhero-container {
     display: inline-block;
     width: 200px;
     text-align: center;
@@ -293,11 +293,11 @@ title: Building a site using Node.js and Express
   block content
     h1 Superheroes
     p This site shows superheroes information
-    each superheroe in superheroes
-      div.superheroe-container
+    each superhero in superheroes
+      div.superhero-container
         a(href="/superheroes/")
-          img(src='/img/superheroes/' + superheroe.image)
-          h3= superheroe.name
+          img(src='/img/superheroes/' + superhero.image)
+          h3= superhero.name
   ```
 
 - We added a link element that relates this page with `/superheroes/`
@@ -332,22 +332,22 @@ title: Building a site using Node.js and Express
 
 - Create the `superhero.pug` template inside the views folder
 - Add the following code
-- superheroe.pug
+- superhero.pug
 
   ```
   extends ./layout.pug
 
   block content
-    img(src='/img/superheroes/' + superheroe.image)
-    h3= superheroe.name
+    img(src='/img/superheroes/' + superhero.image)
+    h3= superhero.name
   ```
 
 ### Getting the data by id
 
-- Great we are using the layout template that we created but we don't have the superheroe data
+- Great we are using the layout template that we created but we don't have the superhero data
 - How can we deal with this situation?
 - So we know that we can use the router to pass data to the template
-- But we need to know the selected superheroe, right?
+- But we need to know the selected superhero, right?
 - We can use the superhero name to select the selected superhero
 - Or we can use an id
 - To use the id will have to update the superheroes array objects
@@ -411,7 +411,7 @@ title: Building a site using Node.js and Express
 - First modify the links to use the superhero id
 - index.pug
   ```
-  a(href="/superheroes/" + superheroe.id)
+  a(href="/superheroes/" + superhero.id)
   ```
 - If the user clicks on this link it will redirect to a url that looks like this: http://localhost:3000/superheroes/2
 - So it looks like the user will select a superhero and we'll go to the /superheroes/ page and we have the id
@@ -428,7 +428,7 @@ title: Building a site using Node.js and Express
 
     selectedSuperhero = selectedSuperhero[0];
 
-    res.render("superhero", { superheroe: selectedSuperhero });
+    res.render("superhero", { superhero: selectedSuperhero });
   });
   ```
 
@@ -447,7 +447,7 @@ title: Building a site using Node.js and Express
 - styles.css
 
   ```css
-  .superheroe-container a {
+  .superhero-container a {
     color: black;
     text-decoration: none;
   }
@@ -506,11 +506,11 @@ title: Building a site using Node.js and Express
     p This site shows superheroes information
     include ./create.pug
 
-    each superheroe in superheroes
-      div.superheroe-container
-        a(href="/superheros/" + superheroe.id)
-          img(src='/img/superheroes/' + superheroe.image)
-          h3= superheroe.name
+    each superhero in superheroes
+      div.superhero-container
+        a(href="/superheros/" + superhero.id)
+          img(src='/img/superheroes/' + superhero.image)
+          h3= superhero.name
   ```
 
 - And now add some styles so the form looks better
@@ -660,7 +660,7 @@ title: Building a site using Node.js and Express
 
     selectedSuperhero = selectedSuperhero[0];
 
-    res.render("superhero", { superheroe: selectedSuperhero });
+    res.render("superhero", { superhero: selectedSuperhero });
   });
 
   app.post("/superheros", urlencodedParser, (req, res) => {
