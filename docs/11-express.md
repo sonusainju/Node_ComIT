@@ -319,7 +319,7 @@ title: Building a site using Node.js and Express
 - Lets add a new route config in the `index.js`
 
     ```js
-    app.get("/superheros/", (req, res) => {
+    app.get("/superheroes/", (req, res) => {
       const superheroes = [
         { name: "SPIDER-MAN", image: "spiderman.jpg" },
         { name: "CAPTAIN MARVEL", image: "captainmarvel.jpg" },
@@ -407,7 +407,7 @@ title: Building a site using Node.js and Express
       res.render("index", { superheroes: superheroes });
     });
 
-    app.get("/superheros/", (req, res) => {
+    app.get("/superheroes/", (req, res) => {
       res.render("superhero", { superheroes: superheroes });
     });
 
@@ -432,7 +432,7 @@ title: Building a site using Node.js and Express
 - Now we need to update our express route so we can get the id param and get the superhero data in the `index.js`
 
     ```js
-    app.get("/superheros/:id", (req, res) => {
+    app.get("/superheroes/:id", (req, res) => {
       const selectedId = req.params.id;
 
       let selectedSuperhero = superheroes.filter(superhero => {
@@ -445,14 +445,14 @@ title: Building a site using Node.js and Express
     });
     ```
 
-- Using `'/superheros/:id'` we define that this route contains a parameter that we need to get
-- This request parameter is called id and will come after the `superheros` route
+- Using `'/superheroes/:id'` we define that this route contains a parameter that we need to get
+- This request parameter is called id and will come after the `superheroes` route
 - To get this value we use `req.params.id`
 - We could name this parameter with any name
 - Then we filter the superheroes array by id
 - And assighn the selected superhero to the `selectedSuperhero` variable
 - The only remainding thing to do is render the template using the selectedSuperhero data
-- Now we can call any this url `http://localhost:3000/superheros/2` changing the id from 1 to 9
+- Now we can call any this url `http://localhost:3000/superheroes/2` changing the id from 1 to 9
 - Our home page still has blue and violet links so update the css so it looks better
 
 ### Improving the CSS
@@ -477,7 +477,7 @@ title: Building a site using Node.js and Express
 
     ```pug
     div.create-container
-      form(action="/superheros",  method="post")
+      form(action="/superheroes",  method="post")
         input(type="text", placeholder="suerhero name", required="required", name="superhero")
         button Create
     ```
@@ -486,14 +486,14 @@ title: Building a site using Node.js and Express
 
     ```html
     <div class="create-container">
-      <form action="/superheros" method="post">
+      <form action="/superheroes" method="post">
         <input type="text" placeholder="suerhero name" required="required" name="superhero" />
         <button>Create</button>
       </form>
     </div>
     ```
 
-- So we can see that it's just a form that when gets submited it will submit the values to `/superheros`
+- So we can see that it's just a form that when gets submited it will submit the values to `/superheroes`
 - As we have an input with the `superhero name` we'll be able to retrieve the value from the server using this same name
 - The form is set to use the HTTP post method so we'll need to create a route handle to handle this request
 - It's nice to have the template ready but we still need to add it to the index.pug file
@@ -510,7 +510,7 @@ title: Building a site using Node.js and Express
 
       each superhero in superheroes
         div.superhero-container
-          a(href="/superheros/" + superhero.id)
+          a(href="/superheroes/" + superhero.id)
             img(src='/img/superheroes/' + superhero.image)
             h3= superhero.name
     ```
@@ -559,14 +559,14 @@ title: Building a site using Node.js and Express
     ```
 
 - After configured body-parser as middleware we can create our route handler
-- This route handler will listen post requests on /superheros
+- This route handler will listen post requests on /superheroes
 - It will recibe the superhero name as request body parameter
 - Once we have the superhero name we'll have to create a new superhero object and append it to the superheroes list
 - Then send a response to the client
 - The new route handler must have the following code in your `index.js`
 
     ```js
-    app.post("/superheros", urlencodedParser, (req, res) => {
+    app.post("/superheroes", urlencodedParser, (req, res) => {
       const newId = superheroes[superheroes.length - 1].id + 1;
       const newSuperHero = {
         id: newId,
@@ -580,7 +580,7 @@ title: Building a site using Node.js and Express
     });
     ```
 
-- First we create a post route handler to `app.post('/superheros')`
+- First we create a post route handler to `app.post('/superheroes')`
 - Then we added body-parser to this call using the `urlencodedParser` middleware
 - Body parser allows us to configure it for all routes or some of them
 - In this case we only need it for this route and that's why we use `urlencodedParser`
@@ -658,7 +658,7 @@ title: Building a site using Node.js and Express
       res.render("index", { superheroes: superheroes });
     });
 
-    app.get("/superheros/:id", (req, res) => {
+    app.get("/superheroes/:id", (req, res) => {
       const selectedId = req.params.id;
 
       let selectedSuperhero = superheroes.filter(superhero => {
@@ -670,7 +670,7 @@ title: Building a site using Node.js and Express
       res.render("superhero", { superhero: selectedSuperhero });
     });
 
-    app.post("/superheros", urlencodedParser, (req, res) => {
+    app.post("/superheroes", urlencodedParser, (req, res) => {
       const newId = superheroes[superheroes.length - 1].id + 1;
       const newSuperHero = {
         id: newId,
