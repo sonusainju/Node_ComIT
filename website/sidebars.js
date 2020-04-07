@@ -330,6 +330,6 @@ module.exports = {
     "Debug": ["exercises/debug/ex_1", "exercises/debug/ex_2", "exercises/debug/ex_3", "exercises/debug/ex_4", "exercises/debug/ex_5"],
   },
   extra: {
-    "Extra-Content": ["extra/all-extra", "extra/es6", "extra/bundle", "extra/typescript", "extra/testing", "extra/react"],
+    "Extra-Content": ["extra/all-extra", "extra/bundle", "extra/typescript", "extra/testing", "extra/react"],
   },
 };

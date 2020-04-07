@@ -6,12 +6,35 @@
  */
 
 import React from 'react';
-import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+
+const classnames = (...args) => {
+  let values = [...args];
+  let classes = [];
+
+  values.forEach(v => {
+    if (!!v) {
+    if (typeof v === 'string' && v !== '') {
+      classes.push(v);
+    } else if (Array.isArray(v)) {
+      classes.push(classNames(v));
+    } else if (v.constructor === Object) {
+      let keys = Object.keys(v);
+      keys.forEach(k => {
+        if (v[k]) {
+          classes.push(k);
+        }
+      });
+    }
+  }
+});
+
+  return classes.join(' ');
+};
 
 function Home() {
   const context = useDocusaurusContext();

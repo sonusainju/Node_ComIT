@@ -6,12 +6,35 @@
  */
 
 import React, {useRef, useCallback} from 'react';
-import classnames from 'classnames';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {useHistory} from '@docusaurus/router';
 
 let loaded = false;
+
+const classnames = (...args) => {
+  let values = [...args];
+  let classes = [];
+
+  values.forEach(v => {
+    if (!!v) {
+    if (typeof v === 'string' && v !== '') {
+      classes.push(v);
+    } else if (Array.isArray(v)) {
+      classes.push(classNames(v));
+    } else if (v.constructor === Object) {
+      let keys = Object.keys(v);
+      keys.forEach(k => {
+        if (v[k]) {
+          classes.push(k);
+        }
+      });
+    }
+  }
+});
+
+  return classes.join(' ');
+};
 
 const Search = props => {
   const initialized = useRef(false);

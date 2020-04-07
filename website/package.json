@@ -8,12 +8,10 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "postinstall_old": "node -e \"try { require('fs').symlinkSync(require('path').resolve('./static/resources'), require('path').resolve('../') + '/resources') } catch (e) {}\""
-
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.49",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.48",
-    "classnames": "^2.2.6",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.49",
     "react": "^16.13.1",
     "react-dom": "^16.13.0"
   },
