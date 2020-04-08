@@ -188,6 +188,7 @@ Now that you know what concepts you should already be familiar with before worki
 - React developers earn more money in comparison to other web development technologies. Due to the fast rendering of React applications, more and more companies are adopting this development tool, and this has subsequently led to a higher demand for React developers all around the world.
 
     > The average salary for a [React developer across United States](https://www.payscale.com/research/US/Skill=React.js/Salary) is a whopping USD 91,000 per year!
+
     > The average salary for a [React developer across Canada](https://www.payscale.com/research/CA/Skill=React.js/Salary) is a whopping CAD 70,000 per year!
 
 - React has been consistently gaining popularity since it was released, and, as the following Google trends chart shows, there’s no sign of it slowing down. Facebook keeps adding features to React, making it increasingly more potent over time. It is safe to assume that React is here to stay. [Check it on Google Trends](https://trends.google.com/trends/explore?geo=CA&q=React,Angular,Vue)
