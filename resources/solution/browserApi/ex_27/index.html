@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>It's all JavaScript Baby!!</title>
+    <script>
+      window.onload = () => {
+        let numbers = Array(100)
+          .fill()
+          .map((_, index) => index + 1);
+
+        const ul = document.createElement("ul");
+
+        numbers.forEach(number => {
+          let li = document.createElement("li");
+          li.innerText = `Item number ${number}`;
+          li.style.ba = number % 2 === 0 ? "#ddd" : "#eee";
+          ul.appendChild(li);
+        });
+
+        body.appendChild();
+      };
+    </script>
+  </head>
+  <body></body>
+</html>

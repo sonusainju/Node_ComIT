@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Elements</title>
+    <style>
+      .red {
+        color: red;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .orange {
+        color: orange;
+      }
+    </style>
+    <script>
+      window.onload = () => {
+        const first = document.querySelector("ul li");
+        first.classList.add("orange");
+
+        /* WRONG WAY TO DO IT
+        const second = first.nextElementSibling;
+        second.classList.add("orange");
+
+        const third = first.nextElementSibling;
+        third.classList.add("orange");
+        */
+
+        /* if I can do a loop from the parent
+        const parent = first.parentElement;
+        const length = parent.children.length;
+
+        for (let i = 0; i < length; i++) {
+          parent.children[i].classList.add("orange");
+        }
+        */
+
+        let next = first.nextElementSibling;
+
+        function goNextElementSibling() {
+          next.classList.add("orange");
+
+          // check if there is a next element
+          let temp = next.nextElementSibling;
+
+          if (temp) {
+            // if exists a next element, update next, and call the function again
+            next = temp;
+            goNextElementSibling();
+          }
+          // else: there is no next element, get out
+        }
+
+        goNextElementSibling();
+
+        const el3 = next.previousElementSibling.previousElementSibling;
+        el3.classList.replace("orange", "red");
+
+        const el1 = el3.previousElementSibling.previousElementSibling;
+        el1.classList.replace("orange", "green");
+      };
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </body>
+</html>

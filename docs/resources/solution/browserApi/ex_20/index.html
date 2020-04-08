@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Elements</title>
+    <style>
+      .red {
+        color: red;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .orange {
+        color: orange;
+      }
+    </style>
+    <script>
+      window.onload = () => {
+        const ul = document.querySelector("ul");
+        console.log(ul.children);
+
+        const second = ul.children.item(1); //get from a method
+        second.classList.add("green");
+
+        const forth = ul.children[3]; //get as an array
+        forth.classList.add("red");
+
+        console.log(second.parentElement);  //prints the ul element
+
+        forth.parentElement.classList.add("orange");
+      };
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </body>
+</html>

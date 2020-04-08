@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>It's all JavaScript Baby!!</title>
+    <script>
+      window.onload = () => {
+        const body = document.body;
+        
+        const h1 = document.createElement("h1");
+        h1.innerText = "Create Dynamic content!!!";
+
+        const p = document.createElement("p");
+        p.innerText = "This elements were created using JavaScript";
+
+        body.appendChild(h1); // one element or an string
+        body.appendChild(p);
+
+        // body.append([h1, p]); // you can use .append() to add more than one element
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
